@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Xero Set Up</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Xero Set Up</h1>
+  <p class="breadcrumbs">Setup Data  &gt; Fiscal tab &gt; Xero Integration Settings button</p>
+  <p class="Note">Use these steps to set up your Xero Integration in FrameReady.</p>
+  <h2>How to Set up Xero Integration</h2>
+  <ol class="steps">
+    <li>
+      <p>Go to this web address:<br/>
+        <br/>
+        <a href="https://developer.xero.com/myapps">https://developer.xero.com/myapps</a>
+      </p>
+    </li>
+    <li>
+      <p>Log in using your email address and Xero password.<br/>
+        <br/>
+        If asked to set up multi-factor authentication, you can do this later.
+      </p>
+    </li>
+    <li>
+      <p>Click the blue <strong>New app</strong> button (top right).<br/>
+        <br/>
+        <img src="assets/images/Xero-new-app-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the <strong>App name</strong> field, give this &quot;app&quot; a clear name, e.g. <span class="Literal">FrameReady Link</span></p>
+    </li>
+    <li>
+      <p>For the <strong>Integration type</strong>, select &quot;Web app&quot;</p>
+    </li>
+    <li>
+      <p>In the <strong>Company or application URL</strong> field, enter <span class="Literal">https://frameready.com</span></p>
+    </li>
+    <li>
+      <p>In the <strong>Redirect URL</strong> field, enter: <span class="Literal">https://frameready.com/xero</span></p>
+    </li>
+    <li>
+      <p>Check the box <strong>I have read and agree to the Xero Developer Platform Terms &amp; Conditions.</strong></p>
+    </li>
+    <li>
+      <p>Click the blue <strong>Create app</strong> button.<br/>
+        <br/>
+        <img src="assets/images/Xero-create-app-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>On the web page that appears, click <strong>Configuration</strong> (lefthand side navbar).<br/>
+        <br/>
+        <img src="assets/images/Xero-configuration-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>On the Configuration web page, copy the <strong>Client id</strong> field that was created for you.<br/>
+        <br/>
+        <img src="assets/images/Xero-client-id.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Go back to FrameReady.<br/>
+        <br/>
+        On the <strong>Main Menu</strong>, click the <strong>Setup Data </strong>icon (upper right).
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong>Fiscal</strong> tab, and click the <strong>Xero Integrations Settings</strong> button.<br/>
+        <br/>
+        <img src="assets/images/FR-fiscal-tab.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The Xero Integration in FrameReady; click the mouse into the <strong>Client ID</strong> field (marked in red) and paste the Client id from Xero.<br/>
+        <br/>
+        <img src="assets/images/Xero-settings.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Go back to the Xero web page; click the <strong>Generate a Secret</strong> button.<br/>
+        <br/>
+        <img src="assets/images/Xero-generate-a-secret-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>A new field appears; click <strong>Copy</strong>.<br/>
+        <br/>
+        <img src="assets/images/Xero-client-secret.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Go back to the Xero Integration in FrameReady.</p>
+    </li>
+    <li>
+      <p>Click the mouse into the <strong>Client Secret</strong> field (marked in red) and paste the Client secret from Xero.</p>
+    </li>
+    <li>
+      <p>Click the mouse into the <strong>Redirect URL</strong> field (marked in red) and enter:  <span class="Literal">https://frameready.com/xero</span></p>
+    </li>
+    <li>
+      <p>Click the Authenticate button (top right).<br/>
+        <br/>
+        <img src="assets/images/Xero-authenticate-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When the Xero login screen appears, log in to your Xero account.<br/>
+        <br/>
+        <img src="assets/images/Xero-login-to-xero.png"/>
+      </p>
+    </li>
+    <li>
+      <p>If asked to set up multi-factor authentication, you can do this later; click <strong>Not now</strong>.</p>
+    </li>
+    <li>
+      <p>Xero wants to confirm givng access to the &quot;new app&quot; you created. Scroll down and click <strong>Allow Access</strong>.<br/>
+        <br/>
+        <img src="assets/images/Xero-allow-access.png"/>
+      </p>
+    </li>
+    <li>
+      <p>If you entered https://www.frameready.com in the <strong>Redirect URL</strong> field, then the FrameReady homepage appears. <br/>
+        <br/>
+        Click the <strong>Continue</strong> button (lower right).<br/>
+        <br/>
+        <img src="assets/images/Xero-continue-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The Xero Integration returns to the Settings layout; an alert appears.<br/>
+        <br/>
+        <img src="assets/images/Xero-authentication-successful.png"/><br/>
+        <br/>
+        Also, the Xero Integration switches from &quot;off&quot; to &quot;on&quot; (lower left).<br/>
+        <br/>
+        <img src="assets/images/Xero-on-off.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the Xero Integration in FrameReady, click the <strong>Update Organization from Xero</strong> button.<br/>
+        <br/>
+        <img src="assets/images/Xero-update-organization-button.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When completed, an alert appears. Click <strong>OK</strong> to dismiss it.<br/>
+        <br/>
+        <img src="assets/images/Xero-organization-successful.png"/>
+      </p>
+    </li>
+    <li>
+      <p>You should see your Xero Organization Name appear.<br/>
+        <br/>
+        To add a second organization (for FrameReady Multi Site), use the <strong>plus icon</strong> (top right).<br/>
+        <br/>
+        <img src="assets/images/Xero-add-organization.png"/><br/>
+        <br/>
+        If your store has multiple sites and each site is a separate organization in Xero, then add the new organizations and turn <strong>Multisite On</strong> if you would like to link each individual site to the respective organization.
+      </p>
+    </li>
+  </ol>
+  <p>Last modified 5/8/2023.</p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "32.0_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

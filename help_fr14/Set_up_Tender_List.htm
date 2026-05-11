@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up Tender List</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up Tender List</h1>
+  <p class="breadcrumbs">Main Menu &gt; Data05.fmp12</p>
+  <p class="Note">You may edit the list of Tenders that are available when taking a payment.</p>
+  <ul class="Disc">
+    <li>
+      <p>There are certain terms in the <strong>Tender</strong> field which are important and should not be changed.</p>
+    </li>
+    <li>
+      <p>You can also set the order in which the <strong>Tender</strong> terms appear when taking a payment.</p>
+    </li>
+  </ul>
+  <h2>Before You Begin....</h2>
+  <h3>Do Not Edit or Remove these Tender List Items</h3>
+  <p class="Note">The following terms are reserved in FrameReady; please <strong>use them as-is without renaming them</strong>.</p>
+  <h4>&quot;Cash&quot;, &quot;Check&quot;</h4>
+  <ul class="Disc">
+    <li>
+      <p>Used to identify cash and check/cheque sales.</p>
+    </li>
+  </ul>
+  <h4>&quot;Deposit&quot;, &quot;Refund&quot;</h4>
+  <ul class="Disc">
+    <li>
+      <p>Used to identify deposits and refunds.</p>
+    </li>
+  </ul>
+  <h4>&quot;Refund – Store Credit&quot;</h4>
+  <ul>
+    <li>
+      <p>Creates a new record in the Gift Cert/Card file for the customer receiving the credit.</p>
+    </li>
+  </ul>
+  <h4>&quot;Store Credit&quot;, &quot;Gift Card&quot; and &quot;Gift Certificate&quot;</h4>
+  <ul>
+    <li>
+      <p>When used in conjunction with the <strong>Reference #</strong> field, searches for a credit in the Gift Cert/Card file and applies it to the current Invoice.</p>
+    </li>
+    <li>
+      <p>If only part of the credit is used, then a new store credit is issued for the balance.</p>
+    </li>
+  </ul>
+  <h4>&quot;Reward Points&quot;</h4>
+  <ul>
+    <li>
+      <p>Used when a customer is redeeming points collected through previous purchases.</p>
+    </li>
+  </ul>
+  <p class="Tip">All other terms in the <strong><span>Tender</span> </strong>field simply indicate how the transaction was conducted.</p>
+  <h2>How to Edit the Tender List</h2>
+  <p class="Note">These steps are for FrameReady 13.1 or higher.</p>
+  <ol class="steps">
+    <li>
+      <p>Login as <strong>level4</strong>.</p>
+    </li>
+    <li>
+      <p><br/>
+        On the Main Menu, in the file menubar, click <strong>Perform </strong>and choose <strong>Restore Full Menus</strong>.<br/>
+        <br/>
+        <img src="assets/images/image443.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Again in the file menubar, this time click <strong>Windows</strong> &gt; <strong>Show Windows</strong> and choose <strong>Data05</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1603.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The Data05 utility window appears.<br/>
+        <br/>
+        <img src="assets/images/image837.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the blue <strong>Tender</strong> button to reveal the values.<br/>
+        <br/>
+        Payment types are listed first; Returns, Refunds, and Voids are listed below.<br/>
+        <br/>
+        <img src="assets/images/image1605.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The first column contains the <strong>Sort Order</strong> field.<br/>
+        <br/>
+        Use whole or decimal numbers, e.g. 3 or 3.5 to change where the item appears in the list.<br/>
+        <br/>
+        Use the <strong>+</strong> icon (top right) to add an entry to your list of Tender items; the new entry is at the top. Type the new tender term into the empty field.<br/>
+        <br/>
+        When seen on an Invoice, <strong>all values are sorted by the Sort Order number</strong>.
+      </p>
+    </li>
+    <li>
+      <p>Use the <strong>-</strong> icon (right of each entry) to remove an item.<br/>
+        <br/>
+        <img src="assets/images/image838.png"/><br/>
+        <br/>
+        Click <strong>Delete</strong> or <strong>Cancel</strong>.
+      </p>
+    </li>
+    <li>
+      <p>When you are finished with your changes, click the <strong>Main Menu</strong> button (left side) to exit and return to the Main Menu.</p>
+    </li>
+  </ol>
+  <h3>How to Edit the Tender List (FrameReady 13.1 or older)</h3>
+  <p class="Note">To edit the items in the <strong>Tender </strong>drop-down list, do the following:</p>
+  <ol class="steps">
+    <li>
+      <p>Go to an <span>unpaid</span> Invoice (Form View) and click the <strong><span>Data Entry</span></strong> button.<br/>
+        <br/>
+        <img border="0" src="assets/images/image38.png"/><br/>
+        <br/>
+        <span>The Line Item Entry screen appears.</span>
+      </p>
+    </li>
+    <li>
+      <p>Click the small <strong><span>Edit</span></strong> button (located below the <strong><span>Enter a Payment</span></strong> button) in the Payments section.<br/>
+        <br/>
+        <span>The Receipts dialog box appears.</span>
+      </p>
+    </li>
+    <li>
+      <p>Click in the <strong><span>Tender</span> </strong>field, scroll down to the bottom of the list, and select <strong>Edit…</strong><br/>
+        <br/>
+        <em><span></span></em><img src="assets/images/image1115.png"/>
+      </p>
+    </li>
+    <li>
+      <p><span>The Edit Value List “Custom 13” dialog box appears.<br/>
+          <br/>
+          <img src="assets/images/image1114.png"/></span></p>
+    </li>
+    <li>
+      <p>Click in the box and modify the list to suit your needs, e.g. change Chq to Check. When you have finished making your changes, click <strong><span>OK</span></strong>.</p>
+    </li>
+    <li>
+      <p>In the Receipts dialog box, click the <strong><span>Cancel</span> </strong>button if you do not wish to enter a payment on this Invoice (you may have to choose a Tender type first to continue).</p>
+    </li>
+    <li>
+      <p>If you do want to enter a payment, then make your selections and click <strong><span>Done</span></strong>.</p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "5.1_1"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

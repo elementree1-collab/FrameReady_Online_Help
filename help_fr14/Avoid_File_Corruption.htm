@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Avoid File Corruption</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Avoid File Corruption</h1>
+  <h3>Disable Hibernation/Sleep Mode</h3>
+  <ul>
+    <li>
+      <p>FileMaker can struggle to wake up if the computer has entered hibernation or sleep mode. It is recommended that you disable all sleep functions (although you can still have the display go to sleep if necessary).</p>
+    </li>
+  </ul>
+  <h3>Plug Your Computer into an Uninterruptible Power Supply</h3>
+  <ul>
+    <li>
+      <p>If FrameReady is open when your computer experiences a power failure or brown-out, then there is a high probability that some FrameReady files were damaged.</p>
+    </li>
+    <li>
+      <p>Plugging your FrameReady computer into a battery-equipped UPS can help eliminate some of those instances.</p>
+    </li>
+  </ul>
+  <h3>Adjust Your Antivirus Software Settings</h3>
+  <ul>
+    <li>
+      <p>Please set the antivirus software so that it does NOT scan the Databases folder and subfolders, or any location FileMaker Server or FileMaker Pro is opening the databases from.</p>
+    </li>
+    <li>
+      <p>If scanning of the files is necessary, then the antivirus software should instead scan the backup destination folder.</p>
+    </li>
+    <li>
+      <p>Please schedule the antivirus software so that it does NOT scan during the time FileMaker Server is backing up the database files. It is preferable to scan the FrameReady database files after the files have been backed up completely.</p>
+    </li>
+  </ul>
+  <h3>How Antivirus Software May Cause FrameReady File Corruption</h3>
+  <ul>
+    <li>
+      <p>An antivirus program could lock bytes within a file while it is scanning the file for viruses. Such a lock could cause the operating system to return an error when FileMaker Server tries to write data to the file, resulting in the file being closed as damaged.</p>
+    </li>
+    <li>
+      <p>Note that this also applies to files that FileMaker Server is performing a backup to. If the antivirus software is scanning a backup file when the backup schedule occurs, the open database may not be backed up because the destination file is locked which may result in the loss of data.</p>
+    </li>
+    <li>
+      <p>The same issue applies if FileMaker Pro has the database open and it is not shared and the antivirus software tries to scan the file.</p>
+    </li>
+  </ul>
+  <h3>Review Your Automated Backup Settings</h3>
+  <ul>
+    <li>
+      <p>The cloud-syncing features of Dropbox, Google Drive, OneDrive, and others are dangerous to the FrameReady files. When you are using FrameReady, those files are open, are subject to many changes as you use the program, and cannot be backed up while open.</p>
+    </li>
+    <li>
+      <p>Do not move the FrameReady folder into your Dropbox, OneDrive, or other cloud-syncing folder.</p>
+    </li>
+    <li>
+      <p>Exit completely out of FrameReady before making a manual backup.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "37.4_1"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

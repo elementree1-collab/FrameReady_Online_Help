@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Ping the Server Computer</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Ping the Server Computer</h1>
+  <h2>Network Troubleshooting</h2>
+  <p class="Note">Step 2 when a Guest device is unable to connect to your FrameReady Host computer.</p>
+  <h3>Ping Test on the Guest Computer</h3>
+  <h4>These next steps assist you in performing a Ping Test</h4>
+  <p class="Note">The Ping Test confirms whether the Guest computer can access the Host computer over your network.</p>
+  <h4>Ping Test using Windows 10</h4>
+  <ol class="steps">
+    <li>
+      <p>Press the <span><span class="kbd">Windows key</span></span> + <span><span class="kbd">R</span></span>.<br/>
+        <br/>
+        <em><span>The Run dialog window appears.</span></em>
+      </p>
+    </li>
+    <li>
+      <p>Type <span><span class="Literal"> cmd </span></span> into the Run dialog and click <strong><span>OK</span></strong>.<br/>
+        <br/>
+        <em><span>A system window opens.</span></em>
+      </p>
+    </li>
+    <li>
+      <p>Type <strong><span>ping <host ip=""></host></span></strong> (where <host ip=""> is your Host&#39;s IP Address)<br/>
+          <br/>
+          For example, <span><span class="Literal"> ping 192.168.1.100 </span></span>
+        </host>
+      </p>
+    </li>
+    <li>
+      <p>Press <span class="kbd"><span>Enter</span>  </span></p>
+    </li>
+    <li>
+      <p>If the test is successful, then you will see a number of lines all stating <span><span class="Literal"> Reply from <host ip=""> </host></span></span> .</p>
+    </li>
+    <li>
+      <p>If the test is <span>not</span> successful, then you will see a number of lines stating <span><span class="Literal"> Request timed out </span></span> .</p>
+    </li>
+  </ol>
+  <p><span>If the ping test was</span> <span>not</span> <span>successful, then try these steps:</span></p>
+  <ol class="steps">
+    <li>
+      <p>On the <strong>Host </strong>computer, temporarily turn off the Windows Firewall.</p>
+    </li>
+    <li>
+      <p>Try to <span>ping</span> again.<br/>
+        <br/>
+        <em>If you still cannot ping, this is a setup or hardware problem, do not proceed further.</em>
+      </p>
+    </li>
+    <li>
+      <p>If you can successfully ping the host, turn the Host&#39;s firewall back on.</p>
+    </li>
+    <li>
+      <p>Select <strong><span>Firewall &gt; Advanced Settings</span></strong>.</p>
+    </li>
+    <li>
+      <p>Select <strong><span>Inbound Rules</span></strong>.</p>
+    </li>
+    <li>
+      <p>Search the list for <span><strong>FileMaker Pro</strong>. If not found, then click <strong>New Rule...</strong> <br/>
+          <br/>
+          Choose <strong>Port</strong>.<br/>
+          <br/>
+          In <strong>Specific local ports</strong>, enter <span class="Literal"> 5003 </span>.<br/>
+          <br/>
+          Choose <strong>Allow the connection</strong>.<br/>
+          <br/>
+          Leave the rules as-is.<br/>
+          <br/>
+          Enter a <strong>Name</strong>, e.g. <span class="Literal"> FileMaker Pro </span></span></p>
+    </li>
+    <li>
+      <p>Right-click and <strong><span>enable</span> </strong>all IPv4 Echo requests</p>
+    </li>
+  </ol>
+  <p class="Danger"><strong><span>Important: </span></strong><span>If the ping test was</span> <span>not</span> <span>successful, then this indicates a hardware issue with the network or the computers on the network.</span><br/>
+    <br/>
+    <span>Contact your network administrator.</span>
+  </p>
+  <h4>Ping Test using Mac OSX</h4>
+  <ol class="steps">
+    <li>
+      <p>On your keyboard, press <span><span class="kbd">Command</span></span> and <span><span class="kbd">Space</span></span>.<br/>
+        <br/>
+        <em><span>Spotlight Search opens.</span></em>
+      </p>
+    </li>
+    <li>
+      <p>Begin typing the word<span> <span class="Literal"><span> network utility</span> </span> </span> .<br/>
+        <br/>
+        <em><span>Spotlight auto-completes the word.</span></em>
+      </p>
+    </li>
+    <li>
+      <p>Press <span><span class="kbd">Return</span></span>.<br/>
+        <br/>
+        <em><span>The Network Utility opens.</span></em>
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong><span>Ping</span></strong> tab.</p>
+    </li>
+    <li>
+      <p>Type the <strong><span>Host IP Address</span></strong> into the box provided.</p>
+    </li>
+    <li>
+      <p>Click <strong><span>Ping</span></strong>.</p>
+    </li>
+    <li>
+      <p>If the test is successful you will see a number of lines all stating:<span> <span class="Literal"><span> 64 bytes from <host ip=""></host></span> </span> </span> (where <host ip=""> is your Host&#39;s IP Address).</host>
+      </p>
+    </li>
+    <li>
+      <p>If the test is <span>not</span> successful you will see a number of lines stating <span><span class="Literal"> No route to host </span></span> .</p>
+    </li>
+  </ol>
+  <p class="Danger"><strong><span><span>I</span>mportant: </span></strong><span>If the ping test was</span> <span>not</span> <span>successful, then this indicates a hardware issue with the network or the computers on the network.</span><br/>
+    <br/>
+    <span>Contact your network administrator.</span>
+  </p>
+  <p><span>Next:</span> <a href="Ping_Test_is_Successful.htm">Ping Test is Successful</a></p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "8.4.0_3"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up your Set Price</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up your Set Price</h1>
+  <p class="breadcrumbs">Main Menu &gt; <span>Price Codes</span></p>
+  <p class="Note">Here is a way to save time and shorten your list of pricing formulas by covering several charge options per Supplier, without creating a new default pricing formula for each one.</p>
+  <ul class="Disc">
+    <li>
+      <p>Advantages:</p>
+      <ul>
+        <li>
+          <p>Shorten the number of default formulas in your Pricing Options &amp; Defaults list.</p>
+        </li>
+        <li>
+          <p>Spend less time making repetitious changes for suppliers with identical markup formulas but different shipping charges.</p>
+        </li>
+        <li>
+          <p>Save time by applying one formula, instead of applying the generic formula first and then the supplier specific formulas after.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Framers who have the same Markup for suppliers, but different shipping costs or labor charges, can take advantage of this combined formula.</p>
+    </li>
+    <li>
+      <p>This option would only be used if the Markup formula is the same for each supplier and only the Set Price is different.</p>
+    </li>
+    <li>
+      <p>See also: <a href="What_is_Set_Price.htm">What is Set Price?</a></p>
+    </li>
+  </ul>
+  <h2>How to Set a Supplier-based Set Price</h2>
+  <p>In FrameReady, the default formula for Set Price (for moulding) looks like this:</p>
+  <p><span class="Literal"> Case( <br/>
+       Group = “Fillet”; 7.5; <br/>
+       5) </span></p>
+  <h4>This above formula reads as follows:</h4>
+  <ul class="Disc">
+    <li>
+      <p>Any moulding record, with a Group of Fillet, has a Set Price of $7.50.</p>
+    </li>
+    <li>
+      <p>If the Group is Wood, Liner, etc. (anything other than Fillet), then the Set Price is $5.00.</p>
+    </li>
+  </ul>
+  <h4>Adding in a Supplier-based condition</h4>
+  <p>Below is an example of how you can add a supplier/shipping charges to the Set Price formula:</p>
+  <p><img src="assets/images/image1126.png"/></p>
+  <h4>This formula reads as follows:</h4>
+  <ul class="Disc">
+    <li>
+      <p>It evaluates the Group first:</p>
+      <ul>
+        <li>
+          <p>If the Group is Fillet, then it adds $7.50.</p>
+        </li>
+        <li>
+          <p>If it is anything other than a fillet, then it adds $5.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Then it evaluates the Supplier field:</p>
+      <ul>
+        <li>
+          <p>If the supplier is Bella, then it adds another $5.</p>
+        </li>
+        <li>
+          <p>If the supplier is Decor, then it adds another $2.</p>
+        </li>
+        <li>
+          <p>If the supplier is Roma Moulding, then it adds another $15.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>This means that a fillet from Bella has a Set Price of $7.50 + $5 = $12.50.</p>
+    </li>
+    <li>
+      <p>A wood from Roma has a Set Price of $5 + $15 = $20.00.</p>
+    </li>
+  </ul>
+  <p class="Note"><strong>Note</strong>: These numbers are not representative of any company nor are they suggested. You need to determine what your own shipping costs are and then use those numbers.</p>
+  <h3>Invest in your business</h3>
+  <p>If you add one dollar to the sale of every frame, you will have enough money at the end of the year to: buy new equipment, upgrade your computer or software, take training, go to a trade show, buy a new store sign, etc.</p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "10.4.0_5"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

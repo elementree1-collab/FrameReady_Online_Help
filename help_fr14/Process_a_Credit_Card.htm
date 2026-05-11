@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Process a Credit Card Refund</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1><b>FrameReady Pay</b></h1>
+  <p class="Note">FrameReady’s Credit Card processing integration with Payment Logistics also supports Refunds.</p>
+  <ul class="Disc">
+    <li>
+      <p>For use with the <strong>Fortis Integration</strong></p>
+    </li>
+    <li>
+      <p>See also: <a href="Void_a_Credit_Card_Payment.htm">Void a Credit Card Payment</a></p>
+    </li>
+  </ul>
+  <h2><b>Process a <b><b><b>Credit Card </b></b></b>Refund</b></h2>
+  <h3>About Credit Card Refund Transactions</h3>
+  <ul class="Disc">
+    <li>
+      <p>A Refund is used when the transaction is no longer in the current batch.</p>
+    </li>
+    <li>
+      <p>The Refund processes a new transaction in FrameReady with a negative amount (-) which balances out the original transaction being refunded.</p>
+    </li>
+    <li>
+      <p>You can see the new transaction ID, and the original transaction ID, of the refunded transaction in the <strong>Reference Number</strong> field once the refund has been processed.</p>
+    </li>
+  </ul>
+  <h3>How to Process a Credit Card Refund Transaction</h3>
+  <p class="Note">This can be done within a 24 hour windows of the payment being processed.</p>
+  <ol class="steps">
+    <li>
+      <p>Locate the transaction that you would like to refund: do this by going to the invoice in question and click the <strong>Data Entry</strong> button.<br/>
+        <br/>
+        <img src="assets/images/image450.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the Payments portal, locate the payment you intend to refund. <br/>
+        <br/>
+        Copy down the <strong>Reference Number</strong>, e.g. 28613.<br/>
+        <br/>
+        <img src="assets/images/image1292.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>New Invoice</strong> button.</p>
+    </li>
+    <li>
+      <p>Enter the Product or Work Order of the returned item in the <strong>Item Number</strong> field.</p>
+    </li>
+    <li>
+      <p>Enter a negative value in the <strong>Qty</strong> field, e.g. -1, -2, -3, etc.<br/>
+        <br/>
+        If the record for this item is still in the Product file, it is put back into inventory.
+      </p>
+    </li>
+    <li>
+      <p>Enter Customer Information and you should have your negative balance invoice now.</p>
+    </li>
+    <li>
+      <p>When you have an invoice for a negative amount created, click the <strong>Data Entry</strong> button.</p>
+    </li>
+    <li>
+      <p>Click the <strong>Enter a Payment</strong> button.</p>
+    </li>
+    <li>
+      <p>In the <strong>Tender</strong> field, choose the option of &quot;Refund - <em>your card type</em>&quot; from the dropdown list.<br/>
+        <br/>
+        There are multiple &#39;Refund&#39; options; select the option that matches the card type from your original transaction.<br/>
+        <br/>
+        <img src="assets/images/image1293.png"/>
+      </p>
+    </li>
+    <li>
+      <p>After you have selected the correct refund tender, click the <strong>Process CC Transaction</strong> button (right hand side of the payment screen).</p>
+    </li>
+    <li>
+      <p>The Credit Card processing window (which activates the PIN pad listener) opens.<br/>
+        <br/>
+        While processing the refund, the PIN pad will not go to a scan card screen, but will stay on the Fortis home page.<br/>
+        <br/>
+        You do not need to insert the original card for the transaction into the PIN pad to process Voids or Refunds.
+      </p>
+    </li>
+    <li>
+      <p>After the PIN pad has initialized and the process begins running, it will ask you for the transaction ID of the original transaction.<br/>
+        <br/>
+        Enter the <strong>Reference Number</strong> you copied earlier and click the <strong>OK</strong> button to continue.<br/>
+        <br/>
+        <img src="assets/images/image1347.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When the refund has been processed by Payment Logistics, a pop up message appears: ‘Your refund has been successfully processed. The refund has been applied to the invoice.’<br/>
+        <br/>
+        <img src="assets/images/image1346.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>OK</strong> button. The refund transaction appears in the Payments section as a negative dollar value. </p>
+    </li>
+    <li>
+      <p>Click <strong>Done</strong> to return to the invoice screen. Use the printer icon or receipt icon to print a paper copy showing the voided transaction. <br/>
+        <br/>
+        You will see in the <strong>Reference Number</strong> field the new transaction number for the refund. You will be returned to the invoice screen and you should see the refunded payment in the payments portal.<br/>
+        <br/>
+        <img src="assets/images/image1345.png"/>
+      </p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "22.0_9"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

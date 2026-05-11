@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>QuickBooks FAQs</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>QuickBooks FAQs</h1>
+  <h2>Frequently Asked Questions</h2>
+  <h3>What data is pushed from FrameReady to QuickBooks?</h3>
+  <ul class="Disc">
+    <li>
+      <p>QuickBooks Customer ID</p>
+    </li>
+    <li>
+      <p>Invoice Date</p>
+    </li>
+    <li>
+      <p>FrameReady item number</p>
+    </li>
+    <li>
+      <p>Description</p>
+    </li>
+    <li>
+      <p>QB Item</p>
+    </li>
+    <li>
+      <p>Quantity of the item</p>
+    </li>
+    <li>
+      <p>Unit Price</p>
+    </li>
+    <li>
+      <p>Payment Date</p>
+    </li>
+    <li>
+      <p>Payment Tender</p>
+    </li>
+    <li>
+      <p>Payment Amount</p>
+    </li>
+  </ul>
+  <h3>Will we be able to use class tracking to separate out invoices for different multi sites? That is a huge deal for those of us with multiple stores. </h3>
+  <p>Invoice “Class&quot; tracking has not been built into the current version of the Quickbooks integration. However, this could be added as a custom option. In order to use a &quot;class,&quot; we would have to bring into FrameReady all classes set up in the customers Quickbooks (like we do with products and services) and set up a pulldown, on the invoice, to select that class. You have to reference the Quickbooks internal ID for this class and not just a name, so it has to match exactly what has been set up in Quickbooks.</p>
+  <h3>Can I to push multiple invoices or do they have to be done one at a time? </h3>
+  <p>The integration is currently set up to <strong>push one invoice at a time</strong>. Since you have to associate FrameReady line items with Quickbooks products and services, this part is a manual process.</p>
+  <p>Users may have different preferences on how to record their sales data; some will just put all sales into a &quot;sales&quot; bucket and others will want to break down the sales into specific product and services categories (this is why it is currently a manual process).</p>
+  <p>Another customization that can be offered: if a user wants to auto-select specific product and services. More automation around pushing multiple invoices at a time could be set up with more guidance on product and services.</p>
+  <h3>Can I search for invoices that have not been pushed to make sure I have pushed all available invoices? </h3>
+  <p>There is a ID saved to the FrameReady invoice from Quickbooks when the invoice is pushed successfully. You can search for <span class="Literal"> = </span> in this new field to find empty values (meaning an invoice wasn’t pushed to Quickbooks).</p>
+  <h3>Is there any way to automate the push so it runs once daily (overnight)?</h3>
+  <p>Same answer as above. A customization could be offered but some decisions needs to be made around product and services.</p>
+  <h3>I already have 6,000 customers in QuickBooks, will this create duplicates?</h3>
+  <p>There is a scripted process to import current Quickbooks customers (tested with up to 1,000 customers) and automatically attempt to match the Quickbooks customer to the FrameReady customer. The process matches on a couple different criteria (company name, address, etc.).  </p>
+  <p>If a match is found, then the Quickbooks ID is saved on the FrameReady customer record. Once the ID is saved to the FrameReady customer, all transactions are associated with the Quickbooks customer (not duplicated).</p>
+  <p>But, if the process does not find a match for any reason (as a result of different spelling per system as an example), then the FrameReady customer won’t have a Quickbooks ID.</p>
+  <p>If a manual match is not made (possible with the integration set up), then, when any transactions are pushed from FrameReady, a duplicate customer could occur. The integration does not know the different between an unmatched customer or a new customer.</p>
+  <p>Please note: You are responsible for reviewing the imported QuickBooks Online data and linking it to your FrameReady data.</p>
+  <h3><span>If I push a payment to QuickBooks, then realize it is incorrect and then fix it in FrameReady, can I click the Push to QuickBooks button again and have it update the previously pushed payment in QuickBook?</span></h3>
+  <p>If you are using QuickBooks Online version, then that should work.</p>
+  <h3>Can I change Invoice numbers to match?</h3>
+  <p><span>Invoice numbers are auto-generated in FrameReady and are then pushed to QuickBooks as part of the invoice. Leaving the Invoice number at whatever FrameReady provides will keep things coordinated between FrameReady and QB in terms of the user experience. </span></p>
+  <p><span>If you have invoices in QuickBooks already, it may be that you simply need to have your FrameReady invoice number start at something higher so it doesn&#39;t conflict with invoices already in FrameReady.  </span></p>
+  <p><span>If you are using QuickBooks for more than one company, then you should separate invoices by class.</span></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "27.0_3"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

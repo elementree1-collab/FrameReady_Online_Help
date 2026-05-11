@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>CMC Wizard FrameShop</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>CMC Wizard FrameShop</h1>
+  <p class="Note">FrameReady is integrated with the Mat Designer program ‘FrameShop’ by Wizard.</p>
+  <ul class="Disc">
+    <li>
+      <p>Allows you to create Work Orders in FrameReady, attach a Wizard FrameShop template, and then import those Work Orders directly into Wizard FrameShop.</p>
+    </li>
+    <li>
+      <p>Also allows you to create a Frame project inside of Wizard FrameShop with a template, openings, reveals, and multiple Frame and Mat items. From there you can import that Frame project directly into FrameReady<span>’</span>s Work Order module and it will save the preview image in the Work Order, as well as import all of the information from FrameShop.</p>
+    </li>
+    <li>
+      <p><span>Wizard 8000 and 9000 series cutters</span></p>
+    </li>
+    <li>
+      <p><span></span>Wizard FrameShop software available only for Windows</p>
+    </li>
+    <li>
+      <p>See also: <a href="CMC_Wizard_FrameShop_Mac_Support.htm">CMC Wizard FrameShop Mac Support</a></p>
+    </li>
+  </ul>
+  <p style="text-align:center;"><img alt="Wizard logo" src="https://www.frameready.com/media/logo.wizard.png"/></p>
+  <h3>Requirements</h3>
+  <ul class="Disc">
+    <li>
+      <p>Wizard FrameShop software is available only for Windows.</p>
+    </li>
+    <li>
+      <p>Supported by the Wizard 8000 and 9000 series cutters.</p>
+    </li>
+    <li>
+      <p>Requires FrameReady 13 and FileMaker Pro 19.4 or greater.</p>
+    </li>
+  </ul>
+  <h3>Video: Wizard FrameShp Integration Overview</h3>
+  <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Vs29gOcw01g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe></p>
+  <h2>Before You Begin...</h2>
+  <h4>Before using the Wizard FrameShop integration in FrameReady</h4>
+  <ol class="steps">
+    <li>
+      <p>Make sure that you have the <strong>Wizard FrameShop</strong> application installed on your computer.<br/>
+        <br/>
+        The Wizard Frameshop application is currently only available for Windows, not Mac. When installing the Wizard software, follow the prompts to install the application in the default installation folder.
+      </p>
+    </li>
+  </ol>
+  <p class="Tip"><strong>Tip: </strong>To export a WZ2 file from your Mac: <a href="CMC_Wizard_FrameShop_Mac_Support.htm">CMC Wizard FrameShop Mac Support</a></p>
+  <ol class="steps" start="2">
+    <li>
+      <p>After you have completed the installation for the Wizard Frameshop application, create a folder in the root of your <strong>C:/</strong> drive on your Windows computer.<br/>
+        <br/>
+        Name the folder <span class="Literal"> WIZ </span>.
+      </p>
+    </li>
+    <li>
+      <p>Set the folder permissions to read and write access so that Wizard Frameshop can create and access files in this directory: right-click the WIZ folder and choose <strong>Properties</strong>. In the <strong>Attributes</strong> section, disable <strong>Read Only</strong> if it is selected.<br/>
+        <br/>
+        This is where your <strong>.wz2</strong> Frameshop files will be created and stored for your Work Orders in FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1181.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Open the Wizard FrameShop installation folder, which is located in “C:/Program Files (x86)/Wizard”.<br/>
+        <br/>
+        Right-click the <strong>Wizard</strong> folder and choose <strong>Properties</strong>.<br/>
+        <br/>
+        In the &quot;Wizard Properties&quot; window, open the <strong>Security</strong> tab, and confirm that read/write access is enabled for the group <strong>&#39;Users&#39;</strong>. Click <strong>OK</strong> to close.<br/>
+        <br/>
+        <img src="assets/images/image1271.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Next, go into the <strong>Wizard</strong> folder and create a new folder named: <span class="Literal"> Mats </span>.<br/>
+        <br/>
+        The new <strong>Mats</strong> folder should inherit the permissions from the parent <strong>Wizard</strong> folder, but double-check to make sure that the group <strong>&#39;Users&#39;</strong> also has read/write access to this folder.<br/>
+        <br/>
+        <img src="assets/images/image1272.png"/>
+      </p>
+    </li>
+  </ol>
+  <h3>How to Set up Pricing for your Wizard Templates</h3>
+  <ul class="Disc">
+    <li>
+      <p>You can add your own price on each of the Wizard templates in the Price Codes file. This allows you to charge a different amount for each Wizard template that you add on a Work Order based on what template it is. Some templates being more complex than others, you may want to charge a different amount for them.</p>
+    </li>
+    <li>
+      <p>To setup the Wizard integration in FrameReady, you will need to select one of two Work Order default preferences in the ‘WO Defaults’ tab.</p>
+    </li>
+  </ul>
+  <ol class="steps">
+    <li>
+      <p>Open FrameReady and on the <strong>Main Menu</strong>, in the Work Orders section, open the <strong>Options</strong> tab.<br/>
+        <br/>
+        <img src="assets/images/mainmenu-work-order-options-tab.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>More Options...</strong> button.<br/>
+        <br/>
+        The &quot;Work Order Options&quot; window opens.
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong>WO Defaults</strong> tab and, under Computerized Mat Cutter, select <strong>Work Order to Wizard FrameShop.</strong><br/>
+        <br/>
+        <img src="assets/images/image1281.png"/>
+      </p>
+    </li>
+    <li>
+      <p>New in FrameReady 13: You can now select the values “<strong>Wizard (old)</strong>&quot; and &quot;<strong>Wizard MatDesigner (old)</strong>&quot; from the CMC list and use the older Wizard integration that creates .wiz files instead of .wz2 files.</p>
+    </li>
+    <li>
+      <p>Click <strong>Done.</strong></p>
+    </li>
+    <li>
+      <p><strong></strong>Now that you have your Wizard CMC preference selected, go into a Work Order and click the <strong>WIZ PRICE</strong> button (left-hand side of the screen in Work Orders). <br/>
+        <br/>
+        <img src="assets/images/image1284.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The <strong>WIZ PRICE</strong> button opens the Price Codes file.<br/>
+        <br/>
+        If it is the first time that you are using the Wizard integration with the software, the program will prompt you: <span>“</span>You currently do not have your price codes set up for the Wizard templates. Would you like to run the Wizard set up script to import the price codes for the templates?”<br/>
+        <br/>
+        <img src="assets/images/image1300.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When you click the <strong>OK</strong> button, FrameReady creates the templates that are available to you in the Wizard FrameShop program in the Price Codes table. After they have been created, they are displayed as a found set, in list view, in the Price Codes file.<br/>
+        <br/>
+        <img src="assets/images/image1311.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the template you wish to edit, then click in the <strong>Set Price</strong><span> </span>field to edit the price.<br/>
+        <br/>
+        <img src="assets/images/image1321.png"/>
+      </p>
+    </li>
+    <li>
+      <p>After adjusting the <strong>Set Price</strong>, click the <strong>List View</strong> button (top center) to return to the list of Wizard templates.</p>
+    </li>
+    <li>
+      <p>Continue editing your Wizard templates.<br/>
+        <br/>
+        You can also perform a find in the Price Codes file for <span class="Literal"> Wizard </span> in the <strong>Item</strong> field. Doing so will list all of the pre-loaded Wizard templates (that are also found in Wizard FrameShop). From there you can click on the template you wish to set the price of and click into the <strong>Set Price</strong> field to edit the retail price.
+      </p>
+    </li>
+  </ol>
+  <h3><b>There are 2 ways to use the Wizard FrameShop integration</b></h3>
+  <h4><b></b>Choose between starting in FrameReady or starting in FrameShop</h4>
+  <ul class="Disc">
+    <li>
+      <p>To setup the Wizard integration in FrameReady, you will need to select one of two Work Order default preferences, in the <strong>WO Defaults</strong><span> </span>tab. </p>
+    </li>
+    <li>
+      <p>You must choose to either:</p>
+      <ul>
+        <li>
+          <p>Start in FrameReady and then move data into FrameShop, </p>
+        </li>
+        <li>
+          <p>OR</p>
+        </li>
+        <li>
+          <p>Start in FrameShop and then move data into FrameReady.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Each option has its own initial setup method.</p>
+    </li>
+    <li>
+      <p><strong>Option 1</strong>: Create Work Orders in FrameReady, attach a Wizard FrameShop template and import those Work Orders directly into Wizard FrameShop.</p>
+    </li>
+    <li>
+      <p><strong>Option 2: </strong>Create a Frame project inside of Wizard FrameShop with a template, openings, reveals, and multiple Frame and Mat items. From there, you can import that Frame project directly into FrameReady’s Work Order module and it will save the preview image in the Work Order, as well as import all of the information from FrameShop.</p>
+    </li>
+    <li>
+      <p><span>When establishing your Work Order Defaults, you can select one method or the other. However, while in the Work Order file you can toggle between the two options.<span> </span></span><a href="#toggleinstructions">Click here</a><span><span> </span>for instructions.</span></p>
+    </li>
+  </ul>
+  <h3>Option 1: Push data from FrameReady into Wizard FrameShop</h3>
+  <p class="Note">This option allows you to create Work Orders in FrameReady, attach a Wizard FrameShop template and import those Work Orders directly into Wizard FrameShop.</p>
+  <h4>Initial Setup</h4>
+  <ol class="steps">
+    <li>
+      <p>Open FrameReady and on the <strong>Main Menu</strong>, in the Work Orders section, open the <strong>Options</strong> tab.<br/>
+        <br/>
+        <img src="assets/images/mainmenu-work-order-options-tab.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>More Options...</strong> button.<br/>
+        <br/>
+        The &quot;Work Order Options&quot; window opens.
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong>WO Defaults</strong> tab and, under Computerized Mat Cutter, select <strong>Work Order to Wizard FrameShop.</strong><br/>
+        <br/>
+        <img src="assets/images/image1281.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Done.</strong></p>
+    </li>
+  </ol>
+  <h4>Work Flow</h4>
+  <p class="Note">You must either prepare a new Work Order from scratch or use a Work Order already in the system.<br/>
+    <br/>
+    <strong>Before pushing data </strong>into Wizard FrameShop: the Work Order must have an opening width and height as well as a matboard size.
+  </p>
+  <ol class="steps">
+    <li>
+      <p>Locate an existing Work Order or create a new one.</p>
+    </li>
+    <li>
+      <p>The Work Order <strong>must </strong>have an opening width and height, as well as a Mat size in order to push data into Wizard FrameShop.</p>
+    </li>
+    <li>
+      <p>When you have finished preparing the Work Order, and you are ready to assign the Wizard template you wish to use, click the <strong>CMC</strong> button (left hand side of the Work Order screen).<br/>
+        <br/>
+        <img src="assets/images/image1183.png"/>
+      </p>
+    </li>
+    <li>
+      <p>A new window appears showing all nine template menus from the Wizard FrameShop program.<br/>
+        <br/>
+        Note: These templates also include the brand new templates that were not in earlier versions of Wizard FrameShop.
+      </p>
+    </li>
+    <li>
+      <p>Locate the template that you want to use and click the image button to add it to the Work Order.<br/>
+        <br/>
+        You will see the template name directly above the CMC button. You will also see the template you selected in the <strong>Mat Design</strong> field where the pricing from the Price Codes module will load in and total up with the price of your Work Order.<br/>
+        <br/>
+        <img src="assets/images/image1184.png"/>
+      </p>
+    </li>
+    <li>
+      <p>After you have your template selected and information all entered, you are ready to save your Work Order out as a Wizard FrameShop compatable .&quot;wz2&quot; file.<br/>
+        <br/>
+        In the file menu bar, click <strong>Scripts</strong> and select <strong>Create WZ2 File</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1215.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Wizard FrameShop opens (probably above your FrameReady program).<br/>
+        <br/>
+        Click <strong>New Mat Design</strong> and then, in the top menu, click <strong>File </strong>and select <strong>Import Wizard File to Editor</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1185.png"/>
+      </p>
+    </li>
+    <li>
+      <p>A file dialog window appears to select a file for import.<br/>
+        <br/>
+        Use the file dialog window to navigate to the folder that we created on the C:/ drive in setup called ‘WIZ’. The .wz2 file that you created in FrameReady is named to match the Work Order number, i.e. Work Order Number.wz2, for example: Q0079.wz2.<br/>
+        <br/>
+        Select the Work Order number that you wish to import.<br/>
+        <br/>
+        (To make it easier, you can sort the list by clicking <strong>Date Modified</strong> to list the most recent orders at the top.)<br/>
+        <br/>
+        <img src="assets/images/image1186.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you have selected the Work Order .wz2 file that you want to import, FrameShop loads the details from the file.<br/>
+        <br/>
+        You will see that the template that you selected in FrameReady has been applied to this opening in the project in FrameShop.<br/>
+        <br/>
+        You will also see the dimensions you entered for the Mat and for the opening, as well as borders in FrameReady matching up in the FrameShop project.
+      </p>
+    </li>
+  </ol>
+  <h3>Option 2: Push data from Wizard FrameShop into FrameReady</h3>
+  <p class="Note">This option allows you to design a project in FrameShop and then, when ready, to move that information into FrameReady.</p>
+  <h4>Initial Setup</h4>
+  <ol class="steps">
+    <li>
+      <p>Open FrameReady and on the <strong>Main Menu</strong>, in the Work Orders section, open the <strong>Options</strong> tab.</p>
+    </li>
+    <li>
+      <p>Click the <strong>More Options...</strong> button.</p>
+    </li>
+    <li>
+      <p>Open the <strong>WO Defaults</strong> tab and, under Computerized Mat Cutter, select <strong>Wizard FrameShop to Work Order</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1219.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Done.</strong></p>
+    </li>
+  </ol>
+  <h4>Work Flow</h4>
+  <p class="Note">Unlike pushing information from FrameReady into Wizard, you do not need to have any information filled in the Work Order before bringing in data from Wizard FrameShop.</p>
+  <ol class="steps">
+    <li>
+      <p>Start in FrameReady.<br/>
+        <br/>
+        Locate an existing Work Order or create a new one.
+      </p>
+    </li>
+    <li>
+      <p><span style="font-size: 10pt;">Unlike when pushing information from FrameReady into Wizard, you do not need to have any information filled in in the Work Order in order to bring in data from Wizard FrameShop.<br/>
+          <br/>
+          When you are ready to begin the process, click the <strong>CMC</strong> button on the Work Order (middle left-hand side).<br/>
+          <br/>
+          <img src="assets/images/image1325.png"/></span></p>
+    </li>
+    <li>
+      <p>The Wizard Frameshop program launches in integration mode.<br/>
+        <br/>
+        The only thing that is different about integration mode in Wizard FrameShop is that you will see a button at the top of the application screen labelled <strong>Back to POS</strong>. This is the button that you will push once you have all of your information added in Wizard FrameShop and you are ready to push the info into FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1187.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you have clicked the <strong>CMC</strong> button in FrameReady and launched Wizard FrameShop, the &quot;New Openings Design&quot; window opens.<br/>
+        <br/>
+        This is where you can begin entering project information. To enter the mat size, enter the mat dimensions at the bottom under <strong>Outside Size</strong>. <br/>
+        <br/>
+        <img src="assets/images/image1188.png"/>
+      </p>
+    </li>
+    <li>
+      <p>To add an opening based on a Wizard template, click the template thumbnail image under <strong>Template Design</strong>. This opens a window with all the Wizard templates; you can select one of the templates and it will add the template to your opening dimensions that you enter.<br/>
+        <br/>
+        Enter the opening dimensions under the <strong>Opening Size</strong> fields. After you have entered dimensions for your mat, selected a template and entered your opening size dimensions, then you can click the green <strong>OK</strong> button to create your project.<br/>
+        <br/>
+        <img src="assets/images/image1189.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The mat size, opening size, borders, and the Wizard template number are all imported directly into the respective fields in FrameReady when you click the <strong>Back to POS</strong> button.<br/>
+        <br/>
+        You can also add <strong>Visualization</strong> information to push into FrameReady: click the <strong>eyeball icon</strong> (top right corner of the Wizard Order Information screen).<br/>
+        <br/>
+        <img src="assets/images/image1190.png"/>
+      </p>
+    </li>
+    <li>
+      <p>You can load an artwork image into your frame to visualize what your project will look like: click <strong>Load File Image</strong> (left sidebar). This image appears inside the opening, which you can view on your preview image of the project by opening the <strong>Preview</strong> tab.</p>
+      <p>On the <strong>Mats and Frames</strong> tab you can add and select the SKUs/Items for your Frames, Mats, and Fillets. To add a Frame or Mat/Fillet, click the ‘+’ icon on the left sidebar. Click the magnifying glass on the new field that you have added to open the pop up window with the list of Item numbers to select from. Select an item number of a Frame or Mat and it will load the Item number into your project.<br/>
+        <br/>
+        The mats and frames you add are also imported into the Frame and Mat areas in FrameReady when you click the <strong>Back to POS</strong> button (when you are ready to push your data).<br/>
+        <br/>
+        <img src="assets/images/image1191.png"/><br/>
+        <br/>
+        <img src="assets/images/image1192.png"/><br/>
+        <br/>
+        <img src="assets/images/image1216.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the <strong>Preview</strong> tab, you can see what your project will look like based on the parameters that you have selected in Wizard FrameShop.<br/>
+        <br/>
+        <img src="assets/images/image1193.png"/><br/>
+        <br/>
+        This image is also imported into FrameReady when you are finished creating your project and then click the <strong>Back to POS</strong> button. The preview image appears in the <strong>Picture</strong> tab (bottom right corner of the Work Order screen).<br/>
+        <br/>
+        <img src="assets/images/image1194.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When you are finished and you want to push the data into FrameReady, click the <strong>Back to POS</strong> button (the top of the screen). The Wizard FrameShop program closes and reveals the FrameReady window.<br/>
+        <br/>
+        FrameReady displays a dialog window: &quot;Click continue to import data from Mat Designer or cancel to return to work order screen without importing&quot;.<br/>
+        <br/>
+        Click the <strong>Continue</strong> button and the information from your Wizard project is imported into FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1195.png"/>
+      </p>
+    </li>
+    <li>
+      <p>If any of the moulding or matboard items that you added in Wizard Frameshop do not exist in FrameReady, then a message is added to the <strong>Notes</strong> tab on the Work Order screen. This is to let you know that you need to add those items into your Price Codes file (in order to have them price correctly in the Work Order now that they have imported).<br/>
+        <br/>
+        If there are duplicate items in your Price Codes file, then an alert appears: &quot;More than 1 record matched exactly or was similar to your import item. Please select the record from the Price Codes file that you wish to use.&quot; From the list onscreen, click the appropriate item.<br/>
+        <br/>
+        <img src="assets/images/image1196.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The template chosen for the project is added under the <strong>Mat Design</strong> field of the Work Order.<br/>
+        <br/>
+        When a template is imported from Wizard FrameShop into the <strong>Mat Design</strong> area in the Work Order, the price of the template is added to the grand total Work Order price; as are any Frames and Mats chosen in FrameShop and imported into the Work Order.
+      </p>
+    </li>
+    <li>
+      <p>You can set your own prices for each one of the Wizard templates in the Price Codes file.<br/>
+        <br/>
+        Simply do a find for <span class="Literal"> Wizard </span> in the <strong>Item</strong> field in Price Codes and set your template prices. When a template is imported from Wizard FrameShop into the Mat Design area in the Work Order, the price of the template is added to the grand Work Order price. The Frames and Mats you have selected in FrameShop and imported into the Work Order will also add their price onto the total retail price.
+      </p>
+    </li>
+  </ol>
+  <h3 id="toggleinstructions">How to Toggle Between Starting in Work Order vs Starting in FrameShop</h3>
+  <ol class="steps">
+    <li>
+      <p>Select<span> </span><strong>Perform</strong><span> </span>on the Menubar at the top of the screen.</p>
+    </li>
+    <li>
+      <p>Select<span> </span><strong>Toggle Wizard -&gt; Work Order Options</strong><span> </span>from the list of options on the pull down list.<br/>
+        <br/>
+        <img src="assets/images/image1391.png"/>
+      </p>
+    </li>
+    <li>
+      <p>A dialog window appears letting you know that you have switched your default to the opposite default, depending on which option was the originally set Default.</p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "24.0_11"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

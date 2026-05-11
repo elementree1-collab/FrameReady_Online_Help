@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Gift Certificates Menubar"]],"1":[[" ","Gift Certificates Menubar"]],"2":[[" ","Main Menu > Gift Certificates"],[" ","© 2023 Adatasol, Inc."]],"3":[[" ","Menubar Options"]],"4":[[" ","New Menu"]],"id":"2"})

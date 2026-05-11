@@ -1,0 +1,1 @@
+rh._.exports({"0":[["Contacts Menubar"]],"1":[[" ","Contacts Menubar"]],"2":[[" ","Main Menu > Contacts"],[" ","© 2023 Adatasol, Inc."]],"3":[[" ","Menubar Options in the Contacts File"]],"4":[[" ","New Menu"," ","Perform Menu"]],"id":"0"})

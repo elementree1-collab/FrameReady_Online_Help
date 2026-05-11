@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up Receipt Printer</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up a Receipt Printer</h1>
+  <p class="Warning"><strong><span>Important</span></strong>: The Print Receipt icon in the Invoices file is specifically designed to work <span>only</span> with receipt printers.  The layout is not formatted for use on Letter (8.5 x 11) paper.</p>
+  <h2>Set Up for Windows &amp; Mac</h2>
+  <h4 style="font-weight: bold;">With a Receipt Printer using Windows</h4>
+  <ol class="steps">
+    <li>
+      <p>Open FrameReady with the <strong>level4</strong> password.</p>
+    </li>
+    <li>
+      <p>On the <span>Main Menu</span>, in the menu bar, click <strong>Perform</strong> and choose <strong>Restore Full Menus</strong>.<br/>
+        <br/>
+        <img src="assets/images/image792.png"/>
+      </p>
+    </li>
+    <li>
+      <p><strong>Caution: </strong>You now have access to FileMaker controls.</p>
+    </li>
+  </ol>
+  <h4 style="font-weight: bold;">User Name Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>In the menu bar, click <strong>Edit</strong> and choose <strong>Preferences</strong>.</p>
+    </li>
+    <li>
+      <p>The Preferences window opens.<br/>
+        <br/>
+        <img src="assets/images/image441.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Take note of the <strong>User Name</strong> field: it should be <span class="Literal"> Register1 </span> <br/>
+        <br/>
+        If it isn’t so named, then rename it accordingly. What this does is identify the computer and corresponding receipt printer which is attached to the computer on the network.
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>OK</strong> to close the window.</p>
+    </li>
+  </ol>
+  <h4 style="font-weight: bold;">Receipt Printer Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>On the <b>Main Menu</b><span>, in the </span><b>Invoices</b><span> section, open the </span><b>Options</b> tab.<br/>
+        <br/>
+        <span><img src="assets/images/image436.png"/></span>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>More Options...</strong> button.<strong></strong></p>
+    </li>
+    <li>
+      <p>Open the <strong>Print Options</strong> tab.<br/>
+        <br/>
+        <img src="assets/images/image442.png"/>
+      </p>
+    </li>
+    <li>
+      <p>On an Invoice, there are two print buttons:<br/>
+        <br/>
+        1) the first prints an 8.5&quot; x 11&quot; invoice<br/>
+        2) the second prints a 3&quot; receipt.<br/>
+        <br/>
+        If you wish both print buttons to only print a receipt, then set <strong>Only print receipt</strong> to <strong>Yes,</strong> otherwise leave as <strong>No</strong>.
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Done</strong>.</p>
+    </li>
+  </ol>
+  <h4>Script Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>In the menu bar, click <strong>Perform</strong> and choose <strong>Restore Full Menus.</strong><strong></strong><br/>
+        <br/>
+        <em>If the <strong>Perform</strong> menu does not appear, then full menus have already been restored.</em><br/>
+        <br/>
+        <strong><img src="assets/images/image443.png"/></strong>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>Invoices </strong>icon.<br/>
+        <br/>
+        <img src="assets/images/WorkOrderFileIcon1.gif"/>
+      </p>
+    </li>
+    <li>
+      <p>In the menu bar, click <strong>Scripts</strong> and choose <strong>Script Workspace</strong>.<br/>
+        <br/>
+        <img src="assets/images/image444.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The Script Workspace opens. In the left column, scroll to the item labelled <strong>Print Receipt.</strong><br/>
+        <br/>
+        <img src="assets/images/image445.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Single-click <strong>Print Recieipt</strong> to see the script.<br/>
+        <br/>
+        <em><strong>Note:</strong> Do not click the checkbox.</em>
+      </p>
+    </li>
+    <li>
+      <p>In the right-hand pane, double-click on the 7th line that says, <strong>Print Setup.<br/>
+          <br/>
+          <img src="assets/images/image446.png"/></strong></p>
+    </li>
+    <li>
+      <p>The Print Setup window appears.<br/>
+        <br/>
+        <img src="assets/images/image447.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Select your receipt printer in the printer.<br/>
+        <em></em><br/>
+        If you do not see your receipt printer, then you need to install the appropriate print driver before proceeding.
+      </p>
+    </li>
+    <li>
+      <p>Select the correct paper size for the printer (usually 72mm x Receipt).</p>
+    </li>
+    <li>
+      <p>Click <strong>OK</strong> to close the Print Setup window.</p>
+    </li>
+    <li>
+      <p>Next, look for the script line that ends with the user name of the computer you are configuring, for example  <strong>Else If [Get ( UserName ) = “Register1”]</strong>.<br/>
+        <br/>
+        Directly below that line, double-click the <strong>Print</strong> step.
+      </p>
+    </li>
+    <li>
+      <p>The Print Setup window appears. In the Print dialog box, select the receipt printer that is connected to the computer.<br/>
+        <br/>
+        <img src="assets/images/image447.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Select the number of copies to be printed (if more than one).</p>
+    </li>
+    <li>
+      <p>Click <strong>OK</strong> to close the Print dialog window.</p>
+    </li>
+    <li>
+      <p>Close the <strong>Script Workspace</strong> window.</p>
+    </li>
+    <li>
+      <p>A Save dialog box appears.<br/>
+        <br/>
+        <img src="assets/images/image448.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Save All</strong>.<br/>
+        <br/>
+        The FrameReady Invoice window appears.
+      </p>
+    </li>
+    <li>
+      <p>Run a test print by clicking on the <strong>Invoice Printer icon</strong>.<br/>
+        <em></em><br/>
+        If the test is okay, then return to the Main Menu, exit FrameReady, and re-open with the appropriate user name and password.<br/>
+        <br/>
+        If the print test fails, then follow the steps again or call tech support. If the print is blank, check that the thermal paper has been installed correctly.<em></em>
+      </p>
+    </li>
+  </ol>
+  <p>Repeat for each computer that has a receipt printer attached to it.</p>
+  <h3>Set Up for Macintosh</h3>
+  <h4>With a Receipt Printer using a Macintosh.</h4>
+  <ol class="steps">
+    <li>
+      <p>Open FrameReady with the <strong>level4</strong> password.</p>
+    </li>
+    <li>
+      <p>In the menu bar, click <strong>Perform</strong> and choose <strong>Restore Full Menus</strong>.</p>
+    </li>
+    <li>
+      <p><strong>Caution: </strong>You now have access to FileMaker controls.</p>
+    </li>
+  </ol>
+  <h4>User Name Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>In the top menu bar, click <strong>FileMaker Pro</strong> and choose <strong>Preferences</strong>.</p>
+    </li>
+    <li>
+      <p>The Preferences window opens.<br/>
+        <br/>
+        <em>Take note of the “User Name”. It should be “Register1” or “Register2” or “Register3”. If it isn’t so named, then rename it accordingly. What this does is identify the computer and corresponding receipt printer which is attached to the computer on the network.</em>
+      </p>
+    </li>
+    <li>
+      <p><strong style="font-weight: bold;">Click OK</strong>.</p>
+    </li>
+  </ol>
+  <h4>Receipt Printer Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>On the Main Menu, in the <strong>Invoice</strong> section, open the <strong>Options</strong> tab.</p>
+    </li>
+    <li>
+      <p>Click the <strong>More Options…</strong> button.</p>
+    </li>
+    <li>
+      <p>Open the <strong>Print Options</strong> tab and make sure that <strong>Allow for use of receipt printer</strong> is set to <strong>Yes</strong>.</p>
+    </li>
+    <li>
+      <p>Click <strong>Done</strong>.</p>
+    </li>
+  </ol>
+  <h4>Script Set Up</h4>
+  <ol class="steps">
+    <li>
+      <p>In the menu bar, click <strong>Perform</strong> and choose <strong>Restore Full Menus</strong>.<br/>
+        <br/>
+        <em style="font-size: 11pt;">If the <strong>Perform</strong> menu does not appear then full menus have already been restored.</em>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>Invoices </strong>icon.<br/>
+        <br/>
+        <img src="assets/images/WorkOrderFileIcon1.gif"/>
+      </p>
+    </li>
+    <li>
+      <p>In the menu bar, click <strong>Scripts</strong> and choose <strong>Script Workspace</strong>.</p>
+    </li>
+    <li>
+      <p>Look for the line that says, <strong>Print Receipt</strong> and double-click (or select the line and click the <strong>Edit</strong> button). <em><br/>
+          Note: Do not click the check box.</em></p>
+    </li>
+    <li>
+      <p>In the right-hand pane, double-click on the 4th line that says, <strong>Page Setup.</strong></p>
+    </li>
+    <li>
+      <p>Select your receipt printer in the printer drop down menu.<em></em><br/>
+        <br/>
+        If you do not see your receipt printer, then you need to install the appropriate print driver before proceeding.
+      </p>
+    </li>
+    <li>
+      <p>Select the correct paper size for the printer (usually 72mm x Receipt).</p>
+    </li>
+    <li>
+      <p>Click <strong>OK</strong>.</p>
+    </li>
+    <li>
+      <p>Look for the line that ends with the user name of the computer you are configuring (e.g. Else If [Get ( UserName ) = “Register1”]). Double-click the <strong>Print</strong> step that is directly below the line.</p>
+    </li>
+    <li>
+      <p>In the <strong>Print</strong> dialog box, select the receipt printer that is connected to the computer.</p>
+    </li>
+    <li>
+      <p>Select the number of copies to be printed (if more than one).</p>
+    </li>
+    <li>
+      <p>Click <strong>OK</strong>, and then click <strong>OK</strong> again.</p>
+    </li>
+    <li>
+      <p>Click <strong>Edit Script..</strong> close button (X). Save changes.</p>
+    </li>
+    <li>
+      <p>Click <strong>Manage Scripts</strong> close button (X).</p>
+    </li>
+    <li>
+      <p>Run a test print by clicking on the <strong>Invoice Printer icon</strong>.<br/>
+        <em><br/>
+          If the test is okay, return to the Main Menu, exit FrameReady and re-open with the appropriate user name and password. If the print test fails, then follow the steps again or call tech support.</em>
+      </p>
+    </li>
+    <li>
+      <p>Repeat for each computer that has a receipt printer attached to it.</p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "5.3_15"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

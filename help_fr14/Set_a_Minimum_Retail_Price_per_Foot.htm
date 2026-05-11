@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set a Minimum Retail Price per Foot</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up a Minimum Retail Price per Foot</h1>
+  <p class="Note">You can set a minimum retail price so that moulding does not fall below a specified dollar amount per foot.</p>
+  <ul class="Disc">
+    <li>
+      <p>You can set a minimum retail price so that moulding will not fall below a specified dollar amount per foot, <span>e</span><span>.g. $12.50</span></p>
+    </li>
+    <li>
+      <p>Rather than using a markup <b><span><span class="Literal"> Cost&lt;2.50; Cost * 5; </span></span></b>  and having moulding with a cost of $1 being sold for $5 per foot…</p>
+    </li>
+    <li>
+      <p>...you can enter the retail price <b><span><span class="Literal"> Cost&lt;2.50; 12.50; </span></span></b>  and all moulding with a cost below $2.50 sells for $12.50 per foot.</p>
+    </li>
+  </ul>
+  <h3>Calculating the Cost Break</h3>
+  <p>There is a simple calculation to determine the Cost Break between the minimum retail price you want to charge and when a moulding will go above that amount at your regular markup.</p>
+  <h4>The Cost Break Formula</h4>
+  <ul>
+    <li>
+      <p><em><b>Retail Price</b> divided by <b>Markup</b> = <b>Cost breaking point</b></em></p>
+    </li>
+  </ul>
+  <h3>Adding in a New Cost Breaking Point for Length</h3>
+  <p>For example, you want a minimum Retail Price of $7.50 per foot on Length but your formula in FrameReady looks like this:</p>
+  <p><span><span class="Literal"> Let([ <br/>
+         Length Price = <br/>
+         Case( <br/>
+         Cost&lt;2.50; Cost * 5; <br/>
+         Cost&lt;3.75; Cost * 4.9; <br/>
+         Cost&lt;5.00; Cost * 4.8; </span></span></p>
+  <p>Remember, <em><b>Retail Price</b> divided by <b>Markup</b> equals <b>Cost Breaking Point.</b></em></p>
+  <p><em><b><span>If the retail price is $7.50 and the Markup is 5 then</span></b></em></p>
+  <p><em><b><span>$7.50 divided by 5 = Cost Breaking Point</span></b></em></p>
+  <p><em><b><span>$7.50 / 5 = $1.50</span></b></em></p>
+  <p>Add in the new Cost Breaking Point of $1.50 and the formula looks like this (the newly added line appears in bold):</p>
+  <p><span><span class="Literal"><span> Let([<br/>
+           Length Price =<br/>
+           Case(<br/>
+           </span><span>Cost&lt;1.50; 7.50;<br/>
+           Cost&lt;2.50; Cost * 5;<br/>
+           Cost&lt;3.75; Cost * 4.9;<br/>
+           Cost&lt;5.00; Cost * 4.8; </span></span></span></p>
+  <p>Now, all wholesale costs below $1.50 will retail at $7.50 per foot and all wholesale costs higher than $1.50 will result in a higher retail price, <span>e.g. $1.51 * 5 = $7.55</span></p>
+  <p>The same can be done with a <a href="Set_up_Moulding_Pricing.htm">Sliding Scale Markup for Chop Pricing</a></p>
+  <h3>Adding in a New Cost Breaking Point for Chop</h3>
+  <p>You want the minimum Retail Price to be $9 per foot on Chop but your formula in FrameReady looks like this:</p>
+  <p><span><span class="Literal"> Case( <br/>
+         Chop&lt;5; Chop * 2.85; <br/>
+         Chop&lt;10; Chop * 2.8; <br/>
+         Chop&lt;15; Chop * 2.75; <br/>
+         Chop&lt;20; Chop * 2.7; <br/>
+         Chop&lt;25; Chop * 2.65; <br/>
+         Chop * 2.6); </span></span></p>
+  <p>As before, lets calculate your new Cost Breaking Point. Remember, <em><b>Retail Price</b> divided by <b>Markup</b> equals <b>Cost Breaking Point.</b></em></p>
+  <p><em><b><span>If the retail price is $9.00 and the Markup is 2.85 then</span></b></em></p>
+  <p><em><b><span>$9.00 divided by 2.85 = Cost Breaking Point</span></b></em></p>
+  <p><em><b><span>$9.00 / 2.85 = $3.16</span></b></em> (rounded up from 3.15789)</p>
+  <p><em><b>Retail Price</b> divided by <b>Markup</b> equals <b>Cost Breaking Point.</b></em></p>
+  <p>Add in the new Cost Breaking Point of $3.16 and the formula looks like this (the newly added line appears in bold):</p>
+  <p><span class="Literal"> Case( <br/>
+       Chop&lt;3.16; 9.00;</span> -- NEW LINE<br/>
+    <span class="Literal"> Chop&lt;5; Chop * 2.85; <br/>
+       Chop&lt;10; Chop * 2.8; <br/>
+       Chop&lt;15; Chop * 2.75; <br/>
+       Chop&lt;20; Chop * 2.7; <br/>
+       Chop&lt;25; Chop * 2.65 <br/>
+       Chop * 2.6); </span>
+  </p>
+  <p>Now, all wholesale costs below $3.00 will price at $9.00 per foot and all wholesale costs higher than $3.00 will result in a retail price higher than your minimum of $9.00, <span>e.g. $3.17 * 2.85 = $9.03</span></p>
+  <p class="Warning"><em><b>Caution<span>:</span></b> <span>ALL AMOUNTS SHOWN ABOVE ARE FOR USE AS EXAMPLES ONLY AND ARE NOT INTENDED AS A RECOMMENDATION OF RETAIL PRICE.</span></em></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "10.4.0_12"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

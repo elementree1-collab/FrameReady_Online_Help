@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Price Codes Menubar"]],"1":[[" ","Price Codes Menu bar"]],"2":[[" ","Main Menu > Price Codes"," ","Below are the menus available from the Price Codes file when you click the menu bar."],[" ","© 2023 Adatasol, Inc."]],"3":[[" ","Menus Available from the Price Codes"]],"4":[[" ","New Menu"," ","Perform Menu"]],"id":"4"})

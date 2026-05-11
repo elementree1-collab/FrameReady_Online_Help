@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Sales Reports 101"]],"1":[[" ","Sales Reports 101"]],"2":[[" ","YouTube link: ","https://youtu.be/IREefn9yf7c"," ","© 2023 Adatasol, Inc."]],"5":[[" ","FrameReady Webinar: Sales Reports 101"]],"id":"5"})

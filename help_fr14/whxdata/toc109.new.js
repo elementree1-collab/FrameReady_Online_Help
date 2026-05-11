@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Items Out On Consignment Report","type":"item","tilePath":"","description":"","url":"Items_Out_On_Consignment_Report.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

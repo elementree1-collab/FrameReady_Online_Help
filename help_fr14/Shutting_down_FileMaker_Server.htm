@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Shutting down FileMaker Server</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Shutting down your FileMaker Server</h1>
+  <p class="Note">Failure to correctly exit FileMaker Server before powering down or rebooting your server computer can result in data loss or, worse, corrupted data files.</p>
+  <ul class="Disc">
+    <li>
+      <p>See also: <a href="https://help.claris.com/en/server-help/content/index.html">Claris FileMaker Server 19 Help</a></p>
+    </li>
+  </ul>
+  <h2>Shutting down or Rebooting your Server Computer</h2>
+  <ul class="Disc">
+    <li>
+      <p>Your server computer, running FileMaker Server software, <strong>should be kept on and accessible at all times</strong>.</p>
+    </li>
+    <li>
+      <p>You should disable hibernation and/or sleep modes.</p>
+    </li>
+    <li>
+      <p>In the event you need to shutdown or reboot the server, follow these steps.</p>
+    </li>
+  </ul>
+  <p class="Danger"><strong>Warning!</strong> Before using your server computer&#39;s shutdown controls, follow these steps to safely shutdown the FileMaker Server software first. Otherwise, you run the risk of possible data loss and potentially damage your  FrameReady database files.</p>
+  <p class="Danger">If you are notified of any System Updates, then <strong>always shut down the FileMaker Server software first </strong>before installing the updates!</p>
+  <ol class="steps">
+    <li>
+      <p><strong>Exit FrameReady on all guest computers.</strong></p>
+    </li>
+    <li>
+      <p>On your server computer, open the FileMaker Server web admin. There should be a shortcut on the Desktop after installation; double-click to open.<br/>
+        <br/>
+        See: <a href="Opening_the_FileMaker_Server_Admin_Console.htm">Opening the FileMaker Server Admin Console</a>
+      </p>
+    </li>
+    <li>
+      <p>You must log into the FileMaker Server web admin console. Your web browser may already have the login credentials saved. Click <strong>Sign In</strong> to continue.<br/>
+        <br/>
+        <img src="assets/images/image1316.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Configuration</strong> in the nav bar.<br/>
+        <br/>
+        <img src="assets/images/image1317.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Under General Settings, click the blue <strong>Stop Database Server</strong> button.<br/>
+        <br/>
+        <img src="assets/images/image1318.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the dialog that appears, you can enter a message to send to FileMaker clients, and specify the length of time to delay before stopping the database server.<br/>
+        <br/>
+        If you have exited FrameReady on all guest computers, then you can change the delay to zero.<br/>
+        <br/>
+        <strong>Important:</strong> If you specify a delay time of 0, then clients are disconnected immediately and they may lose unsaved work!<br/>
+        <br/>
+        <img src="assets/images/image1319.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>Stop Database Server</strong> button. When the button turns grey, you can safely shutdown or reboot the server computer.<br/>
+        <br/>
+        If you have large files or files with many connected clients, then the process of stopping the Database Server may take several minutes.
+      </p>
+    </li>
+  </ol>
+  <p class="Danger"><strong><span>Important</span></strong><span>: P</span><span>ower failures, flickers, brownouts, and power surges can damage files if FrameReady is operating. Install a surge protector and uninterruptible power supply on your FrameReady server.</span></p>
+  <p class="Danger"><strong><span>Important</span></strong><span>: Do not point any live-sync backup solutions such as One Drive, Dropbox etc to the live FileMaker Server FrameReady folder as this will damage your data. Instead, point it to the default Backup folder.</span></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "1.1_3"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

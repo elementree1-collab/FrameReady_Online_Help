@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Add a Hand-Wrapped Mat</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Add a Hand-Wrapped Mat</h1>
+  <p class="breadcrumbs">Main Menu &gt; Work Orders &gt; Mats <span>field</span></p>
+  <p class="Note">FrameReady supports two options for adding hand-wrapped mats to a Work Order, depending on whether you need to add a separate mat substrate (option A) or if both items have been priced into one (option B).</p>
+  <h2>How to enter a Hand-Wrapped Mat</h2>
+  <h4>Option A: Hand-wrapped mat with Substrate Priced Separately</h4>
+  <p class="Note">For this method, it is <strong>assumed that the pricing of the fabric is separate</strong>, in the <span>Price Codes</span> file, from the price of the substrate on which the fabric will be wrapped.</p>
+  <ol class="steps" style="font-size: 11pt;">
+    <li style="font-size: 11pt;">
+      <p>Enter the substrate (matboard number) into the <b>Mats</b>1 field.</p>
+    </li>
+    <li style="font-size: 11pt;">
+      <p>Enter the fabric number into the <b>Mats</b>2 field. It can also be entered into the <b>Fabric </b>field.</p>
+    </li>
+    <li style="font-size: 11pt;">
+      <p>In the reveal pop-up (grey box to the right), select<b> Fabric</b> which means that there is no reveal required – it is a fabric wrap. This step is very important, if you do not set the reveal to fabric then FrameReady will re-size the opening based on the reveal that is entered.</p>
+    </li>
+  </ol>
+  <p><img src="http://frameready.com/help_fr10/image160.gif"/></p>
+  <p>When we look at the printed Work Order, notice that the mat substrate and the fabric are listed on the lower left: they are both the same size and the fabric wrap is identified as <strong><span>fabric</span></strong>.</p>
+  <h4>Option B: Hand-wrapped mat with substrate Price included in the Formula</h4>
+  <p class="Note">For this method, it is assumed that the pricing of the <b>fabric</b>, as set up in the <b>Price Codes</b> file, also includes the price of the substrate on which the fabric will be wrapped plus the adhesive price and labor.</p>
+  <p class="Tip"><span>A popular way to combine the pricing is to price the fabric with a markup using Linear Yard and then price the substrate with a Code Table. To combine these two prices together on one record, mark the checkbox for Combine Formula and Code Pricing under the Fabric Pricing tab. <br/>
+      <br/>
+      <strong>See:</strong> <a href="Combine_Formula_and_Code_Pricing.htm">Combine Formula and Code Pricing</a></span></p>
+  <ol class="steps">
+    <li>
+      <p>In the <b>Work Order</b>, simply type in the fabric # in the <b>Mats</b> field.<br/>
+        <br/>
+        This will display the combined price of the mat and substrate, including glue, labor, etc.
+      </p>
+    </li>
+  </ol>
+  <p class="Tip"><strong>Tip:</strong> You may want to enter the different types of adhesive (e. g. Roll on, Spray, etc) in the Mounting group of the Price Codes file. This will allow you to identify and price it when you create the order.</p>
+  <p>If you are attempting to enter a factory-produced fabric mat, you only need enter the item number into the <b>Mat</b> field, no substrate is needed.</p>
+  <p><span>See also:</span> <a href="Fabric_Overview.htm">Pricing Fabric</a></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "11.4.0_13"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

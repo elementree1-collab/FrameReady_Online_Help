@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Square Process a Credit Card Payment</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Square: Process a Credit Card Payment</h1>
+  <p class="breadcrumbs">Main Menu &gt; Invoices</p>
+  <p class="Note">In order to process a payment you need to first navigate to the invoice section of FrameReady.</p>
+  <h3>Refresh Token</h3>
+  <ol class="steps">
+    <li>
+      <p>Locate an invoice with a balance. Click the <strong>Data Entry</strong> button to enter into edit mode for the invoice.<br/>
+        <br/>
+        Once in edit mode, click the <strong>Enter a Payment</strong> button (bottom left).
+      </p>
+    </li>
+    <li>
+      <p>The ‘Enter Payment’ button will bring up the payment pop up window where you can select the date of the payment, the amount, the tender (card type ie. Visa, Mastercard, American Express). Do not put anything in the reference field as that is where the Square payment ID will be stored after the payment is completed.<br/>
+        <br/>
+        <img src="assets/images/image1451.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you are ready to make your payment, click on the ‘Process CC Transaction’ button on the right hand side of the window.<br/>
+        <br/>
+        <img src="assets/images/image1450.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you click the Process CC Transaction button, a checkout request will be placed to the Square terminal and to FrameReady. A pop up dialog will come up first and ask you if you would like to use Chip or Swipe with the physical credit card or Manual entry if the card is not able to be chipped or swiped into the terminal. Select the option that you would like to proceed with and your checkout request will continue.<br/>
+        <br/>
+        <img src="assets/images/image1452.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Wake your terminal by placing your finger on the screen. If you selected Manual entry, a new screen will pop up on the terminal with fields to type in the credit card number, card expiration date and more. If you selected Chip/Swipe/Tap, a new screen should come up on the terminal with the amount of the payment that you entered as well as a message saying ‘Insert card’. The terminal will wait for you to enter a card until the checkout expires (around 3 minutes).<br/>
+        <br/>
+        <img src="assets/images/image1453.png"/><br/>
+        <br/>
+        <img src="assets/images/image1454.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you enter or swipe your credit card the terminal will process the payment and you will see a message on the screen if the payment was not successful. The message will let you know what was wrong with your payment being processed and allow you to cancel the checkout or try again.</p>
+    </li>
+    <li>
+      <p><img src="assets/images/image1455.png"/></p>
+    </li>
+    <li>
+      <p><img src="assets/images/image1456.png"/></p>
+    </li>
+    <li>
+      <p>If the payment is successful, you will be taken to a screen to sign for the transaction. The credit card holder should sign with their finger on the Square PIN pad terminal if necessary. After the card holder has signed for the transaction, the terminal screen will ask what type of receipt you would like printed. You can select Print, Email or Text Message receipt.<br/>
+        <br/>
+        <img src="assets/images/image1457.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Print receipt will print a receipt directly from the thermal printer on the Square terminal. Email receipt will send an email to the email attached to the Square user account or prompt the user to enter an email address. Text Message will send a text message to the phone number specified. Choose the type pf receipt you would like and then terminal will then continue back to the original black ‘ready’ screen.<br/>
+        <br/>
+        <img src="assets/images/image1458.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Now that the payment has been successfully processed, in FrameReady you will see a prompt pop up that says your payment has been processed. <br/>
+        <br/>
+        <img src="assets/images/image1459.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the prompt to continue and your payment will be added to the list of payments on the FrameReady invoice edit screen. You can see on your payment line that in the ‘Reference’ field is the Square receipt/transaction ID. This is the ID that can be referenced in your Square web admin center for more information.<br/>
+        <br/>
+        <img src="assets/images/image1460.png"/>
+      </p>
+    </li>
+    <li>
+      <p>To look up a transaction from FrameReady in your Square web admin center, navigate to the transactions page. There will be a filter field at the top of the screen that you can use for ‘Receipt #’<br/>
+        <br/>
+        <img src="assets/images/image1461.png"/>
+      </p>
+    </li>
+    <li>
+      <p><img src="assets/images/image1462.png"/></p>
+    </li>
+    <li>
+      <p>You can also obtain more information for a Square transaction in FrameReady by clicking on the ‘Edit’ button on that transaction in the Payments portal at the bottom of the invoice edit screen.<br/>
+        <br/>
+        <img src="assets/images/image1463.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Once you click the edit button, you will see more information at the bottom of the Payment pop up screen showing you the Name on the card, the last 4 of the card number and how the payment was processed (Manually, Chip, Swipe etc..)<br/>
+        <br/>
+        <img src="assets/images/image1464.png"/>
+      </p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "29.0_6"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

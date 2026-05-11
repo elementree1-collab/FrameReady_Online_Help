@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Purchase Orders Menubar"]],"1":[[" ","Purchase Orders Menubar"]],"2":[[" ","Main Menu > Purchase Orders > File Menubar"],[" ","© 2023 Adatasol, Inc."]],"3":[[" ","Menubar Options"]],"4":[[" ","New Menu"," ","Email Menu"," ","Perform Menu"]],"id":"7"})

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Omit Records</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Omit Records</h1>
+  <h2>Exclude Items When Searching</h2>
+  <p class="Note">You can omit records while performing a find. In other words, you can find information in your database that does not equal your specified criteria. For example, you can find all invoices except those created in the past 30 days.</p>
+  <h3>How to find Records that Don’t Match Criteria</h3>
+  <ol class="steps">
+    <li>
+      <p>In <strong><span>Find</span> mode,</strong> enter your criteria for the records to omit.<br/>
+        <br/>
+        <span>For example, to find all sales records except those for the city of London, type</span> <span class="Literal"> London </span><span> in the <strong>City</strong> field.</span>
+      </p>
+    </li>
+    <li>
+      <p>In the upper status toolbar, click the <strong><span>Omit </span></strong><span>button.<br/>
+          <br/>
+          <img src="assets/images/status-bar-enabled.png"/><br/>
+          <br/>
+          <img src="assets/images/status-include-omit.png"/></span><strong> </strong><br/>
+        <br/>
+        If the FileMaker Pro status toolbar is not visible, then click the <strong><span>Show or Hide Status Bar</span> icon</strong>.
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong><span>Perform Find</span></strong> button.</p>
+    </li>
+  </ol>
+  <p class="Tip"><span><strong>Tip: </strong>If you wish to do more than one Omit, you must remember to select <strong>Add New Request </strong>each time before selecting the next item.</span></p>
+  <h3>How to Find Some Records While Omitting Others</h3>
+  <ol class="steps">
+    <li>
+      <p>In Find mode, type the criteria for the records to find.<br/>
+        <br/>
+        For example, to find vendors in the state of New York, except those in the city of Albany, start by typing <span class="Literal"> New York </span> in the State field.
+      </p>
+    </li>
+    <li>
+      <p>Click <strong><span>New Request</span></strong> in the status toolbar.<br/>
+        <br/>
+        <img src="assets/images/status-bar-new-request.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Type criteria for the records to exclude, and click <strong><span>Omit</span></strong>.<br/>
+        <br/>
+        E.g. to exclude Albany, you would type <span class="Literal"> Albany </span> <span>in the <strong>City </strong>field and click</span> <strong><span>Omit</span></strong><span>.</span>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong><span>Perform Find</span></strong> button.</p>
+    </li>
+  </ol>
+  <h3>Notes on the Omit Feature</h3>
+  <ul>
+    <li>
+      <p>You can have omit criteria in more than one request.</p>
+    </li>
+    <li>
+      <p>FileMaker Pro works through the requests in the order you create them.<br/>
+        <br/>
+        For example, in a Clients database with clients in the US and France: If the first request finds all clients in Paris and the second request omits all clients in the US, then the found set contains: all clients in Paris, France but none in Paris, Texas or anywhere else in the US.
+      </p>
+    </li>
+    <li>
+      <p>If the order of the requests is reversed (the first request omits all clients in the US and the second request finds all clients in Paris) then the found set includes: all clients in Paris, France and in Paris, Texas, but no records for clients elsewhere in the US.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "35.0_8"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

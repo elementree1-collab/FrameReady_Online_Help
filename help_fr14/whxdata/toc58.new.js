@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Set up Contacts","type":"item","tilePath":"","description":"","url":"Set_up_Contacts.htm"},{"name":"Set up Keywords","type":"item","tilePath":"","description":"","url":"Set_up_Keywords.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

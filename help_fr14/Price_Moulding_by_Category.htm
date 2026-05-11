@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Price Moulding by Category</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Price Moulding by Category</h1>
+  <p class="Note">Here is a method to qualify how a moulding is priced based on the <span>Category</span> field.</p>
+  <p class="Tip"><strong><span>Tip</span></strong><span>: This is a great way to consistently price a discount line of moulding from various vendors, or add additional charges to selected moulding, or designate higher pricing for difficult to cut moulding.</span></p>
+  <ul>
+    <li>
+      <p>Moulding may be priced by the <strong><span>Category</span> </strong>- the name of which can be provided by the supplier or one you have entered yourself, <span>e.g. Concerto</span> (from Larson Juhl) or<span> Discount Line</span> (created by you).</p>
+    </li>
+    <li>
+      <p>When using this method, all items with the same value in the <strong><span>Category</span> </strong>field are given the same pricing. Formulas identifying Categories can also be added into your regular pricing formula.</p>
+    </li>
+  </ul>
+  <p class="Warning"><strong><span>Important</span></strong>: Make sure that the value in the <span>Category</span> field is an <span>exact</span> match to the Category used in your formula.</p>
+  <ul>
+    <li>
+      <p>There are a variety of different formulas you can use. A few examples using &quot;If&quot; or &quot;Case&quot; are shown. The important thing is to specify the <strong><span>Category</span> </strong>and how it is priced: by <strong><span>Markup</span> </strong>or <span><strong>Price Per Foot</strong>.</span></p>
+    </li>
+  </ul>
+  <h2>Price with Category by Markup</h2>
+  <ul>
+    <li>
+      <p>The following formula illustrates a way to identify the <span>Category</span> and to price it by a Markup, <span>e.g. Cost*6</span></p>
+    </li>
+  </ul>
+  <p><span>Formula example:</span></p>
+  <p><span><span class="Literal"> If(Category = “Special Order”; Cost*6; Cost*4) </span></span></p>
+  <ul>
+    <li>
+      <p>This means that all items with a <strong>Category </strong>value of &quot;<span>Special Order&quot;</span> are marked up 6 times, but, all other items are marked up 4 times (as indicated with <span>Cost * 4</span> at the end of the formula).</p>
+    </li>
+  </ul>
+  <h3>Price with Category by Retail Price Per Foot</h3>
+  <ul>
+    <li>
+      <p>You can also have different entries in the <strong><span>Category</span> </strong>field to identify different Markups or a fixed price per foot, <span>e.g. All items with &quot;Discount Line04&quot; are $4 per foot, All items with &quot;Discount Line05&quot; are $5 per foot.</span></p>
+    </li>
+  </ul>
+  <p>Formula example:</p>
+  <p><span><span class="Literal"> Case(<br/>
+         Cost&gt;0 and Category = &quot;Discount Line04&quot;; 4;<br/>
+         Cost&gt;0 and Category = &quot;Discount Line05&quot;; 5<br/>
+         ) </span></span></p>
+  <h3>Price with Category in Set Price field</h3>
+  <ul>
+    <li>
+      <p>The same rules of <span>Category</span> can also be applied to the <span>Set Price</span> field. This can be useful to add a fixed dollar amount to the price of the frame -- but only if the Category is filled with the matching word(s). Otherwise, the Set Price is zero.</p>
+    </li>
+  </ul>
+  <p><span>Formula example:</span></p>
+  <p><span><span class="Literal"> If(Category = “Special Order”; 15)</span></span></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "10.6.1.0_13"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

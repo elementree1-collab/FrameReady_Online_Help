@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Price Moulding by Join but Order it by Chop</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Price Moulding by Join but Order it by Chop (or Length)</h1>
+  <p class="breadcrumbs">Main Menu &gt; Price Codes &gt; Moulding <span>group</span></p>
+  <p class="Note">FrameReady formulas offer the flexibility to price moulding by one method (Join) yet order your moulding by another (Length). You can set up your pricing so that it remains consistent on the Work Order -- even if you change your method of ordering directly on a Work Order.</p>
+  <ul class="Disc">
+    <li>
+      <p>The advantage of this method is that the retail price per foot will always remain the same, regardless of how you order the moulding.</p>
+    </li>
+    <li>
+      <p>Your price remains consistent, even if you change how it is ordered on a Work Order.</p>
+    </li>
+  </ul>
+  <h2>Here&#39;s How it Works</h2>
+  <ul class="Disc">
+    <li>
+      <p>In the<span> </span><b>Price Codes</b><span> </span>file, the radio button identifies how each moulding is ordered. Mark the circle to identify how you order the moulding.</p>
+    </li>
+    <li>
+      <p>You can use the<span> </span><b>Apply Order Type to Group</b><span> </span>button to mark the circle for all Moulding records or individual groups, e.g. Supplier: Roma and Group: Wood.</p>
+    </li>
+    <li>
+      <p>Which company you order the moulding from is displayed under &quot;Order From&quot;<br/>
+        <br/>
+        <img src="assets/images/order-as-chop.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Now comes the deciding factor... Your Pricing Formula.</p>
+    </li>
+  </ul>
+  <h3>Setting your Pricing Formula</h3>
+  <p class="Note">There are a few different ways to set up your pricing formula. The formula in this example is very simple with no other pricing options.</p>
+  <h4>Use the Correct Type of Formula</h4>
+  <p class="Warning"><strong>Caution</strong>: The Default Pricing Formula cannot be used because &quot;Order Type&quot; is part of that formula. You must use a different formula.</p>
+  <ul class="Disc">
+    <li>
+      <p>If you are using the FrameReady Default pricing formula, then your pricing is determined by the <strong><span>Order Type</span></strong> field -- and you cannot override it because the <strong>Order Type</strong> is part of the formula. Instead, you must use a different formula.</p>
+    </li>
+    <li>
+      <p>There are a few different ways to set up your pricing formula so that you can price by one method and order by another. The formula in this example is very simple:</p>
+    </li>
+  </ul>
+  <h4>Option 1: Simple Formula</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use a simple pricing formula, for example, <span><span class="Literal"> Join * 2 </span></span>. This means that only the <strong><span>Join</span></strong> price is used to calculate the retail price and you are free to set the <strong><span>Order Type</span></strong> to, for example, <strong><span>Chop</span></strong>. FrameReady will only use the <strong>Join</strong> cost.<br/>
+        <br/>
+        <img src="assets/images/pricing-join-times-two.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Join 1.99 x Markup 2 = 3.98 Retail Price per Foot.</p>
+      <p>So why does the <strong>Markup = 2.6892</strong> appear in the box above the formula? FrameReady knows that you are ordering this as a Chop, and, in order to have the retail price equal 3.98, it calculates that (Chop) 1.48 x 2.6892 is the same as (Join) 1.99 x 2. Both create a<span> </span><b>Retail Price Per Foot</b><span> </span>of 3.98. This number is just an FYI and does not require any work on your part.</p>
+    </li>
+    <li>
+      <p>However, this formula only works if the supplier provides a <strong>Join</strong> wholesale cost. If not, then your retail price will be zero.</p>
+    </li>
+    <li>
+      <p><strong>This formula does not leave any margin for error.</strong></p>
+    </li>
+  </ul>
+  <h4>Option 2: Complex Formula</h4>
+  <ul>
+    <li>
+      <p>Here is a better option. <span>In the example below, see how we have set up the pricing to accommodate all variables. Because<span> </span></span><b>Join</b><span><span> </span>is the first option listed, it is given top priority. However, because we have added <span class="Literal"> Join&gt;0 </span>, this means that there must be a quantity greater than zero in the blue<span> </span></span><b>Join</b><span><span> </span>wholesale cost field.</span><br/>
+        <br/>
+        <img src="assets/images/pricing-join-formula.png"/>
+      </p>
+    </li>
+    <li>
+      <p>If the<span> </span><b>Join</b><span> </span>cost field is empty, then FrameReady looks to the<span> </span><b>Chop</b><span> </span>wholesale cost.</p>
+    </li>
+    <li>
+      <p>If it also is empty, then the<span> </span><b>Length</b><span> </span>cost is used.</p>
+      <p>In this example, we are ordering by<span> </span><b>Length</b>. Notice how the <strong>Markup = 4.3736</strong>. This is the number necessary to have the retail price equal 3.98 (which is the amount calculated by <strong>Join * 2</strong>).</p>
+    </li>
+    <li>
+      <p>If the <strong><span>Join</span></strong> field is empty, then FrameReady goes to the next line: it looks for the <strong><span>Chop</span></strong> wholesale cost. And if it is empty, then the <strong><span>Length</span></strong> cost is used.</p>
+    </li>
+  </ul>
+  <h3>Important Note</h3>
+  <ul class="Disc">
+    <li>
+      <p>If you are using the FrameReady Default pricing formula (shown below), which starts with:</p>
+      <p><strong>Let([</strong></p>
+      <p><strong>Length Price =</strong></p>
+      <p>then, your pricing is determined by the radio button (circle) which is marked as the <strong>Order Type</strong> (located below the formula window; here set as <strong>Chop</strong>).<br/>
+        <br/>
+        <img src="assets/images/formula-with-let.png"/>
+      </p>
+    </li>
+    <li>
+      <p>If you change the radio button, then the <b>Retail Price per Foot</b> also changes.</p>
+    </li>
+    <li>
+      <p>Therefore, the default formula only prices moulding by your method of order and cannot be used for the pricing option described above.</p>
+    </li>
+  </ul>
+  <h3>Buttons Explained</h3>
+  <p><img src="assets/images/image997.png"/></p>
+  <h4>Order This Item As Radio Buttons</h4>
+  <ul>
+    <li>
+      <p>Use the <strong><span>Order This Item As</span></strong> field to identify how you want to order each individual moulding.</p>
+    </li>
+    <li>
+      <p>The three radio buttons; <strong><span>Length</span></strong>, <strong><span>Chop</span> </strong>and <strong><span>Join</span> </strong>allow you to order your product as length moulding, chopped moulding, joined or closed corner frame <span>regardless</span> of how you may wish to price your frame (except when using the Default pricing formula).</p>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <p>If you are using the FrameReady Default pricing formula, then your pricing will, in fact, be determined by the Order Type radio button. If you change the Order Type field, then the Retail Price per Foot also changes. Therefore, the Default formula will only price moulding by your method of order and cannot be used for the pricing option described above this note.</p>
+    </li>
+  </ul>
+  <h4>Apply Order Type to Group Button</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use the <strong><span>Apply Order Type to Group</span></strong> button to set this value across a group of records; it changes the Order Type.</p>
+    </li>
+    <li>
+      <p>Depending on your formula, this action could change the retail price of your records.</p>
+    </li>
+  </ul>
+  <h3>How to Apply an Order Type to a Group</h3>
+  <ol class="steps">
+    <li>
+      <p>Click the <strong>Apply Order Type to Group</strong> button.</p>
+    </li>
+    <li>
+      <p>A dialog box appears.</p>
+      <img src="assets/images/image998.png"/>
+    </li>
+    <li>
+      <p><strong><span>Option 1</span>: </strong>Select the Cost Type you wish to use when ordering <strong><span>all</span> </strong>your moulding.<br/>
+        <br/>
+        Click the <strong><span>Length</span></strong>, <strong><span>Chop</span> </strong>or <strong><span>Join</span></strong> button.
+      </p>
+    </li>
+    <li>
+      <p><strong><span>Option 2</span>:</strong> Select the <strong>Cost Type</strong> (Length, Chop, or Join) and then select the <strong>Supplier</strong> and/or <strong>Group </strong>you wish to use.<br/>
+        <br/>
+        Leave the <strong>Group</strong> field blank to apply to all Groups. 
+      </p>
+    </li>
+  </ol>
+  <h2>Formula</h2>
+  <h4>Price by Join and Fallback to Chop or Length</h4>
+  <p class="Tip">Copy and paste this Formula into FrameReady:</p>
+  <p><span><span class="Literal">Round(<br/>
+        Case(<br/>
+        Join&gt;0; Join * 2;<br/>
+        Chop&gt;0;<br/>
+        Case(<br/>
+        Chop&lt;5; Chop * 2.85;<br/>
+        Chop&lt;10; Chop * 2.8;<br/>
+        Chop&lt;15; Chop * 2.75;<br/>
+        Chop&lt;20; Chop * 2.7;<br/>
+        Chop&lt;25; Chop * 2.65;<br/>
+        Chop * 2.6);<br/>
+        Cost&gt;0;<br/>
+        Case(<br/>
+        Cost&lt;2.50; Cost * 5;<br/>
+        Cost&lt;3.75; Cost * 4.9;<br/>
+        Cost&lt;5.00; Cost * 4.8;<br/>
+        Cost&lt;6.25; Cost * 4.7;<br/>
+        Cost&lt;7.50; Cost * 4.6;<br/>
+        Cost&lt;8.75; Cost * 4.5;<br/>
+        Cost&lt;10.00; Cost * 4.4;<br/>
+        Cost&lt;11.25; Cost * 4.3;<br/>
+        Cost&lt;12.50; Cost * 4.2;<br/>
+        Cost&lt;13.75; Cost * 4.1;<br/>
+        Cost&lt;15.00; Cost * 4;<br/>
+        Cost&lt;16.25; Cost * 3.9;<br/>
+        Cost&lt;17.50; Cost * 3.8;<br/>
+        Cost&lt;18.75; Cost * 3.7;<br/>
+        Cost&lt;20.00; Cost * 3.6;<br/>
+        Cost * 3.5))<br/>
+        ,1)</span></span></p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "10.6.1.0_10"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

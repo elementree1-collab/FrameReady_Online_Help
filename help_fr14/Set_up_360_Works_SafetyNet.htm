@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up 360 Works SafetyNet</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="rh-authors" content=""/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up 360 Works SafetyNet</h1>
+  <p class="Note">SafetyNet is a <span>low cost FileMaker offsite backup solution. Now you can rest easy, knowing that your essential FileMaker databases are backed up online with secure and easy retrieval at any time.</span></p>
+  <h2>Before You Begin...</h2>
+  <p class="Note">These steps are very important to keep your FrameReady in good, working order.</p>
+  <h4>If you must use a <strong>third-party backup</strong> solution...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must also exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using <strong>Time Machine</strong> on your Mac...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using<strong> Anti-Virus software</strong> on your computer...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you must also <strong>exclude the FrameReady folder</strong> from its scanning activity. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>In conclusion...</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use the built-in backup feature in the FileMaker Server Admin Console to backup the FrameReady folder.</p>
+    </li>
+    <li>
+      <p><strong>Do not </strong>allow other backup software to backup the live FrameReady folder.</p>
+    </li>
+    <li>
+      <p>360 Works SafetyNet does not backup the LIVE database folder (as this would be dangerous). Instead, SafetyNet monitors and copies to the Amazon cloud the files in the <strong>Backups </strong>folder.</p>
+    </li>
+  </ul>
+  <h3>What is 360 Works SafetyNet?</h3>
+  <ul class="Disc">
+    <li>
+      <p>SafetyNet monitors your <strong>FileMaker Server</strong> <strong>Backups </strong>folder every few minutes and writes an offsite backup whenever one is needed to Amazon’s cloud-based file storage for better security.</p>
+    </li>
+    <li>
+      <p>SafetyNet does not backup the LIVE database folder (as this would be dangerous). Instead, SafetyNet monitors and copies to the Amazon cloud the files in the <strong>Backups </strong>folder.</p>
+    </li>
+    <li>
+      <p>Once installed as a plugin on a FileMaker Server, SafetyNet watches for changes to the scheduled backup sets. When new files are detected, SafetyNet automatically compresses and transfers the latest backups to Amazon’s secure offsite digital storage facilities using SSL encryption.</p>
+    </li>
+    <li>
+      <p>SafetyNet also provides a web-based, single-click interface for easily restoring an offsite backup onto your FileMaker Server: This process will automatically close the hosted database, archive it (you can always access the archive later if you need it), download the offsite backup into the live database folder, and then open the backup database so it becomes the new live database.</p>
+    </li>
+    <li>
+      <p>See also: <a href="https://360works.com/filemaker-offsite-backup/">https://360works.com/filemaker-offsite-backup/</a></p>
+    </li>
+  </ul>
+  <h3>SafetyNet Features</h3>
+  <ul class="Disc">
+    <li>
+      <p>Runs every 5 minutes, and does a comparison locally on the server.</p>
+    </li>
+    <li>
+      <p>Uses your own personal Amazon account (do not use a business account as it may affect multiple computers) for billing.</p>
+    </li>
+    <li>
+      <p>For resistance to ransomware attacks, there is a minimum of a 3 (three) day backup window.</p>
+    </li>
+    <li>
+      <p>Runs as a background service with it&#39;s own web interface; is not a FileMaker plugin.</p>
+    </li>
+  </ul>
+  <h3>SafetyNet System Requirements</h3>
+  <ul class="Disc">
+    <li>
+      <p>The SafetyNet plugin is designed to run on Mac and on Windows.</p>
+    </li>
+    <li>
+      <p>All system requirements are the same as those of FileMaker.</p>
+    </li>
+    <li>
+      <p>As long as you meet FileMaker&#39;s minimum requirements, you can run the plugin in your Mac or Windows environments.</p>
+    </li>
+  </ul>
+  <h3>Pricing</h3>
+  <p class="Note">The SafetyNet plugin itself is free, but<strong> billing for the storage service is handled by Amazon</strong> at a surprisingly low cost (2021):</p>
+  <ul class="Disc">
+    <li>
+      <p>$0.99 base charge per month</p>
+    </li>
+    <li>
+      <p>$0.01 per 1,000 items written (rounded down)</p>
+    </li>
+    <li>
+      <p>$1.00 - $0.05 per gigabyte stored (per month):</p>
+      <ul>
+        <li>
+          <p>First 10 gigabytes: $1.00 per gigabyte</p>
+        </li>
+        <li>
+          <p>Next 90 gigabytes, up to 100: $0.25 per gigabyte</p>
+        </li>
+        <li>
+          <p>Next 400 gigabytes, up to 500: $0.10 per gigabyte</p>
+        </li>
+        <li>
+          <p>All storage above 500 gigabytes: $0.05 per gigabyte</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h4>Example Pricing</h4>
+  <ul class="Disc">
+    <li>
+      <p>Billing for the service is handled by Amazon.</p>
+    </li>
+    <li>
+      <p>5 gigabytes stored per month is $5.99</p>
+    </li>
+    <li>
+      <p>50 gigabytes stored per month is $20.99</p>
+    </li>
+    <li>
+      <p>250 gigabytes stored per month is $48.49</p>
+    </li>
+    <li>
+      <p>1,000 gigabytes stored per month is $98.49</p>
+    </li>
+  </ul>
+  <p>For up-to-date pricing, see: <a href="https://www.360works.com/filemaker-offsite-backup/">https://www.360works.com/filemaker-offsite-backup/</a></p>
+  <p>There is no charge for data transfer in or out of S3.</p>
+  <h2>How to Setup SafetyNet</h2>
+  <h4>Install SafetyNet</h4>
+  <ol class="steps">
+    <li>
+      <p>Download the SafetyNet installer from <a href="https://360works.com/filemaker-offsite-backup/">https://360works.com/filemaker-offsite-backup/</a><br/>
+        <br/>
+        <strong>Tip:</strong> Keep these files! If you need to uninstall, then use the <strong>Mac Uninstaller.pkg</strong> or the Windows <strong>Uninstaller.exe</strong>
+      </p>
+    </li>
+    <li>
+      <p>Double-click the installer. <br/>
+        <br/>
+        The Mac version unzips to a new folder, e.g. &quot;SafetyNet 3.03&quot; Open this folder and double-click <strong>Mac Installer.pkg</strong>
+      </p>
+    </li>
+    <li>
+      <p>Choose <strong>Standard Installation</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1404.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the &quot;Select Start Menu Folder,&quot; leave as default and choose <strong>Next</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1405.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Finish</strong> to close the setup wizard.<br/>
+        <br/>
+        A SafetyNet web-based configuration page appears; we&#39;ll come back to this later.
+      </p>
+    </li>
+  </ol>
+  <h4>Update Settings in the FileMaker Server Admin Console</h4>
+  <ol class="steps">
+    <li>
+      <p>Separately, open the FileMaker Server admin console and login with your credentials.</p>
+    </li>
+    <li>
+      <p>Create a new backup schedule as you normally would, but set the destination folder to the &quot;SafetyNet&quot; subfolder in the FileMaker Server&#39;s <strong>Backup</strong> folder. <br/>
+        <br/>
+        Open the <strong>Backups</strong> tab.
+      </p>
+    </li>
+    <li>
+      <p>On the lower left, click <strong>Backup Schedules</strong>.</p>
+    </li>
+    <li>
+      <p>Click <strong>Create Schedule</strong>. and name it, e.g. <span class="Literal"> SafetyNet Backup </span></p>
+    </li>
+    <li>
+      <p>Leave the <strong>Backup Type</strong> as &quot;All Databases&quot;</p>
+    </li>
+    <li>
+      <p>In the <strong>Backup Folder</strong> field, add <span class="Literal"> SafetyNet/ </span> (with the trailing slash) after the path.<br/>
+        <br/>
+        <img src="assets/images/image1383.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Set the <strong>Number of Backups to Keep</strong> to <span class="Literal"> 1 </span><br/>
+        <br/>
+        SafetyNet has it&#39;s own settings for the number of days (step 6 in the above) and this value will not affect it.
+      </p>
+    </li>
+    <li>
+      <p>Leave <strong>Verify</strong> and <strong>Clone</strong> unchecked.</p>
+    </li>
+    <li>
+      <p>Set <strong>Repeat</strong> to <span class="Literal"> Daily </span></p>
+    </li>
+    <li>
+      <p>Click <strong>Save</strong>.</p>
+    </li>
+  </ol>
+  <h4>Setup SafetyNet</h4>
+  <ol class="steps">
+    <li>
+      <p>Go back to the SafetyNet web-based configuration page; the address is: <a href="http://localhost/SafetyNet">http://localhost/SafetyNet</a></p>
+    </li>
+    <li>
+      <p>Click the <strong>Admin</strong> button. <br/>
+        <br/>
+        Log in with your FileMaker Server Admin Console credentials.<br/>
+        <br/>
+        <img src="assets/images/image1406.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Because all payments are handled by Amazon, you must login or sign up with Amazon.com to use SafetyNet.<br/>
+        <br/>
+        Click the yellow <strong>Login with Amazon</strong> button. <br/>
+        <br/>
+        <img src="assets/images/image1407.png" style="cursor: nesw-resize;"/>
+      </p>
+    </li>
+    <li>
+      <p>Configure your credit card payments using your personal Amazon.com account and then click <strong>Store Payment Settings</strong>.</p>
+    </li>
+    <li>
+      <p><strong>Optional</strong>: In the <strong>Notification Emails</strong> section, your Amazon account email will always receive notifications.<br/>
+        <br/>
+        We recommend changing this setting to <strong>Just on backup failure</strong> to reduce the number of incoming emails that you receive.<br/>
+        <br/>
+        You may optionally specific additional email addresses to receive notifications. Click <strong>Update Info</strong> after adding additinal email addresses.
+      </p>
+    </li>
+    <li>
+      <p>In the <strong>Directories to back up</strong> section, the default number of days is 7 (seven). The minimum retention period is 3 (three) days (max is 365) and is intended as a window for resistance to ransomware attacks.<br/>
+        <br/>
+        After changing the number of days to leave files on the offsite backup before they are deleted, click the <strong>Update Info</strong> button.<br/>
+        <br/>
+        <img src="assets/images/image1409.png"/>
+      </p>
+    </li>
+    <li>
+      <p>You can use the <strong>Cost Estimator</strong> to calculate the expected storage costs for your FrameReady databases.<br/>
+        <br/>
+        You can find the size of that backup folder by right-clicking a FrameReady backup folder and choosing <strong>Properites</strong> (Windows) or <strong>Get info</strong> (Mac).<br/>
+        <br/>
+        <img src="assets/images/image1410.png"/>
+      </p>
+    </li>
+  </ol>
+  <h2>Using and configuring SafetyNet</h2>
+  <ol class="steps">
+    <li>
+      <p>Open a web browser.</p>
+    </li>
+    <li>
+      <p>Go to this local address: <a href="http://localhost/SafetyNet">http://localhost/SafetyNet</a> </p>
+    </li>
+    <li>
+      <p>Login using the same <strong>username </strong>and <strong>password </strong>that you use to administer FileMaker Server.</p>
+    </li>
+    <li>
+      <p>You can remotely administer SafetyNet by substituting your server&#39;s IP address or name instead of &#39;localhost&#39; (if your FileMaker Server is accessible from the outside world).</p>
+    </li>
+  </ol>
+  <h2>Where is default FileMaker Server Backups folder?</h2>
+  <p class="Note">SafetyNet does not backup the LIVE database folder (as this would be dangerous). Instead, SafetyNet monitors and copies to the Amazon cloud the files in the <strong>Backups </strong>folder:</p>
+  <h4>Default location of Backup folder in FileMaker Server</h4>
+  <p><strong>Windows</strong>: C:\Program Files\FileMaker\FileMaker Server\Data\Backups</p>
+  <p><strong>mac OS</strong>: Macintosh HD/Library/FileMaker Server/Data/Backups</p>
+  <h2>Canceling SafetyNet membership on Amazon</h2>
+  <ol class="steps">
+    <li>
+      <p>If you want to cancel the merchant agreement with SafetyNet, log in to your Amazon Pay account.</p>
+    </li>
+    <li>
+      <p>Once logged in, click <strong>Merchant Agreements.</strong></p>
+    </li>
+    <li>
+      <p>On this page you should see a list of all merchant agreements that you have in your Amazon account. Look for &quot;SafetyNet&quot; in the list and click <strong>Details</strong>.</p>
+    </li>
+    <li>
+      <p>On the Details page, click the <strong>Cancel Your Agreement</strong> link.</p>
+    </li>
+    <li>
+      <p>A prompt to confirm the cancellation appears. Click <strong>Cancel agreement</strong> to confirm.</p>
+    </li>
+    <li>
+      <p>Once canceled, you are returned to the main account page and shown a message that you have successfully cancelled the agreement. The status should now show canceled in the merchant agreements section of the account and you should also receive a confirmation email.</p>
+    </li>
+  </ol>
+  <h2>How to Restore files using SafetyNet</h2>
+  <ul class="Disc">
+    <li>
+      <p>You can either:</p>
+      <ul>
+        <li>
+          <p>Download a copy of the files and then manually do whatever you want with them, or </p>
+        </li>
+        <li>
+          <p>SafetyNet can archive the live files in a timestamped archive folder in the FMS data folder and then replace them with whatever SafetyNet backup you pick. It uses fmsadmin.exe to automate the process of closing, moving, and opening the files. It’s a simple restore process, and you’ll never lose the previous production files unless you manually delete the timestamped folder from the archive.</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h2>Important Notes</h2>
+  <ul class="Disc">
+    <li>
+      <p>Technically, SafetyNet is not a FileMaker Pro plugin but rather a background service with a web interface.</p>
+    </li>
+    <li>
+      <p>SafetyNet creates a new &quot;SafetyNet&quot; subfolder in the FileMaker Server&#39;s <strong>Backup </strong>folder, e.g. C:\Program Files\FileMaker\FileMaker Server\Data\Backups\SafetyNet and any files placed inside are backed up.</p>
+    </li>
+    <li>
+      <p>5GB files are compressed, on average, to 3GB.</p>
+    </li>
+    <li>
+      <p>Minimum of 3 (three) days data retention window for resistance to ransomware attack; WORM (Write-Once, Read-Many) locking prevents against ransomware and accidental or malicious deletions.</p>
+    </li>
+    <li>
+      <p>The number of backups in FMS to keep is not the same as for SafetyNet, so set FMS to 1 backup daily. That daily backup will be automatically handled by SafetyNet and be backed up to AWS.</p>
+    </li>
+    <li>
+      <p>SafetyNet runs every 5 (five) minutes and does a comparison locally on the server and is very smart to avoid backing up files that are mid-backup.</p>
+    </li>
+    <li>
+      <p>You can specify one or more additional email addresses for backup notifications (in addition to your Amazon account email address).</p>
+    </li>
+    <li>
+      <p>Off-site location backups on Amazon’s cloud-based file storage for better security.</p>
+    </li>
+    <li>
+      <p>SafetyNet locates the closest AWS backup region for faster backups.</p>
+    </li>
+    <li>
+      <p>If you logout from Amazon in the SafetyNet settings, then SafetyNet won&#39;t perform any backups.</p>
+    </li>
+    <li>
+      <p>Restore and host backup with a single click.</p>
+    </li>
+    <li>
+      <p>Unlimited storage, never run out of disk space.</p>
+    </li>
+    <li>
+      <p>SafetyNet provides a web-based, single-click interface for easily restoring an offsite backup onto your FileMaker Server. This process will automatically close the hosted database, archive it (you can always access the archive later if you need it), download the offsite backup into the live database folder, and then open the backup database so it becomes the new live database.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "6.2.0_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

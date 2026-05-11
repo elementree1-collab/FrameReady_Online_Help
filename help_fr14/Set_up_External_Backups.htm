@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up External Backups</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up External Backups</h1>
+  <p class="breadcrumbs">Main Menu &gt; Setup Data &gt; Backup <span>tab</span></p>
+  <p class="Note">Use these steps to add and set up an External USB Drive for your FileMaker Server Backups.</p>
+  <h2>Before You Begin...</h2>
+  <p class="Note">These steps are very important to keep your FrameReady in good, working order.</p>
+  <h4>If you must use a <strong>third-party backup</strong> solution...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must also exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using <strong>Time Machine</strong> on your Mac...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using<strong> Anti-Virus software</strong> on your computer...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you must also <strong>exclude the FrameReady folder</strong> from its scanning activity. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>In conclusion...</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use the built-in backup feature in the FileMaker Server Admin Console to backup the FrameReady folder.</p>
+    </li>
+    <li>
+      <p><strong>Do not </strong>allow other backup software to backup the live FrameReady folder.</p>
+    </li>
+  </ul>
+  <h3>How to Set up an External USB drive if you are using a Windows Server</h3>
+  <ol class="steps">
+    <li>
+      <p>Make sure the drive is formatted for <strong>FAT-32</strong> (typically Windows formatting).</p>
+    </li>
+    <li>
+      <p>If you are are creating a sub-directory, then Windows automatically provides the correct privileges.</p>
+    </li>
+    <li>
+      <p>Open the <strong>FileMaker Server Admin Console</strong>.</p>
+    </li>
+    <li>
+      <p>Open the <strong>Backups </strong>tab and create a schedule similar to the one below, where the external drive is called “Backup” and there is a sub-directory in the drive called “Backup”.<br/>
+        <br/>
+        The entry IS case sensitive. The path you enter must start with <strong>filewin:/ </strong>and end with a slash (<strong>/</strong>).<br/>
+        <br/>
+        Path for Windows: <span class="Literal">filewin:/pathname-to-backup-folder/</span><br/>
+        <br/>
+        <img src="assets/images/image1280.png" style="cursor: nwse-resize;"/>
+      </p>
+    </li>
+    <li>
+      <p>Change the <strong>Number of Backups to Keep</strong> (assuming one per day) to a number useful to you, e.g. 7.</p>
+    </li>
+    <li>
+      <p>Under <strong>Additional Settings</strong>, check <strong>Verify</strong>.</p>
+    </li>
+    <li>
+      <p>Click <strong>Repeat</strong> and change the frequency to <strong>Daily</strong>.<br/>
+        <br/>
+        Adjust the <strong>Time </strong>field to a late evening time, e.g. 23:30 (11:30pm). Click outside the schedule details window to close it.
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Repeat</strong> and change the frequency to <strong>Daily</strong>.<br/>
+        <br/>
+        Adjust the <strong>Time </strong>field to a late evening time, e.g. 23:30 (11:30pm). Click outside the schedule details window to close it.<br/>
+        <br/>
+        <img src="assets/images/image1290.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Save</strong>.</p>
+    </li>
+  </ol>
+  <h3>How to Set up an External USB drive if you are using a macOS Server</h3>
+  <h4>Open Disk Utility</h4>
+  <ol class="steps">
+    <li>
+      <p>Make sure the external drive is formatted as an <strong>APFS</strong> volume.<br/>
+        <br/>
+        Open <strong>Disk Utility</strong> to examine the external drive.<br/>
+        <br/>
+        Note that some external drives can be reformatted to APFS, while others seem unable to reformat. Consult Apple documentation for these steps.<br/>
+        <br/>
+        <img src="assets/images/image1282.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Open <strong>Finder</strong>.</p>
+    </li>
+    <li>
+      <p>Rename the drive to <strong>External Backup</strong> and then create a <strong>Backup </strong>folder on the drive.</p>
+    </li>
+    <li>
+      <p>Right-click the external drive&#39;s name and choose <strong>Get Info</strong>.</p>
+    </li>
+    <li>
+      <p>In the Get Info window, change the privileges of the external drive. Click the “<strong>+</strong>” button to add a new user and, from the list, choose <strong>fmserver</strong>. <br/>
+        <br/>
+        Confirm that the folder is owned by the user <strong>fmserver </strong>(or is in the group <strong>fmsadmin</strong>). <br/>
+        <br/>
+        Confirm that the folder has<strong> read and write</strong> permissions for <strong>fmserver</strong>.<br/>
+        <br/>
+        Click the <strong>Gear Icon</strong> and choose <strong>Apply to enclosed items</strong>. Doing this ensures that the Backup folder, as well as the drive, is also owned by <strong>fmserver</strong>.
+      </p>
+    </li>
+  </ol>
+  <h4>Open System Preferences</h4>
+  <ol class="steps">
+    <li>
+      <p>Open <strong>System Preferences</strong>,</p>
+    </li>
+    <li>
+      <p>Click the <strong>Security &amp; Privacy</strong> icon.</p>
+    </li>
+    <li>
+      <p>Click the <strong>Privacy</strong> tab button.</p>
+    </li>
+    <li>
+      <p>Under <strong>Full Disk Access</strong>, make sure the <strong>fmserver_helperd</strong> selection is checked.<br/>
+        <br/>
+        If it is not listed, then click the <strong>+</strong> button and use the browse file window to locate the file:<br/>
+        <br/>
+        <strong>Macintosh HD</strong> &gt; <strong>Library </strong>&gt; <strong>FileMaker Server</strong> &gt; <strong>Database Server</strong> &gt; <strong>bin </strong>&gt; <strong>fmserver_helperd</strong>
+      </p>
+    </li>
+  </ol>
+  <p class="Tip"><strong>Note</strong>: You may need to click the <strong>Padlock</strong> icon and enter your Mac OS username / password to make this change.</p>
+  <ol class="steps" start="6">
+    <li>
+      <p>Security &amp; Privacy window:<br/>
+        <br/>
+        <img src="assets/images/image1283.png"/>
+      </p>
+    </li>
+  </ol>
+  <h4>Open the FileMaker Server Admin Console</h4>
+  <ol class="steps">
+    <li>
+      <p>Open the <strong>FileMaker Server Admin Console</strong>.<br/>
+        <br/>
+        See: <a href="Opening_the_FileMaker_Server_Admin_Console.htm">Opening the FileMaker Server Admin Console</a>
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong>Backups </strong>tab.</p>
+    </li>
+    <li>
+      <p>Click <strong>Backup Schedules</strong> (lower left).<br/>
+        <br/>
+        <img src="assets/images/Screen Shot 2023-01-30 at 2.00.21 PM.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>Create Schedule</strong> button.<br/>
+        <br/>
+        <img src="assets/images/Screen Shot 2023-01-30 at 2.01.55 PM.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In Schedule Name, enter a name, for example <strong>Daily</strong>.<br/>
+        <br/>
+        Set the <strong>Backup Type</strong> to <strong>All Databases</strong>.<br/>
+        <br/>
+        In the <strong>Backup Folder</strong> field, enter the path to the backup folder. The entry IS case sensitive.<br/>
+        <br/>
+        The format for paths in macOS: <span class="Literal">filemac:/volume-name/folder-name/</span><br/>
+        <br/>
+        For example, filemac:/ExternalBackup/Backup/<br/>
+        <br/>
+        Set the <strong>Number of Backups to Keep</strong>, many users are content with 7 days.<br/>
+        <br/>
+        In <strong>Additional Settings</strong>, check the box to <strong>Verify</strong>.<br/>
+        <br/>
+        Set the <strong>Repeat</strong> to <strong>Daily</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1291.png"/><br/>
+        <br/>
+        Make sure that the folder has permissions set correctly so that FileMaker Server can read and write to the folder.<br/>
+        <br/>
+        ON macOS, the local folder must be owned by the FileMaker Server user account (<strong>fmserver</strong>) (or in the group <strong>fmsadmin</strong>).
+      </p>
+    </li>
+    <li>
+      <p>Change the <strong>Number of Backups to Keep</strong> (assuming one per day) to a number useful to you, e.g. 7.</p>
+    </li>
+    <li>
+      <p>Under <strong>Additional Settings</strong>, check <strong>Verify</strong>.</p>
+    </li>
+    <li>
+      <p>Click <strong>Repeat</strong> and change the frequency to <strong>Daily</strong>.<br/>
+        <br/>
+        Adjust the <strong>Time </strong>field to a late evening time, e.g. 23:30 (11:30pm). Click outside the schedule details window to close it.<br/>
+        <br/>
+        <img src="assets/images/image1290.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong>Save</strong>.</p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "5.3_13"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>CMC Valiani FAQs</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1> CMC Valiani FAQs</h1>
+  <h2>Frequently Asked Questions</h2>
+  <h4>I am using the Valiani integration to push a Work Order design to the Valiani “Create” program. When I select the Create option and then select a template, I get an error message pop up that says “(work order number) could not be created on this disk. Use a different name, make more room on this disk, unlock it or use a different disk.”</h4>
+  <ul class="Disc">
+    <li>
+      <p>This error that you are receiving typically happens when you have not yet created the “FMVAL” folder on your C:/ drive on your Windows machine.</p>
+    </li>
+    <li>
+      <p>Follow the instructions to guide you through how to create this folder: <a href="CMC_Valiani.htm">CMC Valiani</a>. Make sure, when you create the <span class="Literal"> FMVAL </span> folder, that you set the permissions for the folder to <strong>Read/Write</strong> so that FrameReady can save the Valiani files to the folder.<br/>
+        <br/>
+        <img src="assets/images/image1197.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I am in the Valiani “Create” software and I am ready to push my design back into the FrameReady program. However, I do not see the button to initiate the push back into FrameReady in the Valiani software. Where is it?</h4>
+  <ul class="Disc">
+    <li>
+      <p>This happens when the POS option has not been set during the initial set up of the Valiani integration.</p>
+    </li>
+    <li>
+      <p>You will need to set a few options in the Valiani settings file when getting the Valiani integration set up to run with FrameReady. To access the Valiani Settings file you will need to go to the C:\ drive of your Windows machine and look into the path: “C:\Valiani\VStudio”. Inside of that folder will be a file called <strong>ValianiSettings</strong>. If you double-click that file, it will open the Valiani Settings Application where you can set a few preferences for your Valiani integration to work properly with FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1198.png"/>
+      </p>
+    </li>
+    <li>
+      <p>There are three things to check for on the main <strong>Settings</strong> page of the Valiani software to make sure that your Valiani software is set up correctly to work with FrameReady.</p>
+      <p>1.) In the middle section, under <strong>POS Software</strong>, click the dropdown menu and select <strong>FrameReady</strong>. This will add the <strong>FR</strong> button to the VStudio application so that you can push the data from the application back into FrameReady.</p>
+      <p>2.) Set the <strong>POS Common Path</strong> field to the folder where the Valiani files are saved to, which is: <strong>C:\FMVAL</strong></p>
+      <p>3.) Change the measurement in the <strong>UNIT</strong> field to: <strong>Inches</strong>.<br/>
+        <br/>
+        <img src="assets/images/image1199.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the blue <strong>Save</strong> button (bottom right). After the settings have been saved, you can exit the Valiani settings program and go back to using the FrameReady / Valiani integration.<br/>
+        <br/>
+        You should now see the little blue<strong> FR button </strong>in Valiani Create; use it to push the information back into FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1214.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I have created a design in Valiani VStudio Create with multiple openings. I pressed the FR button to push the information back into FrameReady and it is not bringing in the information for both openings?</h4>
+  <ul class="Disc">
+    <li>
+      <p>The FrameReady / Valiani integration currently does not support designs that have multiple openings.</p>
+    </li>
+    <li>
+      <p>The FrameReady scripts that parse the incoming information from the Valiani Create program are only able to parse information for one opening. We are currently looking into adding support for more than one opening for Valiani integration in the future; and will keep customers updated on additional information for this feature as we progress with it in the future.</p>
+    </li>
+  </ul>
+  <h4>I am trying to push a design from my FrameReady Work Order to the Valiani “SmartCut” program instead of the Valiani “Create” program. I am having an issue of when I push the button for the SmartCut, it opens the SmartCut program but I am not seeing my design in the visual window in SmartCut?</h4>
+  <ul class="Disc">
+    <li>
+      <p>SmartCut is set up a little bit differently than VStudio Create, as far as how it works with the FrameReady integration.</p>
+    </li>
+    <li>
+      <p>When SmartCut opens, it does not immediately open up to the visual view of the design that was pushed in from the FrameReady integration. There are a few steps that you need to take first before you can view the design in Valiani SmartCut.</p>
+      <p>1.) In the bottom left-hand corner, look for the <strong>Mats</strong> button and click it on or make sure the mat design is selected that you pushed into Valiani SmartCut.</p>
+      <p>2.) Double-click on the little, blue thumbnail image (bottom left corner of the SmartCut screen) to see a larger view of the Mat and opening. Then you can click the <strong>Cut</strong> button (or one of the other buttons in the program) once you have the design pulled up on the main window of the SmartCut program.<br/>
+        <br/>
+        <img src="assets/images/image1217.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I have created a Work Order in FrameReady that I am pushing into Valiani Create program and I have set Mat Margins in the FrameReady work order. When I push the Work Order into Valiani Create, I do not see the Mat Margins coming into the “Borders” fields in Valiani Create?</h4>
+  <ul class="Disc">
+    <li>
+      <p>The Mat Margins are not coming into the <strong>Borders</strong> fields in Valiani Create because the Mat Margins in FrameReady Work Orders are for calculating the total Mat size. Since the full Mat size is getting pushed into Valiani Create from FrameReady, it already has the Mat Margins built into the full size of the total Mat size. The <strong>Borders</strong> fields in Valiani Create are for a different purpose and you will need to set those manually in Valiani Create after the design has been pushed in from FrameReady. <br/>
+        <br/>
+        <img src="assets/images/image1220.png"/><br/>
+        <br/>
+        <img src="assets/images/image1223.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I am using the Valiani integration and I want to use the “PULL” feature to pull in information from the Valiani Create program. When I push the “PULL” button in FrameReady Work Order module, I am getting an error on a pop up message that says “URL Format is Incorrect”?</h4>
+  <ul class="Disc">
+    <li>
+      <p>This error typically happens in this situation when you are trying to pull in information into the FrameReady Work Orders on a Mac.</p>
+    </li>
+    <li>
+      <p><strong>Please only use the PULL feature with the Windows computer that Valiani VStudio Create is installed on.</strong></p>
+    </li>
+    <li>
+      <p>The error “URL Format Incorrect” means that the software is looking to import from a Windows-based share folder but, since you are using a Mac, it cannot locate that type of folder. While you can generate Valiani files on a Mac with FrameReady and move them to your Valiani machine, you cannot use the <strong>PULL</strong> feature on a Mac since it has to pull from the same machine that has the Valiani Create program on it.<br/>
+        <br/>
+        <img src="assets/images/image1233.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I am using the Valiani integration and I want to use the “PULL” feature to pull in information from the Valiani Create program. When I push the “PULL” button in FrameReady Work Order module, I am getting an error on a pop up message that says “Connection failed”?</h4>
+  <ul class="Disc">
+    <li>
+      <p>This message typically happens when the Valiani file is not located in the share folder to pull into the FrameReady Work Order.</p>
+    </li>
+    <li>
+      <p>To make sure that the Valiani file has exported correctly from Valiani VStudio Create when you click the small FR button, go to the <strong>FMVAL</strong> folder on your hard drive and look for the Valiani file that has been named with the Work Order number of the Work Order that you are trying to pull in.<br/>
+        <br/>
+        If you do not see a file in the folder that matches the Work Order number, then Valiani VStudio Create was not able to successfully generate the file for you to pull back into FrameReady. At this point, try closing Valiani VStudio Create and then clicking the <strong>CMC</strong> button again on the original Work order in FrameReady to re-push the Work Order into VStudio Create. Then make the changes again, in Valiani Create, that you made and then click the little blue FR button again; the file should generate for you to PULL back into FrameReady.<br/>
+        <br/>
+        <img src="assets/images/image1240.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I am using the Valiani FMStudio integration with FrameReady and I am having an issue when I click the VStudio Create button -- it is not opening up the Valiani VStudio Create program. I am not getting an error or anything but the program is not opening. I am using a Windows machine.</h4>
+  <ul class="Disc">
+    <li>
+      <p>This usually happens when you are trying to export a Work Order from FrameReady Work Orders module on your Windows computer and the Valiani VStudio software is not properly installed or has not been licensed or configured properly.</p>
+    </li>
+    <li>
+      <p>First of all, make sure that you have the <strong>Valiani VStudio</strong> program installed on your Windows PC by verifying that the application exists in the <strong>Valiani</strong> folder on your Windows <strong>C:/</strong> drive.<br/>
+        <br/>
+        The full path to the application is <strong>C:\Valiani\VStudio\Create</strong>
+      </p>
+    </li>
+    <li>
+      <p> </p>
+      <p><span style="font-size: 10pt;">Once you have verified that the Valiani VStudio Create program has been installed, try and open the program manually on your Windows computer: navigate to the application folder and then double clicking the application. The program should open without any dialogs coming up warning you that you need to register or license the program.<br/>
+          <br/>
+          If you see a dialog telling you to license or register the program, then please continue and make sure that all of those things have been done before you continue. Once you are able to open the program and use it without any issues, then you should restart your FrameReady program and try the process over again.</span></p>
+      <p>If you are still having issues with the program not opening, please contact your FrameReady Support Ally to look into the issue or contact your Valiani representative and they can also look into the issue from there. If you are having issues registering your Valiani software, make sure you reach out to your Valiani representative and they can assist you at getting your program fully licensed with your license code as well as getting it properly registered.<br/>
+        <br/>
+        <br/>
+        <img src="assets/images/image1245.png"/>
+      </p>
+    </li>
+  </ul>
+  <h4>I am using the Valiani FrameReady integration and I am trying to set up my own custom template for pricing purposes, similar to how you can set up custom templates with the Gunnar integration. I am not seeing an option to select my custom template when the template pop up screen comes up.</h4>
+  <ul class="Disc">
+    <li>
+      <p>We currently are not offering the option to create your own custom templates for pricing purposes for the Valiani and the Wizard integrations.</p>
+    </li>
+    <li>
+      <p>We only offer this service for the Gunnar integration at the current time. This is something that we are working on building into the newer CMC integrations here in the near future. We will keep you updated on these additions to the CMC integrations here in the near future.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "24.0_8"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

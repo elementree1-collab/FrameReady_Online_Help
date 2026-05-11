@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>View Inventory from a Specific Date</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>View Inventory from a Specific Date</h1>
+  <p class="breadcrumbs"><strong>Main Menu &gt; Price Codes <span>section</span> &gt; Find Price Code Item <span>button</span></strong></p>
+  <p class="Warning">There is no way to establish an inventory count at a specific date (FrameReady can only capture the inventory at the present moment); however these steps can provide some raw data.</p>
+  <ul>
+    <li>
+      <p>FrameReady can only capture and display the inventory <strong>at the present moment</strong>. </p>
+    </li>
+    <li>
+      <p>However, these steps can provide some raw data. It is a manual process and may not scale well for hundreds of products.</p>
+    </li>
+  </ul>
+  <h2>How to find and view raw Inventory data</h2>
+  <ol class="steps">
+    <li>
+      <p>On the Main Menu, in the Invoice section, click the <strong>Sales Reports</strong> button and choose <strong>Other...</strong><br/>
+        <br/>
+        <img src="assets/images/image757.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The Custom Report window appears.<br/>
+        <br/>
+        <img src="assets/images/image1094.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the date field, enter the day after the target date followed by three dots <span class="Literal"> … </span><br/>
+        <br/>
+        This searches for all products sold <strong>after </strong>your target date.
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>Proceed</strong> button.</p>
+    </li>
+    <li>
+      <p>The first report is &quot;Tax1 sales by category&quot;, click <strong>Continue</strong> then <strong>Cancel</strong>; we don&#39;t need this report.</p>
+    </li>
+    <li>
+      <p>The next report is &quot;Retail Items Sold.&quot; We need this one, so print it out.<br/>
+        <br/>
+        Now we have the <strong>Qty</strong> of items sold after the target date.
+      </p>
+    </li>
+    <li>
+      <p>Next we want to know the current <strong>Qty</strong> status of items in the Products file.</p>
+      <p>From the Main Menu, in the Products section, click the <strong>Inventory Reports</strong> button.</p>
+    </li>
+    <li>
+      <p>In the &quot;Detailed Report sorted by&quot; section, click <strong>Category </strong>and print the report.<br/>
+        <br/>
+        This report shows the current <strong>Qty</strong>. 
+      </p>
+    </li>
+    <li>
+      <p>Match the item from the 1st report, e.g. 3 were sold.<br/>
+        <br/>
+        The 2nd report, for example, says there are 7 in inventory.<br/>
+        <br/>
+        This means the <strong>Qty</strong> at the target date was 10.
+      </p>
+    </li>
+    <li>
+      <p>When finished, the <span>Main Menu</span> appears.</p>
+    </li>
+  </ol>
+  <h4>Important</h4>
+  <ul>
+    <li>
+      <p>You may also need to take into consideration any inventory that was ordered during that time and that was added to the inventory. That amount would need to be deducted.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "15.0_7"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

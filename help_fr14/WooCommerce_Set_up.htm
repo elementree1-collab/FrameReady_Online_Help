@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>WooCommerce Set up</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>WooCommerce Integration</h1>
+  <p class="breadcrumbs">Main Menu &gt; Setup Data &gt; Integrations &gt; WooCommerce Integration </p>
+  <p class="Note">Follow these steps to set up the WooCommerce Integration in your FrameReady.</p>
+  <h2>WooCommerce Integration Set Up</h2>
+  <h3>How to Set up the WooCommerce Integration</h3>
+  <ol class="steps">
+    <li>
+      <p>On the <strong>Main Menu</strong>, click the <strong>Setup Data</strong> button (top right).<br/>
+        <br/>
+        <img src="assets/images/image391.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong>Integrations</strong> tab.<br/>
+        <br/>
+        <img src="assets/images/image71.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong>WooCommerce Integration Settings</strong> button. <strong>Do not close FrameReady.</strong></p>
+    </li>
+    <li>
+      <p>The WooCommerce Integration Settings opens. You will notice a few new fields: <strong>Store URL</strong>, <strong>Consumer Key</strong>, and <strong>Consumer Secret</strong>.<br/>
+        <br/>
+        Before we can obtain the information for these new fields, you need to open your web browser and login to your WordPress admin.<br/>
+        <br/>
+        <img src="assets/images/woo-commerce-integration-home.png"/>
+      </p>
+    </li>
+  </ol>
+  <h3>Log into your WordPress Admin</h3>
+  <p class="Note">We assume that WordPress and the WooCommerce plugin have already been installed and set up.</p>
+  <ol class="steps">
+    <li>
+      <p>Log into the Admin area of your WordPress site.</p>
+    </li>
+    <li>
+      <p>In the left sidebar navigation, click <strong>WooCommerce</strong> and choose <strong>Settings</strong>.</p>
+    </li>
+    <li>
+      <p>On the Settings page, open the <strong>Advanced</strong> tab (upper right).</p>
+    </li>
+    <li>
+      <p>In the Advanced tab, click the <strong>REST API</strong> link.</p>
+    </li>
+    <li>
+      <p>Look for, then click, the <strong>Add key</strong> link.</p>
+    </li>
+    <li>
+      <p>In the <strong>Description</strong> field, enter: <span class="Literal"> FrameReady </span></p>
+    </li>
+    <li>
+      <p>In the <strong>Permissions</strong> field, select: <span class="Literal"> Read/Write </span></p>
+    </li>
+    <li>
+      <p>Click the <strong>Generate API key</strong> button.</p>
+    </li>
+    <li>
+      <p>Copy the <strong>Consumer key</strong> field.<br/>
+        <br/>
+        Return to the FrameReady WooCommerce Integration window and paste into the <strong>Consumer key</strong> field.
+      </p>
+    </li>
+    <li>
+      <p>Repeat with the <strong>Consumer secret</strong> field, as well.</p>
+    </li>
+    <li>
+      <p>Lastly, in the<strong> Store URL</strong> field, enter the top level address of your Shopify store, e.g. www.frameready.com </p>
+    </li>
+  </ol>
+  <p> </p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "31.0_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Time Cards Report","type":"item","tilePath":"","description":"","url":"Time_Cards_Report.htm"},{"name":"Employee Hours Summary Report","type":"item","tilePath":"","description":"","url":"Employee_Hours_Summary_Report.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>FileMaker Server Best Practices</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>FileMaker Server Best Practices</h1>
+  <p class="Note">FileMaker Server is a software package available through Adatasol Inc. for opening FrameReady over a computer network.</p>
+  <h3>Automatic Operating System Updates</h3>
+  <ul class="Disc">
+    <li>
+      <p>Claris/FileMaker recommends that you <strong>disable the automatic update functionality</strong> that may be built into your operating system. There are a couple of reasons for doing this. The first is to avoid the server from needing to restart in the case of an update requiring the system to reboot.</p>
+    </li>
+    <li>
+      <p>The second reason is to minimize the chances of introducing additional components to your server configuration that have not been thoroughly tested. It is recommended that you test any updates on a test system before you introduce them to your production system.</p>
+    </li>
+  </ul>
+  <h3>Anti-Virus Applications</h3>
+  <ul class="Disc">
+    <li>
+      <p>Claris/FileMaker recommends that real-time virus scanning be disabled for your hosted FileMaker databases. When anti-virus software is enabled and improperly configured, it causes database file corruption; it impacts installations and running services.</p>
+    </li>
+    <li>
+      <p>If you must scan hosted FileMaker files, it is recommended that you configure a scheduled scan that runs <strong>after </strong>a FileMaker Server schedule closes all hosted databases.</p>
+    </li>
+  </ul>
+  <h3>Backups</h3>
+  <ul class="Disc">
+    <li>
+      <p>Do <strong>not </strong>backup the &quot;live&quot; database folder in FileMaker Server.</p>
+    </li>
+    <li>
+      <p>Use the built-in scheduled backup option in FileMaker Server. See: <a href="Backing_Up_FileMaker_Server.htm">Backing Up FileMaker Server</a></p>
+    </li>
+    <li>
+      <p>In addition to the default backup folder, FileMaker Server allows you to specify a different folder. Network drives are not supported.</p>
+    </li>
+    <li>
+      <p>Specify a different folder that is also the &quot;home&quot; folder of cloud backup services, such as 360 Work, OneDrive, DropBox, Sync, etc.</p>
+    </li>
+    <li>
+      <p>Disable show copies; if this feature is enabled it will slow down the reading and writing to the disk, as well as take up hard disc space.</p>
+    </li>
+  </ul>
+  <h3>Disable Disk Indexing (Windows) or Spotlight (Mac)</h3>
+  <ul class="Disc">
+    <li>
+      <p>Indexing automatically watches data on the hard drive and indexes the data written to the drive in order to allow for locating files and data within files. Indexing is not necessary for FileMaker Server to function properly.</p>
+    </li>
+    <li>
+      <p>Because indexing a drive can slow down a system it is recommended that you do not index a volume or drive that FileMaker Server is utilizing. This includes the drives where the hosted files reside as well as any backup drives or volumes.</p>
+    </li>
+    <li>
+      <p>Turn off indexing (Spotlight) for at least the FMS &quot;Data&quot; folder and all subfolders.</p>
+    </li>
+  </ul>
+  <h3>Disable unnecessary System Components or Services</h3>
+  <ul class="Disc">
+    <li>
+      <p>Turning off or disabling unnecessary applications / services will provide more system resources for FileMaker Server to utilize and decrease the likelihood of software and/or operating system conflicts.</p>
+    </li>
+    <li>
+      <p>In addition, features like screen savers and energy saving should be disabled on the server to avoid any performance issues.</p>
+    </li>
+    <li>
+      <p>Disable other services such as email, VPN, TimeMachine, FileVault, Spotlight, etc.</p>
+    </li>
+  </ul>
+  <h3>Disk Drives</h3>
+  <ul class="Disc">
+    <li>
+      <p>Install more than 500 GB of hard disk space using solid state drives (SSD) as these drives will deliver the fastest possible data access. The extra free space provides room to grow as well being available for more efficient caching.</p>
+    </li>
+    <li>
+      <p>Monitor the free and used space on the FrameReady hard drive/solid state drive. As the drive becomes more full, FileMaker Server performance may diminish.78</p>
+    </li>
+  </ul>
+  <h3>Memory (RAM)</h3>
+  <ul class="Disc">
+    <li>
+      <p>Install at least 8 GB minimum of RAM. When anticipating adding more computers (which increases the number of database connections), expand the system memory even further.</p>
+    </li>
+  </ul>
+  <h3>Power Settings</h3>
+  <ul class="Disc">
+    <li>
+      <p>We recommend that you inspect and adjust the settings for any anti-virus, hibernation/sleep/power, software updates, etc.</p>
+    </li>
+    <li>
+      <p>Your server computer should be set to automatically reboot when the power is restored. After booting up, the FileMaker Server can then auto-restart and automatically check the integrity of the database files.</p>
+    </li>
+    <li>
+      <p>We also recommend that the server computer not be used as a guest computer/work station.</p>
+    </li>
+  </ul>
+  <h3>Static IP Address</h3>
+  <ul class="Disc">
+    <li>
+      <p>To prevent your server computer from being assigned a different IP address from your router, we recommend you set the computer&#39;s IP address to static, fixed, or &quot;Using DHCP with manual address.&quot;</p>
+    </li>
+    <li>
+      <p>Please refer to your operating system&#39;s documentation or IT specialist.</p>
+    </li>
+  </ul>
+  <h3>Your Local Area Network</h3>
+  <ul class="Disc">
+    <li>
+      <p>We recommend that your Local Area Network (LAN) be <strong>hardwired using ethernet</strong> verses Wi-Fi; wireless is slower and prone to interference and drop-outs.</p>
+    </li>
+    <li>
+      <p>If you choose to run your server &quot;headless,&quot; that is, without a monitor, keyboard or mouse, then you must have a backup monitor, mouse, and keyboard available for Tech Support calls. Alternatively, have a remote desktop solution setup so that you can &quot;dial into&quot; the server computer from another computer on your network.</p>
+    </li>
+    <li>
+      <p>FrameReady is <strong>not </strong>built for use in the cloud unless you plan to use terminal services (remote desktop). Your local area network (LAN) is typically much faster (10x or more) than a wide area network (WAN) and it is possible that all FrameReady computers will experience slower performance. If many computers share your internet connection, then this approach may be a limiting factor. So while using FrameReady in the cloud, such as AWS, would be slower compared to if using a server inside your own network, it is still usable.</p>
+    </li>
+    <li>
+      <p>If at all possible, avoid using the FileMaker Server computer as a user workstation for FrameReady as this may impact performance.</p>
+    </li>
+  </ul>
+  <h3>General Performance Tips for FileMaker Server</h3>
+  <h4>For Windows</h4>
+  <ul class="Disc">
+    <li>
+      <p><a href="https://support.claris.com/s/answerview?language=en_US&amp;anum=9647">General performance tips for FileMaker Server for Windows</a> (Claris.com)</p>
+    </li>
+  </ul>
+  <h4>For Mac</h4>
+  <ul class="Disc">
+    <li>
+      <p><a href="https://support.claris.com/s/answerview?language=en_US&amp;anum=9650">General performance tips for FileMaker Server for Mac OS X</a> (Claris.com) </p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "8.0_3"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Backups Best Practices</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Backups Best Practices</h1>
+  <p class="Note">It&#39;s always a good idea to regularly store a backup externally, in a different location than your regular backups. The process is slightly different for server vs non server environments:</p>
+  <h2>Best Practices for Backing up FrameReady</h2>
+  <h3>Single FrameReady Users</h3>
+  <h4>External Backups (Single users without Server)</h4>
+  <ul class="Disc">
+    <li>
+      <p>When setting an external backup schedule or when manually copying a backup to an external source:</p>
+      <ul>
+        <li>
+          <p>Turn FrameReady backups on under <strong>Main Menu &gt; Setup Data &gt; Backups</strong></p>
+        </li>
+        <li>
+          <p>Backup the resulting backup from your selected folder</p>
+        </li>
+        <li>
+          <p>Do NOT backup the live files (the files under the FrameReady folder), this could damage your data</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3>FileMaker Server Users</h3>
+  <h4>External Backups (Server)</h4>
+  <ul class="Disc">
+    <li>
+      <p>When setting an external backup schedule or when manually copying a backup to an external source:</p>
+      <ul>
+        <li>
+          <p>Backup the C:\Program Files\FileMaker\FileMaker Server\Data\<strong>Backups</strong> folder only.</p>
+        </li>
+        <li>
+          <p>Do NOT backup C:\Program Files\FileMaker\FileMaker Server\Data\<strong>Databases</strong>, this could damage your data.</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h2>How often should I back up my files?</h2>
+  <ul>
+    <li>
+      <p>It is very important to back up your files on a regular basis. “Regular” is determined by the volume of Work Orders, Invoices, and customer data that you are willing to re-type, by hand, into your computer should you have to restore from the backup copy of FrameReady.</p>
+    </li>
+    <li>
+      <p>Many easy methods are available, which allow you to feel secure that your data is available in the unfortunate circumstance that you have a disaster.</p>
+    </li>
+    <li>
+      <p>Avoid saving your FrameReady backup on the same computer that FrameReady is installed; should something happen to your computer, both the current and backup copies of FrameReady would be lost.</p>
+    </li>
+    <li>
+      <p>We recommend using a USB flash drive or external hard drive as these can be taken off-site for safe storage.</p>
+    </li>
+  </ul>
+  <h2>Can I backup FrameReady into Dropbox, Google Drive, OneDrive?</h2>
+  <ul>
+    <li>
+      <p>Yes, provided that it is a <strong>backup copy</strong>--and not your &quot;live&quot; program. </p>
+    </li>
+    <li>
+      <p>It is important that you <strong>do not move</strong> your live FrameReady program into backup folders; the syncing features of Dropbox, Google Drive, OneDrive, and others are dangerous to the FrameReady files. When you are using FrameReady, those files are open and subject to many changes as you use the program. Keep FrameReady installed in its default location. To make a backup, exit out of the software and then you can safely make a copy of the closed files and paste them into Dropbox, Google Drive or OneDrive.</p>
+    </li>
+  </ul>
+  <p class="Danger"><strong>Do not move FrameReady</strong> into a Dropbox, Google Drive or OneDrive folder; your data can become corrupted, or lost, because of sync processes trying to access an open file.</p>
+  <h3>Where is FrameReady Installed?</h3>
+  <h4>For FileMaker Server Users</h4>
+  <ul class="Disc">
+    <li>
+      <p>Your FrameReady files are stored on the Server computer&#39;s hard drive.</p>
+    </li>
+  </ul>
+  <h4>For Single Users, the Default location of FrameReady</h4>
+  <ul class="Disc">
+    <li>
+      <p><strong>Windows</strong>: C:\Users\[Account name]\FrameReady ##</p>
+    </li>
+    <li>
+      <p><strong>mac OS</strong>: Macintosh HD\Users\[Account name]\FrameReady ##</p>
+    </li>
+  </ul>
+  <ol class="steps">
+    <li>
+      <p>Go to the <strong><span>Main Menu</span></strong>.</p>
+    </li>
+    <li>
+      <p>From the top menu bar, click <span><strong>Help </strong>and choose <strong>About this file...</strong></span><br/>
+        <br/>
+        <img src="assets/images/image1589.png"/>
+      </p>
+    </li>
+    <li>
+      <p><span>In the File Info dialog box, note the</span> <span>File path</span><span>.<br/>
+          <br/>
+          <img src="assets/images/image1590.png"/></span></p>
+    </li>
+  </ol>
+  <p class="Danger"><strong>Do not move FrameReady</strong> into a Dropbox, Google Drive or OneDrive folder; your data can become corrupted, or lost, because of sync processes trying to access an open file.</p>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "6.0_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

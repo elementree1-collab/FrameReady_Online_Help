@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Restoring from a Backup</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Restoring from a Backup</h1>
+  <h3>Important Considerations</h3>
+  <ul class="Disc">
+    <li>
+      <p>The date and time of the backup files, as in when they were created, will determine what data is or is not available.</p>
+    </li>
+    <li>
+      <p>Older backups will not have recent data in them. Take caution when replacing a &quot;Data&quot; file with an older version!</p>
+    </li>
+  </ul>
+  <h3>How to Restore from a Backup on Windows</h3>
+  <p class="Warning"><span><strong>Caution</strong>:</span> <span>If you are networking, then this can only be done on your FileMaker Server </span><span>computer.</span></p>
+  <ol class="steps">
+    <li>
+      <p><span>Exit</span> out of your FrameReady on all computers.<br/>
+        <br/>
+        If you are using FileMaker Server, then you must stop the service first. See: <a href="Stopping_and_Starting_Files.htm">Stopping and Starting Files</a>
+      </p>
+    </li>
+    <li>
+      <p>Open the Windows Explorer program (keyboard shortcut: <span class="kbd">Windows Key</span> + <span class="kbd">E</span> ) and then open the folder containing the most <span>recent backup</span> of your FrameReady program.<br/>
+        <br/>
+        <span>Your backup source could be a USB drive, a Dropbox folder, or another location.</span><br/>
+        <br/>
+        <span>You should see a list of FileMaker files, i.e. ArtResource.fmp12, Consignments.fmp12, Contacts.fmp12 etc.</span>
+      </p>
+    </li>
+    <li>
+      <p>Select the files you need to recover by single-clicking them while holding down the <span class="kbd">Ctrl</span> key on the keyboard.<br/>
+        <br/>
+        <span>If you need to recover all of your FrameReady files, then press</span> <span><span class="kbd">Ctrl</span></span> <span></span>+ <span><span class="kbd">A</span></span> <span>on the keyboard to select all of the files.</span>
+      </p>
+    </li>
+    <li>
+      <p>Tip: All of your business data is contained in the many &quot;Data&quot; files.</p>
+    </li>
+  </ol>
+  <p class="Danger"><span><strong>Important</strong>:</span> <span>if one of these files is damaged, then <a href="http://frameready.com/help_fr10/Trouble_Shooting/Damaged_Files/Recovering_a_File.htm">recover</a> the file</span> <strong><span>before</span> </strong><span>replacing it with a backup copy.</span></p>
+  <ol class="steps" start="5">
+    <li>
+      <p>Click the <strong><span>Edit</span> </strong>menu (at the top of the screen) and choose <span><strong>Copy</strong>.</span><br/>
+        <br/>
+        <span>If you do not see the edit menu, then press the</span> <span><span class="kbd">Alt</span></span> <span>key on your keyboard.</span>
+      </p>
+    </li>
+    <li>
+      <p>Use the Windows Explorer program to open your current FrameReady folder.<br/>
+        <br/>
+        If you are using FileMaker Server, then the default location is:<br/>
+        <span class="Literal"> C:\Program Files\FileMaker\FileMaker Server\Data\Databases\FrameReady</span><br/>
+        <br/>
+        If you are using FrameReady 13, then the default location is:<br/>
+        <span class="Literal"> C:\Users\[Account name]\FrameReady 13</span><br/>
+        <br/>
+        If you are using FrameReady 10 or older, then the default location is:<br/>
+        <span class="Literal"> C:\SofTouch Solutions\FrameReady 10</span><br/>
+        <br/>
+        <span>You should see a list of files: Contacts, Invoices, etc.</span>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong><span>Edit</span></strong> menu at the top of the screen and choose <strong><span>Paste</span></strong>.<br/>
+        <br/>
+        <span>If you do not see the edit menu, then press the</span><span> <span class="kbd"><span>Alt</span> </span> </span><em><span> </span></em><span>key on your keyboard.</span>
+      </p>
+    </li>
+    <li>
+      <p>You should get a message that the files already exist, click <strong><span>Yes to All</span></strong> or<strong> <span>Copy and Replace</span></strong> (depnds on your version of Windows) to replace the old files with your backup.</p>
+    </li>
+    <li>
+      <p>If you are using FileMaker Server, then you must restart the service. See: <a href="Stopping_and_Starting_Files.htm">Stopping and Starting Files</a></p>
+    </li>
+  </ol>
+  <h3>How to Restore from a Backup on Macintosh OSX</h3>
+  <p class="Warning"><span><strong>Caution</strong>:</span> <span>If you are networking, then this can only be done on your</span> FileMaker Server <span>computer.</span></p>
+  <ol class="steps">
+    <li>
+      <p><span></span><span>Exit</span> out of your FrameReady on all computers.<br/>
+        <br/>
+        If you are using FileMaker Server, then you must stop the service first. See: <a href="Stopping_and_Starting_Files.htm">Stopping and Starting Files</a>
+      </p>
+    </li>
+    <li>
+      <p>Open the Finder program and then open the folder containing the most <span>recent backup</span> of your FrameReady program.<br/>
+        <br/>
+        <span>Your backup source could be a USB drive, a Dropbox folder, or another location.</span><br/>
+        <em></em><br/>
+        <span>You should see a list of FileMaker files.</span><em></em>
+      </p>
+    </li>
+    <li>
+      <p>Select the files you need to recover by single-clicking them while holding down the <span><span class="kbd">Command</span></span> <span></span>key on the keyboard.<br/>
+        <br/>
+        <span>If you need to recover all of your FrameReady files, then press <span class="kbd">Command</span> + <span class="kbd">A</span> on the keyboard to select all of the files.</span>
+      </p>
+    </li>
+    <li>
+      <p>Tip: All of your business data is contained in the &quot;Data&quot; files.</p>
+    </li>
+  </ol>
+  <p class="Danger"><strong><span>Important</span></strong><span>: if one of these files is damaged, then <a href="http://frameready.com/help_fr10/Trouble_Shooting/Damaged_Files/Recovering_a_File.htm">recover</a> the file</span> <strong><span>before</span> </strong><span>replacing it with a backup copy.</span></p>
+  <ol class="steps" start="5">
+    <li>
+      <p>Click the <strong><span>Edit</span> </strong>menu (at the top of the screen) and choose <span><strong>Copy</strong>.</span></p>
+    </li>
+    <li>
+      <p>Use the Finder program to open your current FrameReady folder.<br/>
+        <br/>
+        If you are using FileMaker Server, then the default location is:<br/>
+        <span class="Literal"> <span>Macintosh HD/Library/FileMaker Server/Data/Databases/FrameReady</span></span><br/>
+        <br/>
+        If you are using FrameReady 13, then the default location is:<br/>
+        <span class="Literal">Macintosh HD/[Account name]/FrameReady 13</span><br/>
+        <br/>
+        If you are using FrameReady 10 or older, then the default location is:<br/>
+        <span class="Literal"><span class="Literal"><span>Macintosh HD/Applications/FrameReady 10</span></span> </span><br/>
+        <br/>
+        <span>You should see a list of files: Contacts, Invoices, etc.</span>
+      </p>
+    </li>
+    <li>
+      <p>Click the <strong><span>Edit</span> </strong>menu (at the top of the screen) and choose <strong><span>Paste</span></strong>.</p>
+    </li>
+    <li>
+      <p>You should get a message that the files already exist, click <strong><span>Replace</span> </strong>to replace the old files with your backup.</p>
+    </li>
+    <li>
+      <p>If you are using FileMaker Server, then you must restart the service. See: <a href="Stopping_and_Starting_Files.htm">Stopping and Starting Files</a></p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "6.2_1"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Backups using Mac Automator</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Backups Using Mac Automator</h1>
+  <p class="Note">Automator is an included macOS application used to automate repetitive tasks through point-and-click or drag and drop across a wide variety of programs.</p>
+  <h2>Built-in Backups</h2>
+  <ul class="Disc">
+    <li>
+      <p>Mac Automator supports Calendar Alarms; these are triggered when an event in your Calendar happens.</p>
+    </li>
+    <li>
+      <p>We will use Calendar Alarms to create a daily, recurring event to copy files.</p>
+    </li>
+  </ul>
+  <ol class="steps">
+    <li>
+      <p>Open <strong>Finder</strong> and go into the <strong>Applications</strong> folder.</p>
+    </li>
+    <li>
+      <p>Double-click the <strong>Automator</strong> icon.<br/>
+        <br/>
+        <img src="assets/images/image1789.png"/>
+      </p>
+    </li>
+    <li>
+      <p>When Automator opens, a dialog window prompts you to choose a type for your document.<br/>
+        <br/>
+        <img src="assets/images/image1801.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Select <strong>Calendar Alarm</strong> and click <strong>Choose.</strong> <br/>
+        <br/>
+        Calendar Alarms are triggered when an event in your Calendar happens. We will use this to create a daily, recurring event to copy files.
+      </p>
+    </li>
+    <li>
+      <p>At the top of the Automator window is are buttons labelled <strong>Actions</strong> and <strong>Variables</strong>. Make sure <strong>Actions</strong> is highlighted.<br/>
+        <br/>
+        <img src="assets/images/image1790.png"/>
+      </p>
+    </li>
+  </ol>
+  <h3>Add the Find Finder Items Action Step</h3>
+  <ol class="steps">
+    <li>
+      <p>In the search bar to the right, enter: <span class="Literal">find finder items</span> <br/>
+        <br/>
+        <img src="assets/images/image1791.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The list below the search bar automatically filters.<br/>
+        <br/>
+        <img src="assets/images/image1792.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Double-click <strong>Find Finder Items</strong> or drag it to the gray work flow area.<br/>
+        <br/>
+        This is what the action looks like at first:<br/>
+        <br/>
+        <img src="assets/images/image1783.png"/>
+      </p>
+    </li>
+    <li>
+      <p>In the <strong>Search</strong> dropdown, choose <strong>Other...</strong> and navigate to your FileMaker Server Backups folder.</p>
+    </li>
+    <li>
+      <p>Click the &quot;Any content&quot; dropdown and choose: <strong>Label</strong>.</p>
+    </li>
+    <li>
+      <p>Click the &quot;is&quot; dropdown and change it to &quot;is not&quot;</p>
+    </li>
+    <li>
+      <p>Select the green icon.</p>
+    </li>
+    <li>
+      <p>This Step will find all files in the Backups folder whose label icon is NOT green.</p>
+    </li>
+    <li>
+      <p>This is what the action looks like now:<br/>
+        <br/>
+        <img src="assets/images/image1784.png"/>
+      </p>
+    </li>
+  </ol>
+  <h3>Add the Label Finder Items Action Step</h3>
+  <ol class="steps">
+    <li>
+      <p>In the top search bar, enter: <span class="Literal">label finder items</span> <br/>
+        <br/>
+        <img src="assets/images/image1793.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The list below the search bar automatically filters.<br/>
+        <br/>
+        <img src="assets/images/image1794.png" style="cursor: nesw-resize;"/>
+      </p>
+    </li>
+    <li>
+      <p>Double-click <strong>Label Finder Items</strong> or drag it to the gray work flow area.<br/>
+        <br/>
+        This is what the action looks like at first:<br/>
+        <br/>
+        <img src="assets/images/image1795.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Select the green icon.<br/>
+        <br/>
+        This Action Step will add a green label to all files in the Backups folder.
+      </p>
+    </li>
+    <li>
+      <p>This is what the action looks like now:<br/>
+        <br/>
+        <img src="assets/images/image1785.png"/>
+      </p>
+    </li>
+  </ol>
+  <h3>Add the Copy Finder Items Action Step</h3>
+  <ol class="steps">
+    <li>
+      <p>In the top search bar, enter: <span class="Literal">copy finder items</span> <br/>
+        <br/>
+        <img src="assets/images/image1796.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The list below the search bar automatically filters.<br/>
+        <br/>
+        <img src="assets/images/image1797.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Double-click <strong>Copy Finder Items</strong> or drag it to the gray work flow area.<br/>
+        <br/>
+        This is what the action looks like at first:<br/>
+        <br/>
+        <img src="assets/images/image1799.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Click the &quot;Desktop&quot; dropdown, choose <strong>Other...</strong> and navigate to your destination folder for copying the files.</p>
+    </li>
+    <li>
+      <p>Check the <strong>Replacing existing files</strong> checkmark.<br/>
+        <br/>
+        This Action Step will copy the found files from the Backups folder.
+      </p>
+    </li>
+    <li>
+      <p>This is what the action looks like now:<br/>
+        <br/>
+        <img src="assets/images/image1800.png"/>
+      </p>
+    </li>
+  </ol>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "6.2_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

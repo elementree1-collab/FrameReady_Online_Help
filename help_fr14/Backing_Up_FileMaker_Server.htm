@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Backing Up FileMaker Server</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="template" content="assets/layouts/Article.htt"/><meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Backing Up FileMaker Server</h1>
+  <p class="Note">You have. choices when choosing how to back up FrameReady on FileMaker Server.</p>
+  <h2><strong></strong></h2>
+  <h2>Before You Begin...</h2>
+  <p class="Note">These steps are very important to keep your FrameReady in good, working order.</p>
+  <h4>If you must use a <strong>third-party backup</strong> solution...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must also exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using <strong>Time Machine</strong> on your Mac...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using<strong> Anti-Virus software</strong> on your computer...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you must also <strong>exclude the FrameReady folder</strong> from its scanning activity. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>In conclusion...</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use the built-in backup feature in the FileMaker Server Admin Console to backup the FrameReady database folder.</p>
+    </li>
+    <li>
+      <p><strong>Do not </strong>allow other backup software to backup the <strong>live</strong> FrameReady database folder.</p>
+    </li>
+  </ul>
+  <h2>How to Backup FileMaker Server</h2>
+  <p class="Danger"><strong>Important</strong>: Do not use third-party backup software on hosted FileMaker Pro databases. Backup software can damage open, hosted databases.<br/>
+    <br/>
+    Insteaad, first use FileMaker Server to make a backup copy of your database, then run your third-party backup software on the copy.<br/>
+    <br/>
+    <strong>Make sure that the folder(s) containing the live FrameReady database files are excluded from the third-party backup software.</strong>
+  </p>
+  <h3>Set up a Local Backup</h3>
+  <p class="Note">Use these steps to set up a local backup.</p>
+  <ol class="steps">
+    <li>
+      <p>On the server computer, open the <strong><span>FileMaker Server Admin Console</span></strong>.<br/>
+        <br/>
+        <span>See: <a href="Opening_the_FileMaker_Server_Admin_Console.htm">Opening the FileMaker Server Admin Console</a></span><span></span>
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong><span>Backups</span></strong> tab.</p>
+    </li>
+    <li>
+      <p>By default, daily backups cover the past 7 days. Depending on the size of your FrameReady files, this may require several GB of storage.</p>
+    </li>
+    <li>
+      <p>By default, the backup folders are located:<br/>
+        <br/>
+        <strong><span>Windows:</span> </strong><br/>
+        <span>C:/Program Files/FileMaker/FileMaker Server/Data/Backups/</span><br/>
+        <br/>
+        <strong><span>macOS:</span> </strong><br/>
+        <span>Macintosh HD/Library/FileMaker Server/Data/Backups</span>
+      </p>
+    </li>
+    <li>
+      <p>By default, the backup is verified for integrity after the files have been copied.</p>
+    </li>
+    <li>
+      <p>By default, the backup time is set for 12:00am each day.<br/>
+        <br/>
+        The server computer and software must be running for this feature.
+      </p>
+    </li>
+    <li>
+      <p>By default, email notifications about the status of the backup are not enabled.</p>
+    </li>
+  </ol>
+  <p class="Tip"><span><strong>Tip</strong>:</span> We recommend enabling email notifications as it can alert you to potential problems.</p>
+  <ul>
+    <li>
+      <p>Each daily backup is stored in a folder with a name similar to this: Daily_2021-12-25_2300</p>
+    </li>
+    <li>
+      <p>The format can be read as: Daily_[YYYY]-[MM]-[DD]-[HH00]</p>
+    </li>
+  </ul>
+  <h3>Using Cloud Backup Services</h3>
+  <p class="Note">Use these steps to move your FrameReady backups to the cloud.</p>
+  <ul>
+    <li>
+      <p>If your backup solution allows you to choose a folder to backup, then point it to watch this folder:<br/>
+        <br/>
+        <strong><span>Windows:</span> </strong><br/>
+        <span>C:/Program Files/FileMaker/FileMaker Server/Data/<strong>Backups</strong>/</span><br/>
+        <br/>
+        <strong><span>macOS:</span> </strong><br/>
+        <span>Macintosh HD/Library/FileMaker Server/Data/<strong>Backups</strong></span>
+      </p>
+    </li>
+    <li>
+      <p>This is where FileMaker Server stores your FrameReady backups. Depending on the size of your FrameReady files, this may require several GB of storage.</p>
+    </li>
+  </ul>
+  <p class="Danger"><strong>Do not enable incremental backups</strong> as these only store the changes and not the entire database. Doing so can make recovery more troublesome.</p>
+  <p class="Danger"><strong>Do not point your cloud backup solution to watch or backup the live database files or folder.</strong> Doing so can result in file corruption and data loss.</p>
+  <ul class="Disc">
+    <li>
+      <p>If your cloud backup service does not allow you to specify a watch folder, then you will need extra steps.</p>
+    </li>
+    <li>
+      <p> </p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "6.2.0_1"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

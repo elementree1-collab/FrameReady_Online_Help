@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Invoices Sidebar Buttons</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Invoice Sidebar Buttons</h1>
+  <p class="breadcrumbs">Main Menu &gt; Invoices</p>
+  <p class="Tip"><strong><span>Tip</span></strong><span>: Sidebar buttons are visible when FrameReady is in Form View mode.</span></p>
+  <h2>Invoices Sidebar Buttons Overview</h2>
+  <h3><span>Void Invoice</span> Button</h3>
+  <p><img src="assets/images/button-void-invoice.png"/></p>
+  <ul>
+    <li>
+      <p>Used to void the current Invoice.</p>
+    </li>
+    <li>
+      <p>If the Invoice was created within the current month and has no payments entered, then a dialog box appears with the option to either: <strong><span>Void</span> </strong>or <strong><span>Cancel</span></strong>.</p>
+    </li>
+  </ul>
+  <p class="Warning">If the Invoice shows money received, a dialog box appears stating, &quot;This Invoice cannot be voided because it has a payment attached to it.&quot; Your only option is to click <span>OK</span>.</p>
+  <p class="Danger">Before an Invoice can be successfully voided, you <span>must remove the payment line</span>. You may either delete the payment line or create a refund Invoice. Consult your accountant on best practices.</p>
+  <ul>
+    <li>
+      <p>It is possible to unvoid an Invoice (but only an Invoice with no payments on it) by clicking again on the <strong><span>Void Invoice</span></strong> sidebar button.</p>
+    </li>
+  </ul>
+  <h3><span>Payment Report B</span>utton</h3>
+  <p><img src="assets/images/button-payment-report.png"/></p>
+  <ul>
+    <li>
+      <p>Generates a report of all receipts, since the last time the report was printed OR based on a date / range of dates.</p>
+      <ul>
+        <li>
+          <p>The first option finds all receivables using a time stamp of the last printed report. When the report is printed a new time stamp replaces the existing one (the Print Preview will not reset the date/time feature of this report).</p>
+        </li>
+        <li>
+          <p>The second option is to enter your own date or range of dates, MM/DD/YYYY.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>All payments received are sorted and compiled onto this report. The amount should balance with your cash drawer. You can make your bank deposits at any time; FrameReady time stamps when your last deposit was made and calculates all subsequent entries. During high volume sales, you can make more than one deposit per day! Payments are sorted by tender and totalled.</p>
+    </li>
+    <li>
+      <p>See: <a href="Payment_Reports.htm">Payment Reports</a></p>
+    </li>
+  </ul>
+  <p class="Note"><strong><span>Note</span></strong>: You can also print this report by a range of dates. This report differs from the End of Day Payment Report in that it tracks the date and time when the report was created. This creates a way of reconciling your receivables with your bank deposit at any time of day.</p>
+  <p class="Tip">This report is also accessed by <span>Main Menu</span> &gt; <span>Payment Report</span>.</p>
+  <h3><span>Statement for this Customer</span> Button</h3>
+  <p><img src="assets/images/button-statement-for-this-customer.png"/></p>
+  <ul>
+    <li>
+      <p>Generates a statement on a per-customer basis within a date range. Use the format <span><span class="Literal"> MM/DD/YYYY...MM/DD/YYYY </span></span>  or simply click <strong><span>OK</span> </strong>to see all entries.</p>
+    </li>
+    <li>
+      <p>If all the Invoices for this customer are &quot;Paid in Full,&quot; then a dialog box appears stating, &quot;There are no outstanding invoices for this customer&quot;. Click <strong><span>OK</span> </strong>to resume.</p>
+    </li>
+    <li>
+      <p>If outstanding monies are owed by this customer, a print preview of the statement appears. Click the <strong><span>Continue</span> </strong>button in the top right corner and the print dialog box will appear. Click <strong><span>Print</span> </strong>or <strong><span>Cancel</span></strong>.</p>
+    </li>
+    <li>
+      <p>See: <a href="Customer_Statements.htm">Customer Statements</a></p>
+    </li>
+  </ul>
+  <h3><span>Print Statements For Overdue Accounts</span> Button</h3>
+  <p><img src="assets/images/button-print-statements.png"/></p>
+  <ul>
+    <li>
+      <p>Finds all Invoices with a balance due, older than thirty days, and prints out a statement for each customer, including all subsequent Invoices with a balance due up to the present date.</p>
+    </li>
+    <li>
+      <p>Printed statements are designed to fit a #10 window envelope.</p>
+    </li>
+    <li>
+      <p>By default, FrameReady sets the search date for &#39;this day last month&#39;</p>
+    </li>
+    <li>
+      <p>You can manually set your own parameters:</p>
+      <ul>
+        <li>
+          <p>Use <span><span class="Literal"> ...5/31/2023 </span></span> to limit statements to the end of May</p>
+        </li>
+        <li>
+          <p>Use <span><span class="Literal"> 5/1/2023...5/31/2023 </span></span>  to limit statements to the month of May</p>
+        </li>
+        <li>
+          <p>Use <span><span class="Literal"> 5/1/2023... </span></span> to limit statements to Invoices to May 1st and after</p>
+        </li>
+        <li>
+          <p>Leave blank to include all unpaid Invoices.</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>Optionally set <strong><span>Pause on Preview</span></strong><span>; o</span>ptionally set <span><strong>Show Print Dialog</strong> box before each statement.</span></p>
+    </li>
+    <li>
+      <p>See: <a href="Customer_Statements.htm">Customer Statements</a></p>
+    </li>
+  </ul>
+  <h3><span>Accounts Receivable Report</span> Button</h3>
+  <p><img src="assets/images/button-accounts-receivable-report.png"/></p>
+  <ul>
+    <li>
+      <p>Receivables can be viewed, either sorted by Invoices, or by Customer with Aging subtotals, i.e., 30, 60, 90 and over. Each report serves a different purpose.</p>
+    </li>
+    <li>
+      <p>Presents a dialog box with the message, &quot;Report by aging or by invoices?&quot; with three buttons from which to chose: <strong><span>Cancel</span></strong>, <strong><span>Invoices</span></strong> or <strong><span>Aging</span></strong>.<br/>
+        <br/>
+        <img src="assets/images/dialog-report-by-aging-or-by-invoices.png"/>
+      </p>
+    </li>
+    <li>
+      <p>The <span>Invoices</span> choice presents another dialog box with two options:</p>
+      <ul>
+        <li>
+          <p>&quot;Enter a range of dates or leave blank to find all dated Invoices with an outstanding balance.&quot;<br/>
+            <br/>
+            <span>The printable report lists outstanding Invoices for the specified time period. Click</span> <span>Continue</span> <span>to print.</span>
+          </p>
+        </li>
+        <li>
+          <p>&quot;Enter a date to determine what your accounts receivable was as of that date.&quot;<br/>
+            <br/>
+            <span>A screen display of the ins and outs of your accounts receivable are listed with totals of Invoice, Payment and Balance at the bottom of the screen. Click</span> <span>Done</span> <span>to exit the screen.</span>
+          </p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>The <span>Aging</span> choice shows the amount each customer owes. Use the buttons on the right side to send a PDF format of the statement by email, or to printed the statement for the customer.</p>
+    </li>
+    <li>
+      <p>See: <a href="Accounts_Receivable_Report_by_Customer.htm">Accounts Receivable Report by Customer</a>, <a href="Accounts_Receivable_Report_by_Invoices.htm">Accounts Receivable Report by Invoices</a></p>
+    </li>
+  </ul>
+  <h3><span>Invoice Options</span> Button</h3>
+  <p><img src="assets/images/button-invoice-options.png"/></p>
+  <ul>
+    <li>
+      <p>Offers a good choice of printing and other options for printing selections and auto entry of information. These options will help you to customize the program to meet your needs, and can be changed as needed.</p>
+    </li>
+    <li>
+      <p>The same options can be accessed by <span>Main Menu &gt; Invoices Options</span>.</p>
+    </li>
+    <li>
+      <p>See also:<br/>
+        <a href="Set_up_Invoice_General_Options.htm">Invoice Options - General Tab</a><br/>
+        <a href="Set_up_Invoice_Print_Options.htm">Invoice Options - Print Options Tab</a><br/>
+        <a href="Set_up_Invoice_Rewards_Options.htm">Invoice Options - Rewards Tab</a>
+      </p>
+    </li>
+  </ul>
+  <p class="Note"><strong><span>Note</span></strong>: If you are operating FrameReady on a network, then these default settings must be set up on the Host, otherwise they will revert back to their original setting when you shut down.</p>
+  <h3><span>Sales Performance</span> Button</h3>
+  <p><img src="assets/images/button-sales-performance.png"/></p>
+  <ul>
+    <li>
+      <p>Generate a sales summary report for a specific period for all employees entered in the <span>Sales Rep</span> field.</p>
+    </li>
+    <li>
+      <p>The sales period is determined by entering a range of dates in the Sales Performance dialog box.</p>
+    </li>
+    <li>
+      <p>See: <a href="Sales_Performance_Report.htm">Sales Performance Report</a></p>
+    </li>
+  </ul>
+  <h3><span>Shipping Address</span> Button</h3>
+  <p><img src="assets/images/button-shipping-address.png"/></p>
+  <ul>
+    <li>
+      <p>Click to view the shipping addresses stored in the Contacts file.</p>
+    </li>
+    <li>
+      <p>The default shipping address is shown. Choose another address from the list when needed (your choice is not saved back to the Contacts file).</p>
+    </li>
+    <li>
+      <p>Click the <strong><span>Add a New Shipping Address</span></strong> button to enter a new address into FrameReady. The changes are saved back to the Contacts file.</p>
+    </li>
+    <li>
+      <p>See: <a href="Add_a_Shipping_Address.htm">Add a Shipping Address</a></p>
+    </li>
+  </ul>
+  <h3><span>Perform Last Find</span> Button</h3>
+  <p><img src="assets/images/button-perform-last-find.png"/></p>
+  <ul>
+    <li>
+      <p>Very useful when updating a list of records. By clicking this button, FrameReady performs the last find you entered and returns your list of matching records.</p>
+    </li>
+    <li>
+      <p>If the record you modified no longer matches your search criteria, then it is excluded from the newly updated list.<br/>
+        <br/>
+        <span>For example, if you performed a find for all unpaid Invoices, then took a payment on one of them and then clicked Perform Last Find, the Invoice that is now paid in full no longer appears in the list.</span>
+      </p>
+    </li>
+    <li>
+      <p>See: <a href="Find_Overview.htm">Find Overview</a></p>
+    </li>
+  </ul>
+  <h3><span>Apply $ to Multiple Invoices</span> Button</h3>
+  <p><img src="assets/images/button-apply-money-to-multiple-invoices.png"/></p>
+  <ul class="Disc">
+    <li>
+      <p>Use this feature to take a single payment from a customer and apply it to any unpaid invoices.</p>
+    </li>
+    <li>
+      <p>See: <a href="Take_a_Payment_on_Multiple_Invoices.htm">Take a Payment on Multiple Invoices</a></p>
+    </li>
+  </ul>
+  <h3><span>Find All Unpaid Invoices</span> Button</h3>
+  <p><img src="assets/images/button-find-all-unpaid-invoices.png"/></p>
+  <ul>
+    <li>
+      <p>Finds all Invoices with a balance owing. They may have a deposit but will not be paid in full.</p>
+    </li>
+    <li>
+      <p>The Invoices display in a list view. If only one Invoice is found, it appears in the form view.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "12.1.1_5"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

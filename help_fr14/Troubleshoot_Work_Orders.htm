@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Troubleshoot Work Orders</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Troubleshoot Work Orders</h1>
+  <p class="Note">Start here to diagnose any Work Orders issues.</p>
+  <h2>Art is Discounted even though “Apply also to Art” is unchecked</h2>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>You have added artwork to a Work Order and have entered a dollar value into the Price field. Next, you have added a discount in the Options tab and now the artwork is discounted as well!</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>This is not a bug; this is expected behaviour. If you add Art to a Work Order through the Products file (using the Magnifying Glass icon), then the Art will not be discounted unless you check the box<span> </span><strong>Apply a</strong><strong>lso to Art</strong>.</p>
+    </li>
+    <li>
+      <p>However, if entered manually (you just type it into the <strong>Art</strong> field and the<span> </span><strong>Price</strong><span> </span>field), then the value of the art is lumped into the Work Order total and will be discounted.</p>
+    </li>
+    <li>
+      <p>To avoid this, create a new Product record for the art (Title or Description, Retail Price, etc). Then on the Work Order, use the Magnifying Glass icon to select the record you just created.</p>
+    </li>
+  </ul>
+  <p class="Note"><strong>NOTE</strong>: The<span> </span><strong>Apply also to Art</strong><span> </span>checkbox is not available in FrameReady Lite. If you use the Price box in the artwork section to manually enter a price for art, then the amount of the art will be added to the amount of the Work Order in the Price tab (top right corner). Anything that affects the pricing of the work order will also affect the art, e.g. Qty, Discount, etc.</p>
+  <ul class="Disc">
+    <li>
+      <p>A possible solution is to either upgrade to FrameReady Standard in order to sell art or create a separate Work Order for just the art so that it will not be affected by a discount.</p>
+    </li>
+  </ul>
+  <h3>The Mat Margins, White Space, or Reveals on a Work Order are empty</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>The dropdown menus for Mat Margins (or White Space, or Reveals) on a Work Order are empty!</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ol class="steps">
+    <li>
+      <p>On the Main Menu, click the <strong>Setup Data</strong> icon.</p>
+    </li>
+    <li>
+      <p>Open the <strong>Info</strong> tab.</p>
+    </li>
+    <li>
+      <p>Confirm that Imperial is selected (for US, Canada, UK) is selected, or Metric (for Australia) is selected.</p>
+    </li>
+    <li>
+      <p>Click <strong>Done</strong>.</p>
+    </li>
+    <li>
+      <p>Open the Work Order to confirm that the dropdown menus for Mat Margins, White Space, or Reveals display measurements.</p>
+    </li>
+  </ol>
+  <h3>You have selected mat margins but no mat! Are you sure you want to continue?</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>When leaving a Work Order, FrameReady alerts you: “You have selected mat margins but no mat! Are you sure you want to continue?”</p>
+    </li>
+    <li>
+      <p>However, this Work Order does not have or need a matboard!</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ol class="steps">
+    <li>
+      <p>Click No. FrameReady remains on the Work Order.</p>
+    </li>
+    <li>
+      <p>Examine the Mat Margins (lower right in the Measurements area).</p>
+    </li>
+    <li>
+      <p>If you see a zero in the fields, then click into the Left mat margin field and change it to 1 (one).</p>
+    </li>
+    <li>
+      <p>Click out of the field and you’ll notice a teal button (with a white X) appears to the left of the nearest grey dropdown menu.</p>
+    </li>
+    <li>
+      <p>Click the teal button to clear the zeroes out of all the Mat Margin fields.</p>
+    </li>
+    <li>
+      <p>You should now be able to leave the Work Order without triggering the alert.</p>
+    </li>
+  </ol>
+  <h3>My Frame Order is missing Work Orders</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>When running a Frame Order, some Work Orders were not included.</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>FrameReady locates Work Orders, which have not been previously ordered, to create the list.</p>
+    </li>
+    <li>
+      <p>You can tell if a Work Order has been added to the list by viewing the Work Order in question, and looking to see if the sidebar button reads “Cancel Frame Order.” If it reads “Select for Frame Order,” then that Work Order will not be included.</p>
+    </li>
+  </ul>
+  <h3>How can I undelete a Work Order?</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>A Work Order was deleted and is now needed again.</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>Unless you have a printed the Work Order, or have a FrameReady backup that you can temporarily open, then the deletion is permanent.</p>
+    </li>
+  </ul>
+  <h3>Work Order is posted but the Invoice is not found</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>A Work Order was previously posted to an Invoice; however the “Find Invoice” button displays the error “Invoice not found.”</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ol class="steps">
+    <li>
+      <p>In the Invoices, click<span> </span><strong>Find</strong><span> </span>and search for the Work Order #.</p>
+    </li>
+    <li>
+      <p>If not found, then go to the Work Orders, click<span> </span><strong>Find</strong><span> </span>and search for that Work Order.</p>
+    </li>
+    <li>
+      <p>Hover the mouse pointer over the<span> </span><strong>Posted</strong><span> </span>button to see what Invoice# it was posted to. Then do a find in the Work Order file for that Invoice # (bottom-center). This will show all the WOs on that Invoice – it will likely be different customers – but we want to see if there are more.</p>
+    </li>
+    <li>
+      <p>Then for each, switch to layout mode (with status toolbar) and change to the “Find” layout and then back to Browse mode. Change the<span> </span><strong>Posted</strong><span> </span>field to<span> </span><strong>Not posted</strong><span> </span>for those records. Click<span> </span><strong>Cancel</strong><span> </span>to return to the Work Order.</p>
+    </li>
+    <li>
+      <p>Verify that those Work Orders have now not been posted.</p>
+    </li>
+  </ol>
+  <h3>Proposal is missing data</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>The print preview and/or the printed Proposal document is missing data, e.g. no customer information. Or you receive the message “20.pdf could not be created on this disk.”</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>There must be a retail price for the Work Order, otherwise FrameReady fails to properly create the document.</p>
+    </li>
+    <li>
+      <p>Things to check:</p>
+    </li>
+  </ul>
+  <ol class="steps">
+    <li>
+      <p>Do not use FileMaker operators in the Job # field</p>
+    </li>
+    <li>
+      <p>Enter zero (0) in the Other field. When you exit the field, the zero disappears but the missing information appears on the Proposal document.</p>
+    </li>
+  </ol>
+  <h3>Contacts are missing</h3>
+  <h4>The Problem</h4>
+  <ul>
+    <li>
+      <p>Instead of the expected Contact information appearing when you view a Work Order, it is missing or empty.</p>
+    </li>
+    <li>
+      <p>The Work Order shows the Contact, but when switched to List View, it cannot be found.</p>
+    </li>
+    <li>
+      <p>When searching for the Contact the record does not appear in the results.</p>
+    </li>
+    <li>
+      <p>When viewing incomplete Work Orders the Contact field is empty.</p>
+    </li>
+  </ul>
+  <h4>The Reason</h4>
+  <ul>
+    <li>
+      <p>Extra “returns” or empty spaces are pushing the name down to the next line.</p>
+    </li>
+  </ul>
+  <h4>How to Fix a “Missing” Contact</h4>
+  <ol class="steps">
+    <li>
+      <p>If the Contact is shown in the Work Order, then open the Contacts file.<br/>
+        <br/>
+        The contact record appears.
+      </p>
+    </li>
+    <li>
+      <p>Check for these:</p>
+      <ul>
+        <li>
+          <p>Check for empty spaces in the <strong>Company </strong>field. If found, then <span>Backspace</span> them all out (extra spaces or carriage returns create a new blank line when FrameReady attempts to display the name).</p>
+        </li>
+        <li>
+          <p>Ensure that the Contact’s name is in the <strong>first </strong>line and not the second (There are two line entries for the Contact name; FrameReady uses the first line).</p>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <p>After making these changes, confirm that the Contact data is now visible.</p>
+    </li>
+  </ol>
+  <h3>How to correct the Frame Orientation icon on a Work Order</h3>
+  <h4>The Problem</h4>
+  <ul>
+    <li>
+      <p>When you create a new Work Order a dialog box appears asking to select an orientation.</p>
+    </li>
+    <li>
+      <p>The orientation you select will appear on the screen<span> </span><em>and</em><span> </span>on the printed work order.<span> </span></p>
+    </li>
+    <li>
+      <p>You may choose to by-pass this step by clicking<span> </span><b>None</b>.</p>
+    </li>
+    <li>
+      <p>If the orientation and measurements do not agree, a red-lettered message will appear in the Message/Alert box identifying a possible error.</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ol class="steps">
+    <li>
+      <p>Click on the orientation icon between the width and height.<br/>
+        <br/>
+        A dialog box appears asking if you wish to correct the orientation.
+      </p>
+    </li>
+    <li>
+      <p>Click<span> </span><strong>Orientation</strong>.</p>
+    </li>
+    <li>
+      <p>To switch the Width and Height, click<span> </span><b>Measurements.</b></p>
+    </li>
+    <li>
+      <p>To remove the orientation click<span> </span><b>None</b>.<br/>
+        <br/>
+        If you select None, the icon will not appear on screen but a square icon appears on the printed Work Order. 
+      </p>
+    </li>
+  </ol>
+  <h3>When entering fillets, how can I adjust the lip size?</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>How do I prevent the fillet from covering too much of the artwork?</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>This method is when your fillet is in the frame, as a layered or stacked frame.*</p>
+    </li>
+  </ul>
+  <ol class="steps">
+    <li>
+      <p><span>Click on<span> </span></span><b>layered frame</b><span><span> </span>icon.</span></p>
+    </li>
+    <li>
+      <p><span>Enter the fillet in the<span> </span></span><b>Frame1</b><span><span> </span>position.</span></p>
+    </li>
+    <li>
+      <p><span>Click the<span> </span></span><b>Modify<span> </span></b><span>button for<span> </span></span><strong>Frame1</strong><span>.</span></p>
+    </li>
+    <li>
+      <p>Adjust the Width size to match the sight size of the fillet.</p>
+    </li>
+    <li>
+      <p><span>In the<span> </span></span><b>Lip</b><span><span> </span>field, either leave it blank or enter<span> </span></span><strong>0</strong><span><span> </span>to achieve the desired result as shown in the diagram.</span></p>
+    </li>
+    <li>
+      <p>In the<span> </span><strong>Group</strong><span> </span>field, confirm that the group is<span> </span><b>Fillet.</b></p>
+    </li>
+    <li>
+      <p>Click<span> </span><b>Done.</b></p>
+    </li>
+  </ol>
+  <ol>
+  </ol>
+  <p class="Note"><em><strong>Note:</strong><span> </span>Changes made in this screen will be saved in the<span> </span><strong>Price Codes</strong><span> </span>file and applied to the current work order<span> </span><b>AND</b><span> </span>all future orders using this fillet.</em></p>
+  <ul class="Disc">
+    <li>
+      <p>*If your fillet is being placed in a mat, then use the<span> </span><strong>Fillet</strong><span> </span>field to perform the size modification.</p>
+    </li>
+  </ul>
+  <h3>The Frame Order button reads “N/A”</h3>
+  <h4>The Problem</h4>
+  <ul class="Disc">
+    <li>
+      <p>The Work Order sidebar button that reads “<strong>Select for Frame Order</strong>” now reads “<strong>N/A</strong>” – how can I add it to the Frame Order?</p>
+    </li>
+  </ul>
+  <h4>The Solution</h4>
+  <ul class="Disc">
+    <li>
+      <p>This means the work order is on<b><span> </span>Hold</b><span> </span>or is an<b><span> </span>Estimate</b>. Therefore the materials required for this order will not be added to the<span> </span><a href="Create_a_Frame_Order.htm">Create a Frame Order</a>. Change the status of the Work Order.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "11.0_2"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

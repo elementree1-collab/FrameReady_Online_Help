@@ -1,0 +1,3329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ppfml version="2.00" project="FrameReady Help" type="4">
+  <contextmap>
+    
+  </contextmap>
+  <topiclist defaulttopic="Welcome.htm">
+    
+    <topic>
+      Welcome.htm
+    </topic>
+    
+    <topic>
+      About_FrameReady_and_FileMaker.htm
+    </topic>
+    
+    <topic>
+      What_s_New_in_FrameReady_13.htm
+    </topic>
+    
+    <topic>
+      What_s_New_in_FrameReady_12.htm
+    </topic>
+    
+    <topic>
+      What_s_New_in_FrameReady_11.htm
+    </topic>
+    
+    <topic>
+      What_s_New_in_FrameReady_10.htm
+    </topic>
+    
+    <topic>
+      What_s_New_in_FrameReady_9.htm
+    </topic>
+    
+    <topic>
+      Integrations.htm
+    </topic>
+    
+    <topic>
+      Closing_FrameReady.htm
+    </topic>
+    
+    <topic>
+      Shutting_down_FileMaker_Server.htm
+    </topic>
+    
+    <topic>
+      Digital_Images.htm
+    </topic>
+    
+    <topic>
+      Resize_Digital_Images.htm
+    </topic>
+    
+    <topic>
+      iPhone_and_iPad_Photo_Capture_App.htm
+    </topic>
+    
+    <topic>
+      Technical_Support.htm
+    </topic>
+    
+    <topic>
+      Support_Tickets.htm
+    </topic>
+    
+    <topic>
+      TeamViewer.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_FileMaker.htm
+    </topic>
+    
+    <topic>
+      System_Requirements.htm
+    </topic>
+    
+    <topic>
+      Install_on_Windows.htm
+    </topic>
+    
+    <topic>
+      Install_on_macOS.htm
+    </topic>
+    
+    <topic>
+      Migrate_to_a_New_Computer.htm
+    </topic>
+    
+    <topic>
+      Change_the_Desktop_Shortcut_Icon.htm
+    </topic>
+    
+    <topic>
+      Open_on_Guest_or_Client.htm
+    </topic>
+    
+    <topic>
+      Open_on_macOS.htm
+    </topic>
+    
+    <topic>
+      Open_on_Windows.htm
+    </topic>
+    
+    <topic>
+      Open_Quick_Tip.htm
+    </topic>
+    
+    <topic>
+      About_FileMaker_Pro.htm
+    </topic>
+    
+    <topic>
+      After_Opening_FrameReady.htm
+    </topic>
+    
+    <topic>
+      Production_Flow.htm
+    </topic>
+    
+    <topic>
+      Getting_Started_Checklist.htm
+    </topic>
+    
+    <topic>
+      Add_Items_to_your_Price_Codes.htm
+    </topic>
+    
+    <topic>
+      Overview.htm
+    </topic>
+    
+    <topic>
+      Important_Things_to_Know.htm
+    </topic>
+    
+    <topic>
+      The_Main_Menu.htm
+    </topic>
+    
+    <topic>
+      Navigating_in_FrameReady.htm
+    </topic>
+    
+    <topic>
+      Accounts.htm
+    </topic>
+    
+    <topic>
+      Change_Accounts_While_Running.htm
+    </topic>
+    
+    <topic>
+      Change_an_Account_Password.htm
+    </topic>
+    
+    <topic>
+      Accounts_for_Multi_Site.htm
+    </topic>
+    
+    <topic>
+      Quick_Find.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Tutorial.htm
+    </topic>
+    
+    <topic>
+      Price_Checker.htm
+    </topic>
+    
+    <topic>
+      Set_up_Overview.htm
+    </topic>
+    
+    <topic>
+      Set_up_the_Order_Taken_By_Message.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_General_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Default_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Due_Date_Options.htm
+    </topic>
+    
+    <topic>
+      Block_Days_On_Calendar.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Email_Messages.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Print_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_Invoice_Posting_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Work_Order_QuickBooks_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Matboard_Margins.htm
+    </topic>
+    
+    <topic>
+      Set_up_Package_Specials.htm
+    </topic>
+    
+    <topic>
+      Set_up_Tender_List.htm
+    </topic>
+    
+    <topic>
+      Set_up_City_and_States.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_General_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_Print_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_Rewards_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Staff_Commissions.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_Email_Message.htm
+    </topic>
+    
+    <topic>
+      Set_up_Invoice_Thank_You_Message.htm
+    </topic>
+    
+    <topic>
+      Set_up_Purchase_Order_Options.htm
+    </topic>
+    
+    <topic>
+      Set_up_Business_Information.htm
+    </topic>
+    
+    <topic>
+      Set_up_Fiscal.htm
+    </topic>
+    
+    <topic>
+      Set_up.htm
+    </topic>
+    
+    <topic>
+      Set_up_Email_Information.htm
+    </topic>
+    
+    <topic>
+      Set_up_HTML.htm
+    </topic>
+    
+    <topic>
+      Set_up_SMS_Messaging.htm
+    </topic>
+    
+    <topic>
+      Set_up_Network_Information.htm
+    </topic>
+    
+    <topic>
+      Set_up_Footnotes_on_Printed_Documents.htm
+    </topic>
+    
+    <topic>
+      Set_up_your_Logo.htm
+    </topic>
+    
+    <topic>
+      Print_with_Pre-printed_Letterhead.htm
+    </topic>
+    
+    <topic>
+      Set_up_Security_Password.htm
+    </topic>
+    
+    <topic>
+      Set_up_Single_User_Backups.htm
+    </topic>
+    
+    <topic>
+      Set_up_External_Backups.htm
+    </topic>
+    
+    <topic>
+      Set_up_FrameReady_Multi_Site.htm
+    </topic>
+    
+    <topic>
+      Set_up_Receipt_Printer.htm
+    </topic>
+    
+    <topic>
+      Set_up_Receipt_Printer_for_Multi_User.htm
+    </topic>
+    
+    <topic>
+      Set_up_Tiered_Discounts.htm
+    </topic>
+    
+    <topic>
+      Set_up_Vendors.htm
+    </topic>
+    
+    <topic>
+      Set_up_Zoom.htm
+    </topic>
+    
+    <topic>
+      Backups_Overview.htm
+    </topic>
+    
+    <topic>
+      Backups_Best_Practices.htm
+    </topic>
+    
+    <topic>
+      Making_a_Single_User_Backup.htm
+    </topic>
+    
+    <topic>
+      Backing_Up_FileMaker_Server.htm
+    </topic>
+    
+    <topic>
+      Set_up_360_Works_SafetyNet.htm
+    </topic>
+    
+    <topic>
+      Set_up_Cloud_Backups.htm
+    </topic>
+    
+    <topic>
+      Restoring_from_a_Backup.htm
+    </topic>
+    
+    <topic>
+      Backups_using_Mac_Automator.htm
+    </topic>
+    
+    <topic>
+      Call_List.htm
+    </topic>
+    
+    <topic>
+      Clever_FrameReady_Secrets.htm
+    </topic>
+    
+    <topic>
+      Dealing_with_Busy_Times.htm
+    </topic>
+    
+    <topic>
+      Discounts.htm
+    </topic>
+    
+    <topic>
+      How_to_Battle_Discount_Sales.htm
+    </topic>
+    
+    <topic>
+      Track_Ads_and_Promo_Campaigns.htm
+    </topic>
+    
+    <topic>
+      Track_Donations.htm
+    </topic>
+    
+    <topic>
+      Loyalty_Programs.htm
+    </topic>
+    
+    <topic>
+      Refunds_Overview.htm
+    </topic>
+    
+    <topic>
+      Wedding_Registry.htm
+    </topic>
+    
+    <topic>
+      Networking_Overview.htm
+    </topic>
+    
+    <topic>
+      Networking_Guidelines.htm
+    </topic>
+    
+    <topic>
+      FileMaker_Server_Best_Practices.htm
+    </topic>
+    
+    <topic>
+      Set_up_FrameReady_for_MultiUser.htm
+    </topic>
+    
+    <topic>
+      Fire.htm
+    </topic>
+    
+    <topic>
+      Remote_Access.htm
+    </topic>
+    
+    <topic>
+      FrameReady_Multi_Site_Overview.htm
+    </topic>
+    
+    <topic>
+      Set_up_FrameReady_on_your_Network.htm
+    </topic>
+    
+    <topic>
+      FileMaker_Server_Overview.htm
+    </topic>
+    
+    <topic>
+      Opening_the_FileMaker_Server_Admin_Console.htm
+    </topic>
+    
+    <topic>
+      Stopping_and_Starting_Files.htm
+    </topic>
+    
+    <topic>
+      Change_Default_Settings.htm
+    </topic>
+    
+    <topic>
+      Opening_FrameReady_on_the_FileMaker_Server.htm
+    </topic>
+    
+    <topic>
+      Network_Troubleshooting_Overview.htm
+    </topic>
+    
+    <topic>
+      On_the_Server_Computer.htm
+    </topic>
+    
+    <topic>
+      Ping_the_Server_Computer.htm
+    </topic>
+    
+    <topic>
+      Check_Server_Computer_Firewall.htm
+    </topic>
+    
+    <topic>
+      Modifying_FrameReady_on_a_Network.htm
+    </topic>
+    
+    <topic>
+      Vendor_Pricing_Overview.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Vendor_Updates.htm
+    </topic>
+    
+    <topic>
+      Use_the_Highest_Cost.htm
+    </topic>
+    
+    <topic>
+      Vendor_Update_Screen_Explained.htm
+    </topic>
+    
+    <topic>
+      Not_Verified_vs_Discontinued.htm
+    </topic>
+    
+    <topic>
+      Analyse_Vendor_Updates.htm
+    </topic>
+    
+    <topic>
+      Set_up_Unattended_Vendor_Updates.htm
+    </topic>
+    
+    <topic>
+      Add_a_New_Vendor.htm
+    </topic>
+    
+    <topic>
+      Update_Vendor_Pricing.htm
+    </topic>
+    
+    <topic>
+      Update_Vendor_Pricing_Unattended.htm
+    </topic>
+    
+    <topic>
+      Change_Wholesale_Costs_using_Foreign_Exchange.htm
+    </topic>
+    
+    <topic>
+      Find_Not_Verified_Items.htm
+    </topic>
+    
+    <topic>
+      Manage_Corner_Samples.htm
+    </topic>
+    
+    <topic>
+      Manage_Discontinued_Items.htm
+    </topic>
+    
+    <topic>
+      Manage_New_Samples.htm
+    </topic>
+    
+    <topic>
+      Print_only_the_Items_you_Stock.htm
+    </topic>
+    
+    <topic>
+      Reset_all_Vendor_Items.htm
+    </topic>
+    
+    <topic>
+      Update_the_Vendor_Matrix.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_Overview.htm
+    </topic>
+    
+    <topic>
+      Order_From_Button.htm
+    </topic>
+    
+    <topic>
+      Pricing_FAQs.htm
+    </topic>
+    
+    <topic>
+      Analyze_your_Pricing.htm
+    </topic>
+    
+    <topic>
+      Cleaning_your_Price_Codes_File.htm
+    </topic>
+    
+    <topic>
+      How_to_Price_on_the_Fly.htm
+    </topic>
+    
+    <topic>
+      Overhead_and_Markups.htm
+    </topic>
+    
+    <topic>
+      Formula_Operators.htm
+    </topic>
+    
+    <topic>
+      New_Topic1.htm
+    </topic>
+    
+    <topic>
+      What_is_Set_Price.htm
+    </topic>
+    
+    <topic>
+      Basic_Pricing_Options.htm
+    </topic>
+    
+    <topic>
+      Item_Number_Suffix_and_Prefix_Explained.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Price_Codes.htm
+    </topic>
+    
+    <topic>
+      Print_Your_Pricing.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_Overview.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Moulding.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Matboard.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Mounting.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Fabric.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Mat_Design,_Hardware,_Extra,_and_Fitting.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Glazing.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Extra.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_for_Supplies.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_Form_View.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_Menubar.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_List_View.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_Inventory_View.htm
+    </topic>
+    
+    <topic>
+      Glass_Pricer_Screen_Explained.htm
+    </topic>
+    
+    <topic>
+      Price_Codes_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Moulding_Form_View.htm
+    </topic>
+    
+    <topic>
+      Matboard_Fabric_Form_View.htm
+    </topic>
+    
+    <topic>
+      Glazing_Mount_Mat_Design_Extra_Fitting_Form_View.htm
+    </topic>
+    
+    <topic>
+      Pricing_Options_and_Defaults_Button.htm
+    </topic>
+    
+    <topic>
+      Price_Comparison_Explained.htm
+    </topic>
+    
+    <topic>
+      Price_Sampler.htm
+    </topic>
+    
+    <topic>
+      Auto_Inventory_Tab.htm
+    </topic>
+    
+    <topic>
+      Manual_Inventory_Tab.htm
+    </topic>
+    
+    <topic>
+      Frame_Pricing_Tab.htm
+    </topic>
+    
+    <topic>
+      Glazing_Pricing_Tab.htm
+    </topic>
+    
+    <topic>
+      Code_Pricing_Tab.htm
+    </topic>
+    
+    <topic>
+      Retail_Pricing_Tab.htm
+    </topic>
+    
+    <topic>
+      Other_Tab.htm
+    </topic>
+    
+    <topic>
+      Image_Tab.htm
+    </topic>
+    
+    <topic>
+      Set_up_Custom_Printing_Services.htm
+    </topic>
+    
+    <topic>
+      Set_up_your_List_of_Framing_Items.htm
+    </topic>
+    
+    <topic>
+      Set_up_Fitting_and_Labor_Charges.htm
+    </topic>
+    
+    <topic>
+      Set_up_Glass_Sizes.htm
+    </topic>
+    
+    <topic>
+      Set_up_your_Set_Price.htm
+    </topic>
+    
+    <topic>
+      Set_up_Size_Defaults_for_Mat_Reveals.htm
+    </topic>
+    
+    <topic>
+      Set_up_Moulding_Pricing.htm
+    </topic>
+    
+    <topic>
+      Set_up_Matboard_Pricing.htm
+    </topic>
+    
+    <topic>
+      Set_up_Fabric_Pricing.htm
+    </topic>
+    
+    <topic>
+      Set_up_Mounting_Pricing.htm
+    </topic>
+    
+    <topic>
+      Set_a_Minimum_Price_for_Matboard.htm
+    </topic>
+    
+    <topic>
+      Set_a_Minimum_Retail_Price_per_Foot.htm
+    </topic>
+    
+    <topic>
+      Set_up_Multi-Angled_Pricing.htm
+    </topic>
+    
+    <topic>
+      Set_up_your_Suppliers_for_Purchase_Orders.htm
+    </topic>
+    
+    <topic>
+      Set_up_In_Stock_Moulding_Numbers.htm
+    </topic>
+    
+    <topic>
+      Inventory_Management_Overview.htm
+    </topic>
+    
+    <topic>
+      Automatic_Inventory_Overview.htm
+    </topic>
+    
+    <topic>
+      Manual_Inventory_Overvi.htm
+    </topic>
+    
+    <topic>
+      Manual_vs_Automatic_Inventory_Management.htm
+    </topic>
+    
+    <topic>
+      Auto_Update_of_Materials_Inventory_Feature.htm
+    </topic>
+    
+    <topic>
+      Inventory_Reports_Overview.htm
+    </topic>
+    
+    <topic>
+      Add_Moulding_Inventory.htm
+    </topic>
+    
+    <topic>
+      Add_Matboard_Inventory.htm
+    </topic>
+    
+    <topic>
+      Check_Inventory.htm
+    </topic>
+    
+    <topic>
+      Edit_a_Work_Order_with_Auto_Update.htm
+    </topic>
+    
+    <topic>
+      Find_your_Inventory_Items.htm
+    </topic>
+    
+    <topic>
+      Print_Inventory_Reports.htm
+    </topic>
+    
+    <topic>
+      Switch_to_Auto_Update.htm
+    </topic>
+    
+    <topic>
+      Take_a_Framing_Materials_Inventory_Count.htm
+    </topic>
+    
+    <topic>
+      Take_a_Retail_Product_Inventory_Count.htm
+    </topic>
+    
+    <topic>
+      Moulding_Overview.htm
+    </topic>
+    
+    <topic>
+      How_to_Price_Moulding.htm
+    </topic>
+    
+    <topic>
+      Understanding_the_Default_Pricing_for_Moulding.htm
+    </topic>
+    
+    <topic>
+      Working_with_the_Canadian_Matrix.htm
+    </topic>
+    
+    <topic>
+      Vendor_Pricing_Matrix_for_Moulding_-_Canadian_Vendors.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Mould.htm
+    </topic>
+    
+    <topic>
+      Add_Rabbet_Depth.htm
+    </topic>
+    
+    <topic>
+      Apply_your_own_Moulding_Pricing.htm
+    </topic>
+    
+    <topic>
+      Apply_your_Default_Moulding_Pricing.htm
+    </topic>
+    
+    <topic>
+      Price_Bravura_Mouldings_with_Inlays.htm
+    </topic>
+    
+    <topic>
+      Price_by_Chop.htm
+    </topic>
+    
+    <topic>
+      Price_by_Join.htm
+    </topic>
+    
+    <topic>
+      Price_Moulding_Finishes.htm
+    </topic>
+    
+    <topic>
+      Price_Moulding_by_Join_but_Order_it_by_Chop.htm
+    </topic>
+    
+    <topic>
+      Price_Length_Moulding_for_Retail_Sales.htm
+    </topic>
+    
+    <topic>
+      Price_Moulding_by_the_Linear_Foot.htm
+    </topic>
+    
+    <topic>
+      Price_Moulding_by_Category.htm
+    </topic>
+    
+    <topic>
+      Price_Moulding_by_United_Inch.htm
+    </topic>
+    
+    <topic>
+      Matboard_Overview.htm
+    </topic>
+    
+    <topic>
+      How_to_Price_Matboard.htm
+    </topic>
+    
+    <topic>
+      Understanding_the_Default_Pricing_Formula_for_Matboard.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Matboard.htm
+    </topic>
+    
+    <topic>
+      Apply_Formula_to_a_Group_of_Matboards.htm
+    </topic>
+    
+    <topic>
+      Price_Matboard_on_a_Bell_Curve.htm
+    </topic>
+    
+    <topic>
+      Price_Matboard_for_Retail_Sales.htm
+    </topic>
+    
+    <topic>
+      Price_Raphael_Panels.htm
+    </topic>
+    
+    <topic>
+      Fabric_Overview.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Fabric.htm
+    </topic>
+    
+    <topic>
+      Mounting_Overview.htm
+    </topic>
+    
+    <topic>
+      Formula_vs_Code_Tables_for_Mounting.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Mounting.htm
+    </topic>
+    
+    <topic>
+      Add_Plaque_Mounting.htm
+    </topic>
+    
+    <topic>
+      Price_Float_Mounting.htm
+    </topic>
+    
+    <topic>
+      Glazing_Overview.htm
+    </topic>
+    
+    <topic>
+      Set_up_Glass_Pr.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Glazing.htm
+    </topic>
+    
+    <topic>
+      Glass_Pricer_Feature.htm
+    </topic>
+    
+    <topic>
+      Update_Glass_Pricing.htm
+    </topic>
+    
+    <topic>
+      Add_Mat_Design_Options_to_CMC.htm
+    </topic>
+    
+    <topic>
+      Extra_Form_View.htm
+    </topic>
+    
+    <topic>
+      Code_Tables_Overview.htm
+    </topic>
+    
+    <topic>
+      Code_Tables_Screen_Explained.htm
+    </topic>
+    
+    <topic>
+      View_a_Code_Table.htm
+    </topic>
+    
+    <topic>
+      Create_a_Code_Table.htm
+    </topic>
+    
+    <topic>
+      Adjust_a_Code_Table_by_a_Percentage.htm
+    </topic>
+    
+    <topic>
+      Add_Surcharges.htm
+    </topic>
+    
+    <topic>
+      Add_your_own_Mirrors.htm
+    </topic>
+    
+    <topic>
+      Apply_an_Order_Type_to_a_Group.htm
+    </topic>
+    
+    <topic>
+      Create_New_Barcodes.htm
+    </topic>
+    
+    <topic>
+      Combine_Formula_and_Code_Pricing.htm
+    </topic>
+    
+    <topic>
+      Delete_a_Vendor.htm
+    </topic>
+    
+    <topic>
+      Increase_Prices_by_Percentage.htm
+    </topic>
+    
+    <topic>
+      Price_by_Square_Foot.htm
+    </topic>
+    
+    <topic>
+      Price_Closed_Corner_Frames.htm
+    </topic>
+    
+    <topic>
+      Sell_Moulding_or_Matboard_as_a_Retail_Item.htm
+    </topic>
+    
+    <topic>
+      Sell_Supplies_as_Retail_Items.htm
+    </topic>
+    
+    <topic>
+      Track_Vendor_Discounts.htm
+    </topic>
+    
+    <topic>
+      Work_with_Corner_Blocks.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Overview.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Relationship_between_Price_Codes_and_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Print_Work_Order_Product_Labels.htm
+    </topic>
+    
+    <topic>
+      Reports_from_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Set_up_Orientation_Dialog.htm
+    </topic>
+    
+    <topic>
+      Reset_Work_Order_Serial_Number.htm
+    </topic>
+    
+    <topic>
+      Set_up_Waste_Factors.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Form_View.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Email_Button.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Menu_Bar.htm
+    </topic>
+    
+    <topic>
+      Work_Order_List_View.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Find_View.htm
+    </topic>
+    
+    <topic>
+      Measurement_Entry_Section.htm
+    </topic>
+    
+    <topic>
+      Framing_Components_Section.htm
+    </topic>
+    
+    <topic>
+      Artwork_Entry_Section.htm
+    </topic>
+    
+    <topic>
+      Customer_Information_Section.htm
+    </topic>
+    
+    <topic>
+      Shop_Management_Section.htm
+    </topic>
+    
+    <topic>
+      Price_Entry_Section.htm
+    </topic>
+    
+    <topic>
+      Art_Tracker_Explained.htm
+    </topic>
+    
+    <topic>
+      Print_Documents_for_Customer.htm
+    </topic>
+    
+    <topic>
+      Print_Documents_for_Shop.htm
+    </topic>
+    
+    <topic>
+      Print_Documents_for_Produc.htm
+    </topic>
+    
+    <topic>
+      Print_Documents_Reports_for_Found_Set.htm
+    </topic>
+    
+    <topic>
+      Price_Map_Explained.htm
+    </topic>
+    
+    <topic>
+      Scenarios_Explained.htm
+    </topic>
+    
+    <topic>
+      Special_Order_Explained.htm
+    </topic>
+    
+    <topic>
+      Stacked_Frames_Explained.htm
+    </topic>
+    
+    <topic>
+      Frame_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Layered_Frame_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Readymade_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Fillet_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Matboard_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Mat_Design_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Mount_Stretch_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Glazing_Fabric_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Extra_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Fitting_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Hardware_Fitting_Extra_Detail_Screens.htm
+    </topic>
+    
+    <topic>
+      Multi-Angle_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Other_Detail_Screen.htm
+    </topic>
+    
+    <topic>
+      Activate_Multiple_Estimates.htm
+    </topic>
+    
+    <topic>
+      Add_Customer_Artwork.htm
+    </topic>
+    
+    <topic>
+      Add_a_New_Artwork_Category.htm
+    </topic>
+    
+    <topic>
+      Add_a_Customer_to_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_New_Customer_to_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_Discount_on_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_Extra_Mat_Openings.htm
+    </topic>
+    
+    <topic>
+      Add_Fillets.htm
+    </topic>
+    
+    <topic>
+      Add_Fillets_to_a_Matboard.htm
+    </topic>
+    
+    <topic>
+      Add_a_Floater_Frame_and_Floater_Space.htm
+    </topic>
+    
+    <topic>
+      Add_a_Float_Mount_on_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_Hand-Wrapped_Liner.htm
+    </topic>
+    
+    <topic>
+      Add_a_Hand-Wrapped_Mat.htm
+    </topic>
+    
+    <topic>
+      Add_Miscellaneous_Charges.htm
+    </topic>
+    
+    <topic>
+      Add_Moulding_to_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_Multi-Angled_Frame.htm
+    </topic>
+    
+    <topic>
+      Add_a_New_Work_Order_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_Photos_to_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_and_Price_Spacers.htm
+    </topic>
+    
+    <topic>
+      Add_Print_Services_to_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_Shadowbox.htm
+    </topic>
+    
+    <topic>
+      Add_Stacked_Frames.htm
+    </topic>
+    
+    <topic>
+      Add_a_Stretcher.htm
+    </topic>
+    
+    <topic>
+      Change_a_Posted_Work_Order_to_an_Estimate.htm
+    </topic>
+    
+    <topic>
+      Change_the_Contact_on_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Constrain_to_1_Feature.htm
+    </topic>
+    
+    <topic>
+      Convert_a_Work_Order_to_a_Product.htm
+    </topic>
+    
+    <topic>
+      Create_a_Fixed_Price_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Create_a_Frame_Order.htm
+    </topic>
+    
+    <topic>
+      Create_a_Package_Special.htm
+    </topic>
+    
+    <topic>
+      Create_a_Tax_Exempt_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Create_a_Work_Order_Template.htm
+    </topic>
+    
+    <topic>
+      Duplicate_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Email_a_Completion_Notice.htm
+    </topic>
+    
+    <topic>
+      Email_a_Proposal.htm
+    </topic>
+    
+    <topic>
+      Find_Incomplete_Orders.htm
+    </topic>
+    
+    <topic>
+      Find_a_Work_Order_using_Barcodes.htm
+    </topic>
+    
+    <topic>
+      Fit_to_Outside_Dimensions.htm
+    </topic>
+    
+    <topic>
+      Fit_to_a_Readymade_Frame.htm
+    </topic>
+    
+    <topic>
+      Get_the_Cost_of_Goods.htm
+    </topic>
+    
+    <topic>
+      Group_Work_Orders_Together.htm
+    </topic>
+    
+    <topic>
+      Lock_the_Price.htm
+    </topic>
+    
+    <topic>
+      Make_a_One-time_Price_Change_on_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Make_a_One-time_Price_Change_for_Glazing.htm
+    </topic>
+    
+    <topic>
+      Materials_List_Explained.htm
+    </topic>
+    
+    <topic>
+      Post_a_Work_Order_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Post_Multiple_Work_Orders_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Price_Multiple_Openings_with_Fillets.htm
+    </topic>
+    
+    <topic>
+      Price_Multiple_Openings_without_CMC.htm
+    </topic>
+    
+    <topic>
+      Price_Other_Items.htm
+    </topic>
+    
+    <topic>
+      Print_a_Single_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Print_Art_ID_Tags.htm
+    </topic>
+    
+    <topic>
+      Print_Incomplete_Orders.htm
+    </topic>
+    
+    <topic>
+      Print_a_Work_Order_Estimate.htm
+    </topic>
+    
+    <topic>
+      Print_Multiple_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Reprint_a_Single_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Remove_a_Contact_from_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Repost_a_Work_Order_from_a_Voided_Invoice.htm
+    </topic>
+    
+    <topic>
+      Substitute_a_Moulding_for_One_Already_Entered.htm
+    </topic>
+    
+    <topic>
+      Track_Artwork_and_Work_Order_by_Location.htm
+    </topic>
+    
+    <topic>
+      Track_Work_Order_by_Completion_Status.htm
+    </topic>
+    
+    <topic>
+      Track_Work_Order_using_the_Art_Tracker.htm
+    </topic>
+    
+    <topic>
+      Track_Work_Order_by_Priority.htm
+    </topic>
+    
+    <topic>
+      Unpost_a_Work_Order.htm
+    </topic>
+    
+    <topic>
+      Update_a_Posted_Work_Order_on_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Work_with_Large_Orders.htm
+    </topic>
+    
+    <topic>
+      Print_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Print_a_Customers_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Print_an_Art_Receipt.htm
+    </topic>
+    
+    <topic>
+      Print_Incomplete_Schedule.htm
+    </topic>
+    
+    <topic>
+      Print_Scenarios.htm
+    </topic>
+    
+    <topic>
+      Print_Materials_List.htm
+    </topic>
+    
+    <topic>
+      Print_General_Summary.htm
+    </topic>
+    
+    <topic>
+      Print_Detailed_Summary.htm
+    </topic>
+    
+    <topic>
+      Print_a_Proposal.htm
+    </topic>
+    
+    <topic>
+      Print_an_Estimate.htm
+    </topic>
+    
+    <topic>
+      Print_All_Materials_Cut_List.htm
+    </topic>
+    
+    <topic>
+      Print_Moulding_Cut_List.htm
+    </topic>
+    
+    <topic>
+      Print_Matboard_Cut_List.htm
+    </topic>
+    
+    <topic>
+      Moulding_Matboard_Usage_Report.htm
+    </topic>
+    
+    <topic>
+      Glazing_Cut_List.htm
+    </topic>
+    
+    <topic>
+      Glazing_Usage_Report.htm
+    </topic>
+    
+    <topic>
+      Wholesale_Cost_Report.htm
+    </topic>
+    
+    <topic>
+      Invoices_Overview.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Invoices.htm
+    </topic>
+    
+    <topic>
+      Invoices_Quick_Reference.htm
+    </topic>
+    
+    <topic>
+      Rapid_Entries_Screen.htm
+    </topic>
+    
+    <topic>
+      Reward_Points_Overview.htm
+    </topic>
+    
+    <topic>
+      Tax_Rounding.htm
+    </topic>
+    
+    <topic>
+      Invoices_Form_View.htm
+    </topic>
+    
+    <topic>
+      Invoices_List_View.htm
+    </topic>
+    
+    <topic>
+      Invoices_Contacts_Section.htm
+    </topic>
+    
+    <topic>
+      Invoices_Details_Section.htm
+    </topic>
+    
+    <topic>
+      Invoices_Payment_Section.htm
+    </topic>
+    
+    <topic>
+      Invoices_Data_Entry_Screen.htm
+    </topic>
+    
+    <topic>
+      Invoices_Menubar.htm
+    </topic>
+    
+    <topic>
+      Invoices_Find_Screen.htm
+    </topic>
+    
+    <topic>
+      Invoices_Navigation_Buttons.htm
+    </topic>
+    
+    <topic>
+      Invoices_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Invoices_Enter_a_Payment_Screen.htm
+    </topic>
+    
+    <topic>
+      Add_a_Deposit.htm
+    </topic>
+    
+    <topic>
+      Add_a_Deposit_Without_Creating_a_Taxable_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_a_Discount_on_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_a_Gift_Card_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_a_Gift_Certificate_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_Layaways.htm
+    </topic>
+    
+    <topic>
+      Add_Outstanding_Invoices.htm
+    </topic>
+    
+    <topic>
+      Add_an_Overpayment.htm
+    </topic>
+    
+    <topic>
+      Add_Retail_Products_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_a_Shipping_Address_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Add_a_Work_Order_to_an_Existing_Invoice.htm
+    </topic>
+    
+    <topic>
+      Billing_a_Corporate_or_Head_Office.htm
+    </topic>
+    
+    <topic>
+      Change_Invoice_Numbering.htm
+    </topic>
+    
+    <topic>
+      Change_Tax_for_Out_of_Jurisdiction_Sale.htm
+    </topic>
+    
+    <topic>
+      Change_a_Work_Order_Posted_to_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Change_or_Fix_Invoice_Categories.htm
+    </topic>
+    
+    <topic>
+      Clear_Bad_Debt.htm
+    </topic>
+    
+    <topic>
+      Clear_an_old_Unpaid_Invoice.htm
+    </topic>
+    
+    <topic>
+      Correct_a_Missing_Discount.htm
+    </topic>
+    
+    <topic>
+      Correct_Credit_Card_Payments.htm
+    </topic>
+    
+    <topic>
+      Create_a_Coupon.htm
+    </topic>
+    
+    <topic>
+      Create_a_Tax_Exempt_Invoice.htm
+    </topic>
+    
+    <topic>
+      Delete_Invoices.htm
+    </topic>
+    
+    <topic>
+      Delete_Invoice_Line_Entries.htm
+    </topic>
+    
+    <topic>
+      Email_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Email_a_Thank_You_Note.htm
+    </topic>
+    
+    <topic>
+      Find_Invoices.htm
+    </topic>
+    
+    <topic>
+      Find_Unpaid_Invoices.htm
+    </topic>
+    
+    <topic>
+      Group_Items_on_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      How_to_Void_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Merge_Multiple_Invoices.htm
+    </topic>
+    
+    <topic>
+      Move_a_Work_Order_to_a_Different_Invoice.htm
+    </topic>
+    
+    <topic>
+      Redeem_a_Coupon.htm
+    </topic>
+    
+    <topic>
+      Redeem_a_Gift_Card.htm
+    </topic>
+    
+    <topic>
+      Redeem_a_Gift_Certificate.htm
+    </topic>
+    
+    <topic>
+      Redeem_Reward_Points.htm
+    </topic>
+    
+    <topic>
+      Redeem_Store_Credit.htm
+    </topic>
+    
+    <topic>
+      Refund_a_Paid-in-Full_Invoice.htm
+    </topic>
+    
+    <topic>
+      Partially_Refund_a_Paid-in-Full_Invoice.htm
+    </topic>
+    
+    <topic>
+      Refund_a_Deposit_Invoice_and_Reclaim_Taxes.htm
+    </topic>
+    
+    <topic>
+      Print_a_Blank_Invoice.htm
+    </topic>
+    
+    <topic>
+      Print_a_Gift_Receipt.htm
+    </topic>
+    
+    <topic>
+      Print_an_Invoice_or_Receipt.htm
+    </topic>
+    
+    <topic>
+      Print_a_Packing_List.htm
+    </topic>
+    
+    <topic>
+      Save_a_PDF_Invoice.htm
+    </topic>
+    
+    <topic>
+      Take_a_Payment.htm
+    </topic>
+    
+    <topic>
+      Take_a_Payment_on_Multiple_Invoices.htm
+    </topic>
+    
+    <topic>
+      Track_Walk-in_Retail_Sales.htm
+    </topic>
+    
+    <topic>
+      UnPost_a_Work_Order_from_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Use_the_Rapid_Entries_Screen.htm
+    </topic>
+    
+    <topic>
+      Contacts_Overview.htm
+    </topic>
+    
+    <topic>
+      Gallery_Record_Overview.htm
+    </topic>
+    
+    <topic>
+      Customer_ID_Field.htm
+    </topic>
+    
+    <topic>
+      Email_Correspondence.htm
+    </topic>
+    
+    <topic>
+      Send_SMS_Messages_to_Contacts.htm
+    </topic>
+    
+    <topic>
+      HTML_Email_Templates.htm
+    </topic>
+    
+    <topic>
+      Ranking_Explained.htm
+    </topic>
+    
+    <topic>
+      Set_up_Contacts.htm
+    </topic>
+    
+    <topic>
+      Set_up_Keywords.htm
+    </topic>
+    
+    <topic>
+      Contacts_Form_View.htm
+    </topic>
+    
+    <topic>
+      Contacts_Menubar.htm
+    </topic>
+    
+    <topic>
+      Contacts_Tabs.htm
+    </topic>
+    
+    <topic>
+      Contacts_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Keywords_Tab.htm
+    </topic>
+    
+    <topic>
+      Terms_Tab.htm
+    </topic>
+    
+    <topic>
+      Shipping_Tab.htm
+    </topic>
+    
+    <topic>
+      Referrals_Tab.htm
+    </topic>
+    
+    <topic>
+      Date_Notes_Tab.htm
+    </topic>
+    
+    <topic>
+      Group_Details_Tab.htm
+    </topic>
+    
+    <topic>
+      Artists_Tab.htm
+    </topic>
+    
+    <topic>
+      Invoices_Rewards_Tab.htm
+    </topic>
+    
+    <topic>
+      Invoice_Details_Tab.htm
+    </topic>
+    
+    <topic>
+      Receive_Payment_Tab.htm
+    </topic>
+    
+    <topic>
+      Credits_Tab.htm
+    </topic>
+    
+    <topic>
+      Work_Orders_Tab.htm
+    </topic>
+    
+    <topic>
+      Add_a_Referral.htm
+    </topic>
+    
+    <topic>
+      Add_a_Shipping_Address.htm
+    </topic>
+    
+    <topic>
+      Add_Customer_Tax_Exemption.htm
+    </topic>
+    
+    <topic>
+      Add_Discounts_for_a_Contact.htm
+    </topic>
+    
+    <topic>
+      Add_Opening_Sales_for_a_Customer.htm
+    </topic>
+    
+    <topic>
+      Add_a_Supplier.htm
+    </topic>
+    
+    <topic>
+      Always_see_your_Contacts.htm
+    </topic>
+    
+    <topic>
+      Consolidate_Duplicate_Contacts.htm
+    </topic>
+    
+    <topic>
+      Create_a_Special_Order_for_a_Customer.htm
+    </topic>
+    
+    <topic>
+      Create_a_Target_Mailing.htm
+    </topic>
+    
+    <topic>
+      Export_Customer_Mailing_List.htm
+    </topic>
+    
+    <topic>
+      Find_Customers.htm
+    </topic>
+    
+    <topic>
+      Find_Top_Customers.htm
+    </topic>
+    
+    <topic>
+      Find_an_Email_Address.htm
+    </topic>
+    
+    <topic>
+      Marketing_to_your_Referrals.htm
+    </topic>
+    
+    <topic>
+      Print_Address_Labels.htm
+    </topic>
+    
+    <topic>
+      Print_Envelopes.htm
+    </topic>
+    
+    <topic>
+      Print_Letters.htm
+    </topic>
+    
+    <topic>
+      Send_Bulk_Email_to_Small_Groups.htm
+    </topic>
+    
+    <topic>
+      Send_HTML_Email_to_Contacts.htm
+    </topic>
+    
+    <topic>
+      Track_Corner_Samples.htm
+    </topic>
+    
+    <topic>
+      Track_Customer_Preferences.htm
+    </topic>
+    
+    <topic>
+      Track_Referrals.htm
+    </topic>
+    
+    <topic>
+      Track_Reserved_LE_Numbers.htm
+    </topic>
+    
+    <topic>
+      Use_Keywords.htm
+    </topic>
+    
+    <topic>
+      Purchase_Orders_Overview.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Purchase_Orders.htm
+    </topic>
+    
+    <topic>
+      Purchase_Order_vs_Frame_Order.htm
+    </topic>
+    
+    <topic>
+      Set_up_Purchase_Orders.htm
+    </topic>
+    
+    <topic>
+      Purchase_Orders_Form_View.htm
+    </topic>
+    
+    <topic>
+      Purchase_Orders_Menubar.htm
+    </topic>
+    
+    <topic>
+      Purchase_Orders_List_View.htm
+    </topic>
+    
+    <topic>
+      Purchase_Orders_Vendor_Section.htm
+    </topic>
+    
+    <topic>
+      Frame_Order_Window.htm
+    </topic>
+    
+    <topic>
+      Accept_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Add_Supply_Items_to_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Add_a_Work_Order_to_the_Next_Frame_Order.htm
+    </topic>
+    
+    <topic>
+      Cancel_a_Frame_Order.htm
+    </topic>
+    
+    <topic>
+      Create_a_Blank_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Create_a_Purchase_Order_with_Cut_Lists.htm
+    </topic>
+    
+    <topic>
+      Create_a_Purchase_Order_for_Products.htm
+    </topic>
+    
+    <topic>
+      Consolidate_Items_on_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Email_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Exclude_a_Vendor_from_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Export_a_Purchase_Order_to_Excel.htm
+    </topic>
+    
+    <topic>
+      Manually_Add_Items_to_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Order_Supply_Items_by_the_Box.htm
+    </topic>
+    
+    <topic>
+      Print_a_Pick_List.htm
+    </topic>
+    
+    <topic>
+      Print_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Products_Overview.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Products.htm
+    </topic>
+    
+    <topic>
+      Product_Suppliers.htm
+    </topic>
+    
+    <topic>
+      Product_Inventory_List.htm
+    </topic>
+    
+    <topic>
+      Clear_Product_Inventory.htm
+    </topic>
+    
+    <topic>
+      Export_Products_to_Excel.htm
+    </topic>
+    
+    <topic>
+      View_Inventory_from_a_Specific_Date.htm
+    </topic>
+    
+    <topic>
+      Set_up_Products.htm
+    </topic>
+    
+    <topic>
+      Set_up_Product_Ordering.htm
+    </topic>
+    
+    <topic>
+      Set_up_Retail_Categories.htm
+    </topic>
+    
+    <topic>
+      Products_Form_View.htm
+    </topic>
+    
+    <topic>
+      Products_Menubar.htm
+    </topic>
+    
+    <topic>
+      Products_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Pricing_Tab.htm
+    </topic>
+    
+    <topic>
+      Multi_Site_Inventory_Tab.htm
+    </topic>
+    
+    <topic>
+      Artwork_Tab.htm
+    </topic>
+    
+    <topic>
+      Consignment_Tab.htm
+    </topic>
+    
+    <topic>
+      Readymade_Tab.htm
+    </topic>
+    
+    <topic>
+      Special_Order_Tab.htm
+    </topic>
+    
+    <topic>
+      Readymade_Overview.htm
+    </topic>
+    
+    <topic>
+      Add_Readymade_Frames_as_a_Product.htm
+    </topic>
+    
+    <topic>
+      Create_Your_Own_Readymade_Frame.htm
+    </topic>
+    
+    <topic>
+      Add_New_Retail_Items.htm
+    </topic>
+    
+    <topic>
+      Add_an_Artist_and_their_Artwork.htm
+    </topic>
+    
+    <topic>
+      Change_Product_Categories.htm
+    </topic>
+    
+    <topic>
+      Change_Product_Serial_Numbers.htm
+    </topic>
+    
+    <topic>
+      Edit_the_Artist_List.htm
+    </topic>
+    
+    <topic>
+      Edit_the_Gallery_Consignment_Agreement.htm
+    </topic>
+    
+    <topic>
+      Edit_Product_Categories.htm
+    </topic>
+    
+    <topic>
+      Import_InLine_Ovals.htm
+    </topic>
+    
+    <topic>
+      Import_Retail_Items.htm
+    </topic>
+    
+    <topic>
+      Post_Products_to_a_Purchase_Order.htm
+    </topic>
+    
+    <topic>
+      Print_One_Label_for_Multiple_Products.htm
+    </topic>
+    
+    <topic>
+      Print_a_Text_or_Image_Directory.htm
+    </topic>
+    
+    <topic>
+      Print_Title_Labels.htm
+    </topic>
+    
+    <topic>
+      Print_Retail_Inventory_List.htm
+    </topic>
+    
+    <topic>
+      Return_a_Product_to_Inventory_after_a_Refund.htm
+    </topic>
+    
+    <topic>
+      Duplicate_a_Limited_Edition_Item.htm
+    </topic>
+    
+    <topic>
+      Labels_Overview.htm
+    </topic>
+    
+    <topic>
+      Labels_Form_View.htm
+    </topic>
+    
+    <topic>
+      Avery_Labels.htm
+    </topic>
+    
+    <topic>
+      Question_Mark_in_Labels.htm
+    </topic>
+    
+    <topic>
+      Create_Your_Own_Labels.htm
+    </topic>
+    
+    <topic>
+      Fix_Printer_Labels.htm
+    </topic>
+    
+    <topic>
+      Print_Corner_Sample_Barcode_Labels.htm
+    </topic>
+    
+    <topic>
+      Print_Labels_for_a_Frame_Job.htm
+    </topic>
+    
+    <topic>
+      Print_Multiple_Labels.htm
+    </topic>
+    
+    <topic>
+      Print_One_Label_per_Item_in_Found_Set.htm
+    </topic>
+    
+    <topic>
+      Print_Readymade_Frame_Labels.htm
+    </topic>
+    
+    <topic>
+      Gift_Certificate_Card_Overview.htm
+    </topic>
+    
+    <topic>
+      Working_with_Gift_Cards.htm
+    </topic>
+    
+    <topic>
+      Gift_Certificate_Form_View.htm
+    </topic>
+    
+    <topic>
+      Gift_Certificates_Menubar.htm
+    </topic>
+    
+    <topic>
+      Gift_Certificate_List_View.htm
+    </topic>
+    
+    <topic>
+      Gift_Certificate_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Add_Credit_to_a_Gift_Card.htm
+    </topic>
+    
+    <topic>
+      Add_Store_Credit_to_a_Contact.htm
+    </topic>
+    
+    <topic>
+      Create_a_Gift_Certificate.htm
+    </topic>
+    
+    <topic>
+      Create_Promotional_Gift_Cards.htm
+    </topic>
+    
+    <topic>
+      Create_Promotional_Gift_Certificates.htm
+    </topic>
+    
+    <topic>
+      Reverse_Store_Credit.htm
+    </topic>
+    
+    <topic>
+      View_Outstanding_Store_Credit.htm
+    </topic>
+    
+    <topic>
+      Coupons_Overview.htm
+    </topic>
+    
+    <topic>
+      Track_Coupons.htm
+    </topic>
+    
+    <topic>
+      Outbound_Consignment_Overview.htm
+    </topic>
+    
+    <topic>
+      Outbound_Consignments_Form_View.htm
+    </topic>
+    
+    <topic>
+      Outbound_Consignments_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Outbound_Consignment_Data_Entry.htm
+    </topic>
+    
+    <topic>
+      Prepare_a_Consignment_Order.htm
+    </topic>
+    
+    <topic>
+      Add_Consignment_Information.htm
+    </topic>
+    
+    <topic>
+      Close_an_Outbound_Consignment_Order.htm
+    </topic>
+    
+    <topic>
+      Message_Center_Overview.htm
+    </topic>
+    
+    <topic>
+      Message_Center_Form_View.htm
+    </topic>
+    
+    <topic>
+      Message_Center_List_View.htm
+    </topic>
+    
+    <topic>
+      Store_Policies_and_Procedures.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Overview.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Login_Screen.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Post-Login_Screen.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Status_Tab.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Info_Tab.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Pay_Stub_Tab.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Notes_Tab.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Sidebar_Buttons.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Security_Explained.htm
+    </topic>
+    
+    <topic>
+      Overtime_Explained.htm
+    </topic>
+    
+    <topic>
+      Set_up_Time_Cards.htm
+    </topic>
+    
+    <topic>
+      Add_a_New_Employee.htm
+    </topic>
+    
+    <topic>
+      Change_Employee_Access_Level.htm
+    </topic>
+    
+    <topic>
+      Edit_a_Time_Card_Entry.htm
+    </topic>
+    
+    <topic>
+      Edit_Hourly_Wages.htm
+    </topic>
+    
+    <topic>
+      Edit_Hours_in_Pay_Period.htm
+    </topic>
+    
+    <topic>
+      Move_Time_Card_Hours.htm
+    </topic>
+    
+    <topic>
+      Enable_Disable_Employee_Accounts.htm
+    </topic>
+    
+    <topic>
+      Print_Time_Cards.htm
+    </topic>
+    
+    <topic>
+      Log_in_to_Time_Cards.htm
+    </topic>
+    
+    <topic>
+      Clock_In_Clock_Out.htm
+    </topic>
+    
+    <topic>
+      Log_out_of_Time_Cards.htm
+    </topic>
+    
+    <topic>
+      Change_Time_Card_Password.htm
+    </topic>
+    
+    <topic>
+      Create_a_New_Time_Card.htm
+    </topic>
+    <topic>
+      FrameReady_Payments.htm
+    </topic>
+    <topic>
+      Credit_Card_Processing_Overview.htm
+    </topic>
+    
+    <topic>
+      Credit_Card_Processing_FAQs.htm
+    </topic>
+    
+    <topic>
+      Set_up_FrameReady_Pay.htm
+    </topic>
+    
+    <topic>
+      Take_a_Credit_Card_Payment.htm
+    </topic>
+    
+    <topic>
+      Take_a_Manual_Credit_Card_Payment.htm
+    </topic>
+    
+    <topic>
+      Send_a_Text_Message_Receipt.htm
+    </topic>
+    
+    <topic>
+      Send_a_FrameReady_Pay_Link.htm
+    </topic>
+    
+    <topic>
+      Process_a_Stored_Transaction.htm
+    </topic>
+    
+    <topic>
+      Process_a_Credit_Card.htm
+    </topic>
+    
+    <topic>
+      Void_a_Credit_Card_Payment.htm
+    </topic>
+    
+    <topic>
+      Credit_Card_Processing_Errors.htm
+    </topic>
+    
+    <topic>
+      Barcodes_Overview.htm
+    </topic>
+    
+    <topic>
+      Scan_Barcodes_with_an_iPad.htm
+    </topic>
+    
+    <topic>
+      Find_a_Product_using_Barcodes.htm
+    </topic>
+    
+    <topic>
+      CMC_Overview.htm
+    </topic>
+    
+    <topic>
+      CMC_Interface.htm
+    </topic>
+    
+    <topic>
+      CMC_Gunnar.htm
+    </topic>
+    
+    <topic>
+      CMC_Gunnar_FAQs.htm
+    </topic>
+    
+    <topic>
+      CMC_Valiani.htm
+    </topic>
+    
+    <topic>
+      CMC_Valiani_FAQs.htm
+    </topic>
+    
+    <topic>
+      CMC_Wizard.htm
+    </topic>
+    
+    <topic>
+      CMC_Wizard_FAQs.htm
+    </topic>
+    
+    <topic>
+      CMC_Wizard_FrameShop.htm
+    </topic>
+    
+    <topic>
+      CMC_Wizard_FrameShop_Mac_Support.htm
+    </topic>
+    
+    <topic>
+      CMC_Pricing_Templates.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_CMC.htm
+    </topic>
+    
+    <topic>
+      Constant_Contact_Over.htm
+    </topic>
+    
+    <topic>
+      Constant_Contact_Set_up.htm
+    </topic>
+    
+    <topic>
+      Constant_Contact.htm
+    </topic>
+    
+    <topic>
+      Constant_Contact_Assign.htm
+    </topic>
+    
+    <topic>
+      Constant_Contact_Remove_from_a_List.htm
+    </topic>
+    
+    <topic>
+      Mailchimp_Overview.htm
+    </topic>
+    
+    <topic>
+      Mailchimp_Set_up.htm
+    </topic>
+    
+    <topic>
+      Mailchimp_Import_Lists.htm
+    </topic>
+    
+    <topic>
+      Mailchimp_Assign_to_a_List.htm
+    </topic>
+    
+    <topic>
+      Mailchimp_Remove_from_a_List.htm
+    </topic>
+    
+    <topic>
+      QuickBooks_Overview.htm
+    </topic>
+    
+    <topic>
+      Schedule_QuickBooks_Appointment.htm
+    </topic>
+    
+    <topic>
+      QuickBooks_FAQs.htm
+    </topic>
+    
+    <topic>
+      Remove_and_Update_Records_from_your_Quickbooks_Integration.htm
+    </topic>
+    
+    <topic>
+      Open_QuickBooks_Settings.htm
+    </topic>
+    
+    <topic>
+      Connect_to_QuickBooks_Online.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Customers.htm
+    </topic>
+    
+    <topic>
+      Import_Contact_Information_into_Quickbooks.htm
+    </topic>
+    
+    <topic>
+      Manually_Link_FrameReady_Contacts_to_Existing_Quickbooks_Customers.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Chart_of_Accounts.htm
+    </topic>
+    
+    <topic>
+      Import_Quickbooks_Chart_of_Accounts.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Items.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Tax_Codes.htm
+    </topic>
+    
+    <topic>
+      Import_Taxes_from_QuickBooks.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Discounts.htm
+    </topic>
+    
+    <topic>
+      Add_Percentage_Discounts_to_Invoices.htm
+    </topic>
+    
+    <topic>
+      assets\css\Apply_Deposits_to_Final_Invoices.htm
+    </topic>
+    
+    <topic>
+      Set_up_QuickBooks_Payment_Methods.htm
+    </topic>
+    
+    <topic>
+      Import_Payment_Methods_from_QuickBooks.htm
+    </topic>
+    
+    <topic>
+      Connect_Payment_Methods_to_Tender_Types_in_FrameReady.htm
+    </topic>
+    
+    <topic>
+      Push_Contact_to_QuickBooks.htm
+    </topic>
+    
+    <topic>
+      Push_Invoice_to_QuickBooks.htm
+    </topic>
+    
+    <topic>
+      Show_Tax_Exempt_QuickBooks_Item_on_an_Invoice.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_QuickBooks.htm
+    </topic>
+    
+    <topic>
+      Shopify_Overview.htm
+    </topic>
+    
+    <topic>
+      Shopify_Set_up.htm
+    </topic>
+    
+    <topic>
+      Shopify_Work_with_Orders.htm
+    </topic>
+    
+    <topic>
+      Shopify_Import_All_Web_Orders.htm
+    </topic>
+    
+    <topic>
+      Shopify_Import_All_since_Last_Order.htm
+    </topic>
+    
+    <topic>
+      Shopify_Import_a_Single_Order_by_ID.htm
+    </topic>
+    
+    <topic>
+      Shopify_View_All_Invoices.htm
+    </topic>
+    
+    <topic>
+      Shopify_Orders_Detail_View.htm
+    </topic>
+    
+    <topic>
+      Shopify_Work_with_Products.htm
+    </topic>
+    
+    <topic>
+      Shopify_View_All_Products.htm
+    </topic>
+    
+    <topic>
+      Shopify_Sync_Product_Inventory.htm
+    </topic>
+    
+    <topic>
+      Shopify_Work_with_Customers.htm
+    </topic>
+    
+    <topic>
+      Shopify_View_All_Customers.htm
+    </topic>
+    
+    <topic>
+      Shopify_Sync_Customer_Details.htm
+    </topic>
+    
+    <topic>
+      Square_Overview.htm
+    </topic>
+    
+    <topic>
+      Square_FAQs.htm
+    </topic>
+    
+    <topic>
+      Square_Set_Up.htm
+    </topic>
+    
+    <topic>
+      Square_Refresh_Token.htm
+    </topic>
+    
+    <topic>
+      Square_Deactivate_Terminal.htm
+    </topic>
+    
+    <topic>
+      Square_Process_a_Credit_Card_Payment.htm
+    </topic>
+    
+    <topic>
+      Square_Process_a_Refund.htm
+    </topic>
+    
+    <topic>
+      Square_Disconnect_your_Square_Integration.htm
+    </topic>
+    
+    <topic>
+      Web_Portal_Overview.htm
+    </topic>
+    
+    <topic>
+      Web_Portal_Login.htm
+    </topic>
+    
+    <topic>
+      Web_Portal_Contact_Info.htm
+    </topic>
+    
+    <topic>
+      Web_Portal_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Web_Portal_Invoices.htm
+    </topic>
+    
+    <topic>
+      WooCommerce_Overview.htm
+    </topic>
+    
+    <topic>
+      WooCommerce_Set_up.htm
+    </topic>
+    
+    <topic>
+      WooCommerce_Import_Orders.htm
+    </topic>
+    
+    <topic>
+      WooCommerce_Work_with_Orders.htm
+    </topic>
+    
+    <topic>
+      Xero_Overview.htm
+    </topic>
+    
+    <topic>
+      Xero_Set_Up.htm
+    </topic>
+    
+    <topic>
+      Xero_Contacts.htm
+    </topic>
+    
+    <topic>
+      Xero_Sync_Contacts.htm
+    </topic>
+    
+    <topic>
+      Xero_Accounts.htm
+    </topic>
+    
+    <topic>
+      Xero_Invoices.htm
+    </topic>
+    
+    <topic>
+      Select_your_Paper_Flow.htm
+    </topic>
+    
+    <topic>
+      Create_Save_and_Send_PDFs.htm
+    </topic>
+    
+    <topic>
+      Multi_Site_Reports.htm
+    </topic>
+    
+    <topic>
+      Sales_Reports_101.htm
+    </topic>
+    
+    <topic>
+      Closing_Off_Year_End.htm
+    </topic>
+    
+    <topic>
+      Tax_Reports.htm
+    </topic>
+    
+    <topic>
+      End_of_Day_Reports.htm
+    </topic>
+    
+    <topic>
+      Sales_Reports.htm
+    </topic>
+    
+    <topic>
+      Retail_Items_Sold_Report.htm
+    </topic>
+    
+    <topic>
+      Daily_Summary_Report.htm
+    </topic>
+    
+    <topic>
+      Category_Summary_Report.htm
+    </topic>
+    
+    <topic>
+      Accounts_Receivable_Report_by_Customer.htm
+    </topic>
+    
+    <topic>
+      Work_Order_Sales_Reports.htm
+    </topic>
+    
+    <topic>
+      Invoice_Details_Daily_Report.htm
+    </topic>
+    
+    <topic>
+      Accounts_Receivable_Report_by_Invoices.htm
+    </topic>
+    
+    <topic>
+      Commission_Sales_Report.htm
+    </topic>
+    
+    <topic>
+      Frame_Order_Purchase_Order_Reports.htm
+    </topic>
+    
+    <topic>
+      Moulding_Usage_by_Supplier_Report.htm
+    </topic>
+    
+    <topic>
+      Inventory_Reports.htm
+    </topic>
+    
+    <topic>
+      Payment_Reports.htm
+    </topic>
+    
+    <topic>
+      Sales_Reports_by_Category_Supplier_Customer.htm
+    </topic>
+    
+    <topic>
+      Consignment_Art_Report.htm
+    </topic>
+    
+    <topic>
+      Print_a_Product_Order.htm
+    </topic>
+    
+    <topic>
+      Reports_from_Invoices.htm
+    </topic>
+    
+    <topic>
+      Invoice_Formats.htm
+    </topic>
+    
+    <topic>
+      Customer_Statements.htm
+    </topic>
+    
+    <topic>
+      Sales_Performance_Report.htm
+    </topic>
+    
+    <topic>
+      Certificate_of_Authenticity.htm
+    </topic>
+    
+    <topic>
+      Retail_Product_Summary_Report.htm
+    </topic>
+    
+    <topic>
+      Retail_Product_Detail_Report.htm
+    </topic>
+    
+    <topic>
+      Time_Cards_Report.htm
+    </topic>
+    
+    <topic>
+      Employee_Hours_Summary_Report.htm
+    </topic>
+    
+    <topic>
+      Print_Artist_Bio.htm
+    </topic>
+    
+    <topic>
+      Find_Customers_by_Date_Range.htm
+    </topic>
+    
+    <topic>
+      Referrals_Report.htm
+    </topic>
+    
+    <topic>
+      Items_Out_On_Consignment_Report.htm
+    </topic>
+    
+    <topic>
+      iPad_Overview.htm
+    </topic>
+    
+    <topic>
+      iPad_Requirements.htm
+    </topic>
+    
+    <topic>
+      Install_FileMaker_Go.htm
+    </topic>
+    
+    <topic>
+      FrameReady_on_an_iPad.htm
+    </topic>
+    
+    <topic>
+      Add_Shortcut_on_iPad.htm
+    </topic>
+    
+    <topic>
+      Set_up_iPad_for_In-Store.htm
+    </topic>
+    
+    <topic>
+      Set_up_iPad_for_Off-Site.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_FileMaker_Go.htm
+    </topic>
+    
+    <topic>
+      Find_Overview.htm
+    </topic>
+    
+    <topic>
+      Find_Feature_Explained.htm
+    </topic>
+    
+    <topic>
+      Multiple_Find_Requests.htm
+    </topic>
+    
+    <topic>
+      Edit_Value_Lists.htm
+    </topic>
+    
+    <topic>
+      Find_a_Range.htm
+    </topic>
+    
+    <topic>
+      Marked_Field.htm
+    </topic>
+    
+    <topic>
+      Omit_Records.htm
+    </topic>
+    
+    <topic>
+      Sort_Records.htm
+    </topic>
+    
+    <topic>
+      Use_Marked_Fields_to_Print_Labels.htm
+    </topic>
+    
+    <topic>
+      Art_Resource_Explained.htm
+    </topic>
+    
+    <topic>
+      Found_Sets.htm
+    </topic>
+    
+    <topic>
+      Find_Duplicate_Records.htm
+    </topic>
+    
+    <topic>
+      Delete_a_Found_Set.htm
+    </topic>
+    
+    <topic>
+      Delete_a_Group_of_Work_Orders.htm
+    </topic>
+    
+    <topic>
+      Export_to_Excel.htm
+    </topic>
+    
+    <topic>
+      Find_by_Date.htm
+    </topic>
+    
+    <topic>
+      Find_Empty_Fields.htm
+    </topic>
+    
+    <topic>
+      Find_Exact_Match.htm
+    </topic>
+    
+    <topic>
+      Find_by_Day_of_Week.htm
+    </topic>
+    
+    <topic>
+      Find_by_Hour_Day_Year.htm
+    </topic>
+    
+    <topic>
+      Replace_Command.htm
+    </topic>
+    
+    <topic>
+      View_Index_or_Contents_of_a_Field.htm
+    </topic>
+    
+    <topic>
+      Damaged_Files.htm
+    </topic>
+    
+    <topic>
+      Recover_a_Damaged_File.htm
+    </topic>
+    
+    <topic>
+      Email_Help.htm
+    </topic>
+    
+    <topic>
+      Email_using_Gmail.htm
+    </topic>
+    
+    <topic>
+      Email_using_AOL.htm
+    </topic>
+    
+    <topic>
+      Email_Messages_are_Empty.htm
+    </topic>
+    
+    <topic>
+      Error_Messages.htm
+    </topic>
+    
+    <topic>
+      Date_and_Time_Format.htm
+    </topic>
+    
+    <topic>
+      Duplicate_Codes.htm
+    </topic>
+    
+    <topic>
+      File_Missing.htm
+    </topic>
+    
+    <topic>
+      File_Not_Found.htm
+    </topic>
+    
+    <topic>
+      Network_Sharing_Turned_Off.htm
+    </topic>
+    
+    <topic>
+      Missing_Markups.htm
+    </topic>
+    
+    <topic>
+      Printing_Blank_Pages.htm
+    </topic>
+    
+    <topic>
+      Troubleshoot_Printers.htm
+    </topic>
+    
+    <topic>
+      HP_Printers_on_Mac.htm
+    </topic>
+    
+    <topic>
+      Avoid_File_Corruption.htm
+    </topic>
+    
+    <topic>
+      Contacts_are_Missing.htm
+    </topic>
+    
+    <topic>
+      Trouble_Logging_In.htm
+    </topic>
+    
+    <topic>
+      Documents_Print_in_French_Spanish.htm
+    </topic>
+    
+    <topic>
+      Due_Dates_are_Incorrect.htm
+    </topic>
+    
+    <topic>
+      Items_are_Missing.htm
+    </topic>
+    
+    <topic>
+      Items_Revert_to_Old_Prices.htm
+    </topic>
+    
+    <topic>
+      Orders_have_the_Wrong_Vendor.htm
+    </topic>
+    
+    <topic>
+      Question_Mark_in_Field.htm
+    </topic>
+    
+    <topic>
+      Question_Mark_in_Markup_Field.htm
+    </topic>
+    
+    <topic>
+      Question_Mark_in_Set_Price_Field.htm
+    </topic>
+    
+    <topic>
+      Windows_too_Big_or_Small.htm
+    </topic>
+    
+  </topiclist>
+  <filenamemap>
+    <filenameentry moniker="wh_languagetype">
+      <filename>
+        en_US
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="wh_stoplist">
+      <filename>
+        whxdata/stopwords.xml
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="startpage">
+      <filename>
+        FrameReady.htm
+      </filename>
+    </filenameentry>
+        
+  </filenamemap>
+</ppfml>

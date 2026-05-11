@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=yes"/>
+  <meta name="version" content="2022.0.0"/>
+  <link rel="StyleSheet" href="./template/styles/topic.min.css" type="text/css"/>
+  <link rel="StyleSheet" data-skin="true" type="text/css" href="./template/Studio/layout.css"/>
+  <link rel="StyleSheet" data-skin="true" href="./template/Studio/userstyles.css" type="text/css"/>
+  
+  <script data-relpath="." src="./template/scripts/csh-redirect.js" type="text/javascript"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-B8Q3Q3PK8Z"></script><script>
+    //<![CDATA[
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-B8Q3Q3PK8Z');
+    //]]>
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Set up Single User Backups</title>
+  <meta name="topic-status" content="Draft"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
+  <meta name="template" content="assets/layouts/Article.htt"/>
+<meta name="rh-version" content="2022.3.107"/></head>
+
+<body class="rh-BODY-wrapper">
+  <div class="cookie-widget-holder" id="cookie-status-widget-holder"></div>
+  <div class="RH-LAYOUT-HEADER-skip-content-container" id="skip-to-content"></div>
+  <header class="RH-LAYOUT-HEADER-container" role="banner">
+    <div class="RH-LAYOUT-HEADER-logo-box  ">
+      <div class="RH-LAYOUT-HEADER-logo" id="logo-holder"></div>
+      <div class="RH-LAYOUT-HEADER-title" id="topic-title-holder"></div>
+    </div>
+    <div class="RH-LAYOUT-HEADERMENU-container" id="header-menu"></div>
+    <div class="search-placeholder-class" id="search-with-help"></div>
+  </header>
+  <main role="main" class="RH-LAYOUT-BODY-container">
+    <div class="RH-LAYOUT-SEARCHRESULTS" id="rh-searchresults"></div>
+    <div class="RH-LAYOUT-LEFTPANEL-container" id="rh-leftpanel"></div>
+    <div class="rh-layout-BODY-main" id="rh-layout-main">
+      <div class="RH-LAYOUT-TOOLBAR-toolbar-box" id="rh-toolbar"></div>
+      <div class="rh-layout-BODY-body">
+        <div class="RH-LAYOUT-CENTERPANEL-container">
+          <div class="rh-layout-selectdetails" id="rh-selectdetails"></div>
+          <div class="RH-LAYOUT-CENTERPANEL-topic-box" id="rh-topic">
+  <div><br/>
+  </div>
+  <div>
+  <h1>Set up Single User Backups</h1>
+  <p class="breadcrumbs">Main Menu &gt; Setup Data &gt; Backup <span>tab</span></p>
+  <p class="Note">FrameReady includes backup capabilities; we recommend you use them exclusively.</p>
+  <h2>Setup Data - Built-in Backup tab Explained</h2>
+  <ul class="Disc">
+    <li>
+      <p>There are two types of FrameReady setups: Single Computer users and FileMaker Server users.</p>
+      <ul>
+        <li>
+          <p><strong>Single Computer setups use the manual &quot;Backup Now&quot; feature in FrameReady.</strong></p>
+        </li>
+        <li>
+          <p>FileMaker Server setups use the scheduled backup tools in the FileMaker Server admin console.</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3>Before You Begin...</h3>
+  <p class="Note">These steps are very important to keep your FrameReady in good, working order.</p>
+  <h4>If you must use a <strong>third-party backup</strong> solution...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must also exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using <strong>Time Machine</strong> on your Mac...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you <strong>must exclude the FrameReady folder</strong> from all backups it makes. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>If you are using<strong> Anti-Virus software</strong> on your computer...</h4>
+  <ul class="Disc">
+    <li>
+      <p>then you must also <strong>exclude the FrameReady folder</strong> from its scanning activity. Failing to do so will likely result in damaged database files, lost or conflicting data.</p>
+    </li>
+  </ul>
+  <h4>In conclusion...</h4>
+  <ul class="Disc">
+    <li>
+      <p>Use the built-in FrameReady backup feature to backup the FrameReady folder.</p>
+    </li>
+    <li>
+      <p><strong>Do not</strong> allow other backup software to backup the FrameReady folder. </p>
+    </li>
+  </ul>
+  <h3>Where is FrameReady Installed?</h3>
+  <h4>For Single Users, the Default location of FrameReady 13</h4>
+  <ul class="Disc">
+    <li>
+      <p><strong>Windows</strong>: C:\Users\[Account name]\FrameReady 13</p>
+    </li>
+    <li>
+      <p><strong>mac OS</strong>: Macintosh HD\Users\[Account name]\FrameReady 13</p>
+    </li>
+  </ul>
+  <p class="Note">For Single Users, you can specify where FrameReady should store file backups of itself.</p>
+  <ul class="Disc">
+    <li>
+      <p>You can choose a backup location of <strong>Desktop</strong>, <strong>Documents</strong>, or <strong>Other</strong>.</p>
+    </li>
+    <li>
+      <p>Each backup is stored in a date-and-time-stamped folder so you can roll-back to a specific date if needed.</p>
+    </li>
+    <li>
+      <p>While FrameReady can make a backup of itself, it cannot delete them. This means all backups are preserved until you remove them manually to create free space on the storage device.</p>
+    </li>
+    <li>
+      <p>FrameReady can also display a helpful, visual alert (on the Main Menu) every 24 hours to remind you to backup.</p>
+    </li>
+  </ul>
+  <h3>How to set up your Backup Folder</h3>
+  <p class="Warning"><strong>Note:</strong> these steps are for single installations of FrameReady only.</p>
+  <ol class="steps">
+    <li>
+      <p>Log in as <strong>level4</strong>.</p>
+    </li>
+    <li>
+      <p>On the <strong><span>Main Menu</span></strong>, click the <strong><span>Setup Data</span></strong> button.<br/>
+        <br/>
+        <img src="assets/images/image391.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Open the <strong><span>Backup</span> </strong>tab.<br/>
+        <br/>
+        <img src="assets/images/image899.png"/>
+      </p>
+    </li>
+    <li>
+      <p>Choose where to store the backup files. <br/>
+        <br/>
+        Options include: <strong>Desktop</strong>, <strong>Documents, </strong>and <strong>Other</strong>.
+      </p>
+    </li>
+    <li>
+      <p>A special folder labelled <span class="Literal"> FrameReady Backups </span> will be created at your chosen location.<br/>
+        <br/>
+        Inside of that folder will be date-time stamped folder(s), for example, <span class="Literal"> 20220702_103641 </span> (YYYMMDD_HHMMSS)
+      </p>
+    </li>
+    <li>
+      <p>If you choose <strong>Other</strong>, then a new field appears, to the right, for the path to the folder.<br/>
+        <br/>
+        <img src="assets/images/image1591.png"/><br/>
+        <br/>
+        Click the empty field.<br/>
+        <br/>
+        A file dialog appears; locate your backup folder and click <strong>OK</strong> (Windows) or <strong>Select</strong> (Mac).<br/>
+        <br/>
+        Yes, you can plug in a USB device such as a flash drive and point the backup folder to it. Note that you do this at your own risk: you will need to monitor the flash drive so that it does not fill up.<br/>
+        <br/>
+        Click the <strong>Press here to test path</strong> button. If the folder does not appear, then test has failed. FrameReady will not create a new folder for you, you must do this using Windows Explorer or, on the Mac, using Finder.<br/>
+        <br/>
+        Click the <strong>Backup Now</strong> button to confirm that a backup has been created at your chosen location.
+      </p>
+    </li>
+    <li>
+      <p>Optionally, check the <strong>Display alert when a backup hasn&#39;t been performed during the last 24 hours</strong>. This displays a notice at the bottom of the Main Menu.<br/>
+        <br/>
+        <img height="44" src="assets/images/image1157.png" width="982"/>
+      </p>
+    </li>
+    <li>
+      <p>Click <strong><span>Done</span></strong>.</p>
+    </li>
+    <li>
+      <p><strong>Note: </strong>If you have chosen <strong>Desktop</strong> or <strong>Documents</strong>, then you may need to manually copy the FrameReady backup for off-site storage. This can be a USB drive that you take home or an online cloud backup service. </p>
+    </li>
+  </ol>
+  <h3>Backup Tab Explained</h3>
+  <p><img src="assets/images/image167.png"/></p>
+  <h4>Backup Location Field</h4>
+  <ul>
+    <li>
+      <p>Choose where to store the backup files.</p>
+    </li>
+    <li>
+      <p>Options include: <strong>Desktop</strong>, <strong>Documents, </strong>and <strong>Other</strong>.</p>
+    </li>
+  </ul>
+  <h4>Last Backup Field</h4>
+  <ul>
+    <li>
+      <p>The creation date and time of the last backup.</p>
+    </li>
+  </ul>
+  <h4>Backup Now Button</h4>
+  <ul>
+    <li>
+      <p>Creates a time-stamped folder in the location specified in the <strong>Backup Location</strong> field.</p>
+    </li>
+  </ul>
+  <h4>Alert Checkbox</h4>
+  <ul>
+    <li>
+      <p>FrameReady can alert to you create a backup if one has not been performed in more than 24 hours.</p>
+    </li>
+    <li>
+      <p>The message appears on the Main Menu, center-bottom.</p>
+    </li>
+  </ul>
+  <p><img height="44" src="assets/images/image1157.png" width="982"/></p>
+  <ul>
+    <li>
+      <p>Click the message to easily begin a manual backup.</p>
+    </li>
+  </ul>
+  <p> </p>
+
+</div>
+  <div>
+    <p style="font-family:&#39;Open Sans&#39;, Arial;color:#757575;">© 2023 Adatasol, Inc.</p>
+  </div>
+
+</div>
+          <div class="RH-LAYOUT-BRS-container" id="rh-brs"></div>
+        </div>
+        <div class="RH-LAYOUT-RIGHTPANEL-container" id="rh-rightpanel"></div>
+      </div>
+    </div>
+  </main>
+  <footer role="contentinfo" class="RH-LAYOUT-FOOTER-container" id="rh-footer"></footer>
+  <script type="text/javascript">//<![CDATA[
+
+    gRootRelPath = "."
+    gCommonRootRelPath = "."
+    gTopicId = "5.3_12"
+  
+//]]></script>
+
+
+  <script src="./template/scripts/topicpage.js"></script>
+  <script src="./whxdata/layoutconfig.js"></script>
+  <script src="./whxdata/brsdata.js"></script>
+
+  
+    
+      
+          
+
+            
+              
+                <link rel="StyleSheet" href="./template/Studio/custom.css" type="text/css"/>
+                
+                  
+
+
+</body></html>

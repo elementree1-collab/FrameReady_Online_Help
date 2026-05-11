@@ -1,0 +1,1 @@
+rh._.exports({"0":[[" ","Invoices Menubar"]],"1":[[" ","Invoices Menubar"]],"2":[[" ","Main Menu > Invoices"],[" ","Click ","Proceed","."," ","© 2023 Adatasol, Inc."]],"3":[[" ","Invoices Menubars Explained"]],"4":[[" ","New Menu"," ","Email Menu"," ","Perform Menu"]],"5":[[" ","Menubar Options"],[" ","Export (End of Day) Invoice Data"]],"id":"9"})
