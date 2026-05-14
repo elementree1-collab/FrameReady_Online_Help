@@ -87,197 +87,66 @@
       <p>Go to <a href="https://www.shopify.com" target="_blank">www.shopify.com</a> and log into your Shopify account. </p>
     </li>
     <li>
-      <p>Once you are logged in, go to the left-hand side of the page, in the left sidebar, and click the <strong>Apps</strong> button.<br/>
+      <p>Once you are logged in, go to the left hand side of the page in the left sidebar and look for the ‘Apps’ button and click on it. This will open up a dropdown as shown below. At the bottom of the dropdown is an option for ‘App Settings - click this option to continue on.<br/>
         <br/>
         <img src="assets/images/image1511.png"/>
+		  <br/>
+        <img src="assets/images/picture1.png"/>
       </p>
     </li>
     <li>
-      <p>This opens up a dropdown as shown below; at the bottom click the option for <strong>Apps and sales channel settings</strong> to continue.<br/>
+      <p>This will open up a new screen for App and Sales Channels. From this screen you need to click on the ‘Develop Apps’ button which will allow you to begin the set up for the integration.<br/>
         <br/>
-        <img src="assets/images/image1512.png"/>
+        <img src="assets/images/picture2.png"/>
       </p>
     </li>
     <li>
-      <p>A new screen for App and Sales Channels opens. Click the <strong>Develop Apps</strong> button (left of the green <strong>Customize your store</strong> button); this allows you to begin the set up for the integration.<br/>
+      <p>Once you click on the Develop Apps button, it will open up the App Development screen for you to set up the Shopify Integration. Hit the ‘Build Apps in Dev Dashboard’ button to continue.</p>
+      <p>Once you click the ‘Develop Apps in Dev Dashboard’ button, it will open up the Shopify dev dashboard where you will click the Create an app button. This will open up a new window to enter the name of the App and hit create. You can name the integration anything that you want but in this example, I am going to name the app ‘FrameReady Integration’.<br/>
         <br/>
-        <img src="assets/images/image1513.png"/>
+        <img src="assets/images/picture3.png"/>
+		  <br/>
+        <img src="assets/images/picture4.png"/>
       </p>
     </li>
     <li>
-      <p>After clicking the <strong>Develop Apps</strong> button, the App Development screen opens for you to set up the Shopify Integration.<br/>
+      <p>Once the integration has been created, you will see the “Create Version” screen. Click the ‘Configure Admin API scopes’ button. The first step now that Shopify is authenticating through OAuth 2.0 is to enter your “App URL”. For your App URL you should enter the homepage for our parent company Quilt LLC which is: “https://quiltsoftware.com”<br/>
         <br/>
-        <img src="assets/images/image1567.png"/>
+        <img src="assets/images/picture6.png"/>
       </p>
     </li>
     <li>
-      <p>Click the green <strong>Allow custom app development</strong> button.</p>
+      <p>Next you will need to select the proper access scopes for the Shopify integration that it needs to access your data. Click the link to the right that says “Select Scopes” which will pop up a window with all available scopes. Look at the image below to see exactly which Admin API scopes that you need to select the checkboxes for. Once you have selected all the of API scopes click the “Done” button at the bottom right to save your Admin API Scopes.</p>
+      <p><br/>
+        <img src="assets/images/picture7.png"/>
+		<br/>
+        <img src="assets/images/picture9.png"/></p>
     </li>
     <li>
-      <p>In the confirmation screen that appears, click the green <strong>Allow custom app development </strong>button. This cannot be undone.<br/>
+      <p>After you have saved your API scopes, we need to enter in a “Redirect URL” for the OAuth 2.0 authentication. Our parent company Quilt LLC also has a redirect page that we have set up which is: “https://quiltsoftware.com/quilt-unified-operations”. Enter that URL in the box for the Redirect URLs and then finally click the “Release” button in the bottom right of the page to complete. You will get another pop up to specify the version name which you can simply skip this step and just hit the release button again.<br/>
         <br/>
-        <img src="assets/images/image1568.png"/>
+        <img src="assets/images/picture10.png"/>
       </p>
     </li>
     <li>
-      <p>Finally, click tthe green <strong>Create an app</strong> button.<br/>
+      <p>Now that you have created your App release, go to the lefthand sidebar when you are in your current integration and click on the “Settings” link. Under Settings will be the heading for “Credentials”. Here you can access your “Client ID” and “Secret” which you will need for the next step.<br/>
         <br/>
-        <img src="assets/images/image1569.png"/>
+        <img src="assets/images/picture11.png"/>
       </p>
     </li>
     <li>
-      <p><span style="font-size: 10pt;">The screen dims and a popup window appears; enter the </span><strong style="font-size: 10pt;">App name</strong><span style="font-size: 10pt;"> (e.g. FrameReady Shopify Integration) and select the </span><strong style="font-size: 10pt;">App developer</strong><span style="font-size: 10pt;"> (leave as-is).</span><br/>
-        <br/>
-        You can name the integration anything that you want but, in this example, we have named the app &quot;FrameReady Shopify Integration&quot;. Your account&#39;s email address should appear in the <strong>App Developer</strong> field, which is fine.<br/>
-        <br/>
-        <img src="assets/images/image1571.png"/>
-      </p>
-    </li>
-    <li>
-      <p>Click the <strong>Create App</strong> button to create the integration. </p>
-    </li>
-    <li>
-      <p>Once the integration has been created, you will see the configuration screen.<br/>
-        <br/>
-        This is where we will specify what data we want Shopify to bring into FrameReady. At this time, we only support Orders, Products, and Customers, so we need to make sure we select the Admin API scopes for those.<br/>
-        <br/>
-        Click the <strong>Configure Admin API scopes</strong> button.<br/>
-        <br/>
-        <img src="assets/images/image1572.png"/>
-      </p>
-    </li>
-    <li>
-      <p>In the <strong>Filter access scopes</strong> field, enter the keyword: <span class="Literal"> Orders </span><br/>
-        <br/>
-        This field is a keyword filter and reveals the <strong>Admin API access scopes</strong> available for &quot;orders&quot;.<br/>
-        <br/>
-        <img src="assets/images/image1573.png"/>
-      </p>
-    </li>
-    <li>
-      <p>In the <strong>Admin API access scopes</strong> section, below the field with the &quot;orders&quot; keyword, are the filtered results.<br/>
-        <br/>
-        Scroll down and check the checkboxes for &quot;<strong>write_orders</strong>&quot; and for &quot;<strong>read_orders</strong>&quot;
-      </p>
-      <img src="assets/images/image1574.png"/>
-    </li>
-    <li>
-      <p>In the <strong>Filter access scopes</strong> field, clear out &quot;Orders&quot; and enter the keyword: <span class="Literal"> Customers </span><br/>
-        <br/>
-        <img src="assets/images/image1575.png"/><br/>
-        <br/>
-        Scroll down and check the checkboxes for &quot;<strong>write_customers</strong>&quot; and for &quot;<strong>read_customers</strong>&quot;
-      </p>
-    </li>
-    <li>
-      <p>In the <strong>Filter access scopes</strong> field, clear out &quot;Orders&quot; and enter the keyword: <span class="Literal"> Inventory</span><br/>
-        <br/>
-        <img src="assets/images/image1576.png"/><br/>
-        <br/>
-        Scroll down and check the checkboxes for &quot;<strong>write_inventory</strong>&quot; and for &quot;<strong>read_inventory</strong>&quot;
-      </p>
-    </li>
-    <li>
-      <p>In the <strong>Filter access scopes</strong> field, clear out &quot;Orders&quot; and enter the keyword: <span class="Literal"> Payment</span><br/>
-        <br/>
-        <img src="assets/images/image1577.png"/><br/>
-        <br/>
-        Scroll down and check the checkboxes for &quot;<strong>write_inventory</strong>&quot; and for &quot;<strong>read_inventory</strong>&quot;
-      </p>
-    </li>
-    <li>
-      <p>In the <strong>Filter access scopes</strong> field, clear out &quot;Orders&quot; and enter the keyword: <span class="Literal"> Product</span><br/>
-        <br/>
-        <img src="assets/images/image1578.png"/><br/>
-        <br/>
-        <img src="assets/images/image1579.png"/><br/>
-        <br/>
-        Scroll down and check the checkboxes for &quot;<strong>write_product_listings</strong>&quot;, &quot;<strong>read_product_listings</strong>&quot;, &quot;<strong>write_products</strong>&quot;, and &quot;<strong>read_products</strong>&quot;
-      </p>
-    </li>
-    <li>
-      <p>Confirm that the following <strong>Admin API access scopes</strong> have been checked:<br/>
-        <br/>
-        <br/>
-        read_customers<br/>
-        write_customers<br/>
-        <br/>
-        read_inventory<br/>
-        write_inventory<br/>
-        <br/>
-        write_orders<br/>
-        read_orders<br/>
-        <br/>
-        write_payment_terms<br/>
-        read_payment_terms<br/>
-        <br/>
-        write_product_listings<br/>
-        read_product_listings<br/>
-        <br/>
-        write_products<br/>
-        read_products
-      </p>
-    </li>
-    <li>
-      <p>After you have selected all the of <strong>Admin API access scopes</strong>, as shown above, then click the <strong>green Save </strong>button (bottom right of the page) to save these settings.<br/>
-        <br/>
-        <img src="assets/images/image1580.png"/>
-      </p>
-    </li>
-    <li>
-      <p>After you have clicked <strong>Save</strong>, then scroll up to the top of the page.<br/>
-        <br/>
-        Click to open the <strong>API Credentials</strong> tab.<br/>
-        <br/>
-        Then, to create an <strong>Access Token</strong> to enter into FrameReady, click the green <strong>Install app</strong> button.<br/>
-        <br/>
-        <br/>
-        <img src="assets/images/image1581.png"/>
-      </p>
-    </li>
-    <li>
-      <p><span style="font-size: 10pt;">The screen dims and a popup window appears; </span>click the green <strong>Install </strong>button.<br/>
-        <br/>
-        <br/>
-        <img src="assets/images/image1582.png"/>
-      </p>
-    </li>
-    <li>
-      <p>Shopify generates the <strong>Admin API Access token </strong>for you. <br/>
-        <br/>
-        To protect your data, <strong>you can only see your Admin API token once!</strong><br/>
-        <br/>
-        Click the <strong>Reveal token once</strong> text button.<br/>
-        <br/>
-        <img src="assets/images/image1583.png"/>
-      </p>
-    </li>
-    <li>
-      <p>The token is revealed as a string of numbers and characters.<br/>
-        <br/>
-        Either click the <strong>icon </strong>(on the right) to copy to the clipboard, or click the click into the field, highlight the token and copy it.<br/>
-        <br/>
-        <img src="assets/images/image1584.png"/>
-      </p>
-    </li>
-    <li>
-      <p>Copy and save your Admin API access token in a secure place. In the next step, you will enter the token into FrameReady.<br/>
-        <br/>
-        Remember, you cannot view the token again.<br/>
-        <br/>
-        <img src="assets/images/image1585.png"/>
-      </p>
+      <p>&nbsp;</p>
     </li>
   </ol>
-  <p><span style="color: rgb(0, 0, 128); font-family: Lato; font-size: 14pt; font-weight: bold; letter-spacing: -0.5pt;">How to Enter the Admin API Access Token into FrameReady</span></p>
+  <p><span style="color: rgb(0, 0, 128); font-family: Lato; font-size: 14pt; font-weight: bold; letter-spacing: -0.5pt;">How to Enter the Client ID and Secret Into FrameReady</span></p>
   <ol class="steps">
     <li>
       <p>Return to FrameReady; the <strong>Shopify Integration Settings</strong> should still be open.</p>
     </li>
     <li>
-      <p>Click in the <strong>Access Token</strong> field and paste the <strong>Admin API Access Token</strong> that you copied from Shopify.<br/>
+      <p>Click into the ‘Client ID’ and “Client Secret” fields in FrameReady Shopify Settings page. Here is where you will need to paste the Client ID and Secret that you copied from Shopify.<br/>
         <br/>
-        <img src="assets/images/image1521.png"/>
+        <img src="assets/images/picture12.png"/>
       </p>
     </li>
     <li>
@@ -291,7 +160,10 @@
       </p>
     </li>
     <li>
-      <p>Click in the <strong>Integration Category</strong> field and choose either <strong>Orders</strong>, <strong>Products</strong>, or <strong>Customers</strong>.</p>
+      <p>To finish the authorization process click the “Generate Access Token” button in the Shopify settings. This will open up a new window with a web browser viewer window. It may ask you to login to your Shopify but eventually it should take you to a screen that says Quilt. After reaching that screen, the process should automatically take you back to the Shopify settings screen and let you know your Access Token was generated. If it does not, simply hit the back button to go back and then click the “Generate Access Token” button again and it should automatically load it this time.
+		<br/>
+        <img src="assets/images/picture13.png"/><br/>
+        <img src="assets/images/picture14.png"/></p>
     </li>
     <li>
       <p>If you select <strong>Orders</strong>, then you can import web orders from your Shopify store and FrameReady will check the customer on the order to see if that customer exists in FrameReady already. If the customer does not exist in FrameReady, then FrameReady creates a new Contact record for you. You can then view each order and review before converting them into FrameReady Invoices.<br/>
